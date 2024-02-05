@@ -48,6 +48,8 @@ class PlayerRecommender:
             recommended_summoner_name = random.choice(list(self.recommendations.keys()))
             recommended_summoner_info = self.recommendations.pop(recommended_summoner_name)
             self.summoner.already_recommended[recommended_summoner_name] = recommended_summoner_info
+            # delete recommended summoner from list
+            self.recommendations.pop(recommended_summoner_name)
             return recommended_summoner_info
         else:
             return None
