@@ -1,0 +1,7709 @@
+{
+    "Just Kofi": {
+        "name": "Just Kofi",
+        "sex": "M",
+        "country": "Norway",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 717,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 29,
+        "losses": 21,
+        "age": 40,
+        "preferred_champions_and_lines": {
+            "Cho'Gath": "Jungle",
+            "Diana": "Support",
+            "Hecarim": "Support"
+        }
+    },
+    "Hidee on ShrouD": {
+        "name": "Hidee on ShrouD",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 1094,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 36,
+        "losses": 37,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Fiora": "Mid Lane",
+            "Graves": "Top Lane",
+            "Brand": "Top Lane"
+        }
+    },
+    "Jaken Jay": {
+        "name": "Jaken Jay",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 249,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 22,
+        "losses": 18,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Gragas": "Support",
+            "Camille": "Support",
+            "Annie": "Support"
+        }
+    },
+    "Szafir724": {
+        "name": "Szafir724",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 85,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 9,
+        "losses": 6,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Ashe": "Bot Lane",
+            "Amumu": "Jungle",
+            "Dr. Mundo": "Jungle"
+        }
+    },
+    "AutoPhil": {
+        "name": "AutoPhil",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 399,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 25,
+        "losses": 28,
+        "age": 36,
+        "preferred_champions_and_lines": {
+            "Brand": "Bot Lane",
+            "Ezreal": "Bot Lane",
+            "Evelynn": "Bot Lane"
+        }
+    },
+    "cz3b4nyj4rnuch": {
+        "name": "cz3b4nyj4rnuch",
+        "sex": "W",
+        "country": "Hungary",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 285,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 22,
+        "losses": 25,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Corki": "Top Lane",
+            "Braum": "Bot Lane",
+            "Graves": "Top Lane"
+        }
+    },
+    "darth rev\u00e1n": {
+        "name": "darth rev\u00e1n",
+        "sex": "M",
+        "country": "Sweden",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 630,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 53,
+        "losses": 51,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Mid Lane",
+            "Evelynn": "Support",
+            "Ezreal": "Support"
+        }
+    },
+    "Primordus": {
+        "name": "Primordus",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 323,
+        "tier": "EMERALD",
+        "rank": "I",
+        "wins": 14,
+        "losses": 16,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Cho'Gath": "Bot Lane",
+            "Brand": "Jungle",
+            "Aatrox": "Bot Lane"
+        }
+    },
+    "Tonimontana124": {
+        "name": "Tonimontana124",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 428,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 69,
+        "losses": 58,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Darius": "Mid Lane",
+            "Gragas": "Support",
+            "Azir": "Support"
+        }
+    },
+    "Napletnik2": {
+        "name": "Napletnik2",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 225,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 41,
+        "losses": 41,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Caitlyn": "Top Lane",
+            "Aphelios": "Mid Lane",
+            "Brand": "Top Lane"
+        }
+    },
+    "Varrow": {
+        "name": "Varrow",
+        "sex": "M",
+        "country": "Spain",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 640,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 18,
+        "losses": 13,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Mid Lane",
+            "Ezreal": "Top Lane",
+            "Aphelios": "Mid Lane"
+        }
+    },
+    "xxkoksikxxCH": {
+        "name": "xxkoksikxxCH",
+        "sex": "M",
+        "country": "France",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 541,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 35,
+        "losses": 24,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Galio": "Top Lane",
+            "Aphelios": "Top Lane",
+            "Fiora": "Top Lane"
+        }
+    },
+    "nas nie dogonJAT": {
+        "name": "nas nie dogonJAT",
+        "sex": "M",
+        "country": "Latvia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 197,
+        "tier": "SILVER",
+        "rank": "II",
+        "wins": 21,
+        "losses": 22,
+        "age": 15,
+        "preferred_champions_and_lines": {
+            "Hecarim": "Top Lane",
+            "Elise": "Top Lane",
+            "Brand": "Top Lane"
+        }
+    },
+    "Wolfsensei": {
+        "name": "Wolfsensei",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 524,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 47,
+        "losses": 41,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Cassiopeia": "Mid Lane",
+            "Akali": "Mid Lane",
+            "Camille": "Jungle"
+        }
+    },
+    "MaszynkaDoGnoju": {
+        "name": "MaszynkaDoGnoju",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 408,
+        "tier": "SILVER",
+        "rank": "IV",
+        "wins": 27,
+        "losses": 24,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Draven": "Jungle",
+            "Aurelion Sol": "Jungle",
+            "Aphelios": "Mid Lane"
+        }
+    },
+    "Br\u0105zowyWal": {
+        "name": "Br\u0105zowyWal",
+        "sex": "M",
+        "country": "Hungary",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 143,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 24,
+        "losses": 14,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Akali": "Bot Lane",
+            "Galio": "Support",
+            "Elise": "Support"
+        }
+    },
+    "LubieTabletkiv4": {
+        "name": "LubieTabletkiv4",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 332,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 43,
+        "losses": 33,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Mid Lane",
+            "Dr. Mundo": "Bot Lane",
+            "Gragas": "Mid Lane"
+        }
+    },
+    "Dam\u00f1 Yan": {
+        "name": "Dam\u00f1 Yan",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 296,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 4,
+        "losses": 13,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Gangplank": "Bot Lane",
+            "Cassiopeia": "Bot Lane",
+            "Aatrox": "Bot Lane"
+        }
+    },
+    "rock\u00e0lone2k": {
+        "name": "rock\u00e0lone2k",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 759,
+        "tier": "GOLD",
+        "rank": "I",
+        "wins": 14,
+        "losses": 14,
+        "age": 36,
+        "preferred_champions_and_lines": {
+            "Draven": "Mid Lane",
+            "Evelynn": "Mid Lane",
+            "Ashe": "Top Lane"
+        }
+    },
+    "5od Samposa": {
+        "name": "5od Samposa",
+        "sex": "W",
+        "country": "Norway",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 84,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 84,
+        "losses": 70,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Corki": "Bot Lane",
+            "Cassiopeia": "Bot Lane",
+            "Camille": "Mid Lane"
+        }
+    },
+    "metin": {
+        "name": "metin",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 412,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 15,
+        "losses": 22,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Gangplank": "Bot Lane",
+            "Evelynn": "Bot Lane",
+            "Garen": "Support"
+        }
+    },
+    "LWTGG": {
+        "name": "LWTGG",
+        "sex": "W",
+        "country": "Netherlands",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 184,
+        "tier": "BRONZE",
+        "rank": "IV",
+        "wins": 4,
+        "losses": 3,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Alistar": "Bot Lane",
+            "Caitlyn": "Bot Lane",
+            "Hecarim": "Jungle"
+        }
+    },
+    "Ruilenn": {
+        "name": "Ruilenn",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 372,
+        "tier": "SILVER",
+        "rank": "II",
+        "wins": 38,
+        "losses": 54,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Graves": "Jungle",
+            "Garen": "Bot Lane",
+            "Braum": "Jungle"
+        }
+    },
+    "Pijany Tata": {
+        "name": "Pijany Tata",
+        "sex": "W",
+        "country": "Poland",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 500,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 17,
+        "losses": 24,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Camille": "Support",
+            "Anivia": "Top Lane",
+            "Dr. Mundo": "Top Lane"
+        }
+    },
+    "ARVanitis": {
+        "name": "ARVanitis",
+        "sex": "W",
+        "country": "Hungary",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 418,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 51,
+        "losses": 58,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Fiora": "Bot Lane",
+            "Annie": "Support",
+            "Camille": "Bot Lane"
+        }
+    },
+    "H\u03b1r\u03c5": {
+        "name": "H\u03b1r\u03c5",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 739,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 20,
+        "losses": 19,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Annie": "Mid Lane",
+            "Fiddlesticks": "Top Lane",
+            "Dr. Mundo": "Top Lane"
+        }
+    },
+    "Zavu": {
+        "name": "Zavu",
+        "sex": "W",
+        "country": "France",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 542,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 56,
+        "losses": 50,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Anivia": "Bot Lane",
+            "Evelynn": "Mid Lane",
+            "Annie": "Mid Lane"
+        }
+    },
+    "mikow24": {
+        "name": "mikow24",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 47,
+        "tier": "BRONZE",
+        "rank": "III",
+        "wins": 7,
+        "losses": 13,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Blitzcrank": "Mid Lane",
+            "Heimerdinger": "Mid Lane",
+            "Caitlyn": "Mid Lane"
+        }
+    },
+    "edgy name": {
+        "name": "edgy name",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 131,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "wins": 6,
+        "losses": 2,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Braum": "Bot Lane",
+            "Annie": "Bot Lane",
+            "Ashe": "Bot Lane"
+        }
+    },
+    "ratyusha": {
+        "name": "ratyusha",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 319,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 21,
+        "losses": 15,
+        "age": 32,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Mid Lane",
+            "Heimerdinger": "Mid Lane",
+            "Annie": "Support"
+        }
+    },
+    "ScrimLock": {
+        "name": "ScrimLock",
+        "sex": "M",
+        "country": "Russia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 398,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 16,
+        "losses": 13,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Caitlyn": "Bot Lane",
+            "Azir": "Bot Lane",
+            "Galio": "Mid Lane"
+        }
+    },
+    "AlekBagno": {
+        "name": "AlekBagno",
+        "sex": "W",
+        "country": "Poland",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 498,
+        "tier": "MASTER",
+        "rank": "I",
+        "wins": 20,
+        "losses": 9,
+        "age": 15,
+        "preferred_champions_and_lines": {
+            "Fizz": "Support",
+            "Anivia": "Jungle",
+            "Ahri": "Jungle"
+        }
+    },
+    "Marinek": {
+        "name": "Marinek",
+        "sex": "W",
+        "country": "Finland",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 312,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 24,
+        "losses": 21,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Fiddlesticks": "Top Lane",
+            "Galio": "Mid Lane",
+            "Anivia": "Mid Lane"
+        }
+    },
+    "samigoz": {
+        "name": "samigoz",
+        "sex": "W",
+        "country": "Spain",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 195,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 64,
+        "losses": 66,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Gragas": "Mid Lane",
+            "Dr. Mundo": "Mid Lane",
+            "Brand": "Mid Lane"
+        }
+    },
+    "Joynce": {
+        "name": "Joynce",
+        "sex": "W",
+        "country": "Netherlands",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 497,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 23,
+        "losses": 15,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Graves": "Bot Lane",
+            "Galio": "Bot Lane",
+            "Fizz": "Support"
+        }
+    },
+    "PykeThePyker": {
+        "name": "PykeThePyker",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 218,
+        "tier": "BRONZE",
+        "rank": "I",
+        "wins": 6,
+        "losses": 10,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Brand": "Support",
+            "Caitlyn": "Support",
+            "Darius": "Support"
+        }
+    },
+    "beeutifulQu\u00edmico": {
+        "name": "beeutifulQu\u00edmico",
+        "sex": "M",
+        "country": "Sweden",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 393,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 99,
+        "losses": 79,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Hecarim": "Bot Lane",
+            "Ashe": "Top Lane",
+            "Aurelion Sol": "Bot Lane"
+        }
+    },
+    "Soimapakadu": {
+        "name": "Soimapakadu",
+        "sex": "W",
+        "country": "Norway",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 392,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 38,
+        "losses": 36,
+        "age": 32,
+        "preferred_champions_and_lines": {
+            "Cho'Gath": "Bot Lane",
+            "Dr. Mundo": "Mid Lane",
+            "Aurelion Sol": "Bot Lane"
+        }
+    },
+    "SpidiGonzaless": {
+        "name": "SpidiGonzaless",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 650,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 2,
+        "losses": 3,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Aphelios": "Bot Lane",
+            "Dr. Mundo": "Bot Lane",
+            "Corki": "Mid Lane"
+        }
+    },
+    "Karoumpalos1999": {
+        "name": "Karoumpalos1999",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 116,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 130,
+        "losses": 115,
+        "age": 32,
+        "preferred_champions_and_lines": {
+            "Camille": "Jungle",
+            "Darius": "Jungle",
+            "Hecarim": "Jungle"
+        }
+    },
+    "C\u0398\u039d\u03a8U\u03a3ST": {
+        "name": "C\u0398\u039d\u03a8U\u03a3ST",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 555,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 7,
+        "losses": 6,
+        "age": 40,
+        "preferred_champions_and_lines": {
+            "Fizz": "Bot Lane",
+            "Azir": "Bot Lane",
+            "Diana": "Bot Lane"
+        }
+    },
+    "ILLEGAL K0REAN": {
+        "name": "ILLEGAL K0REAN",
+        "sex": "W",
+        "country": "France",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 292,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 4,
+        "losses": 8,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Fiora": "Mid Lane",
+            "Diana": "Support",
+            "Annie": "Mid Lane"
+        }
+    },
+    "Kalista Queen 1": {
+        "name": "Kalista Queen 1",
+        "sex": "W",
+        "country": "Italy",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 240,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 60,
+        "losses": 64,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Cho'Gath": "Support",
+            "Gangplank": "Top Lane",
+            "Amumu": "Support"
+        }
+    },
+    "benoima1": {
+        "name": "benoima1",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 388,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 48,
+        "losses": 38,
+        "age": 25,
+        "preferred_champions_and_lines": {
+            "Graves": "Mid Lane",
+            "Garen": "Mid Lane",
+            "Heimerdinger": "Mid Lane"
+        }
+    },
+    "M\u00e9rry Jane": {
+        "name": "M\u00e9rry Jane",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 119,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 138,
+        "losses": 127,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Braum": "Mid Lane",
+            "Elise": "Mid Lane",
+            "Evelynn": "Mid Lane"
+        }
+    },
+    "Rip imm\u00f3rtal": {
+        "name": "Rip imm\u00f3rtal",
+        "sex": "W",
+        "country": "Finland",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 346,
+        "tier": "GOLD",
+        "rank": "I",
+        "wins": 25,
+        "losses": 25,
+        "age": 32,
+        "preferred_champions_and_lines": {
+            "Fiora": "Mid Lane",
+            "Aurelion Sol": "Top Lane",
+            "Aphelios": "Mid Lane"
+        }
+    },
+    "pisarzzycia": {
+        "name": "pisarzzycia",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 204,
+        "tier": "GOLD",
+        "rank": "III",
+        "wins": 2,
+        "losses": 7,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Cassiopeia": "Top Lane",
+            "Akali": "Mid Lane",
+            "Aurelion Sol": "Top Lane"
+        }
+    },
+    "V\u00eefka": {
+        "name": "V\u00eefka",
+        "sex": "M",
+        "country": "Latvia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 462,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 54,
+        "losses": 62,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Draven": "Top Lane",
+            "Aphelios": "Mid Lane",
+            "Galio": "Top Lane"
+        }
+    },
+    "Poskilowane": {
+        "name": "Poskilowane",
+        "sex": "W",
+        "country": "Russia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 141,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 14,
+        "losses": 24,
+        "age": 40,
+        "preferred_champions_and_lines": {
+            "Galio": "Support",
+            "Elise": "Support",
+            "Aphelios": "Top Lane"
+        }
+    },
+    "Bagiid": {
+        "name": "Bagiid",
+        "sex": "W",
+        "country": "Russia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 326,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 16,
+        "losses": 11,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Aphelios": "Top Lane",
+            "Gnar": "Top Lane",
+            "Darius": "Top Lane"
+        }
+    },
+    "duXfGSVk179j": {
+        "name": "duXfGSVk179j",
+        "sex": "M",
+        "country": "Italy",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 762,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 59,
+        "losses": 53,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Alistar": "Mid Lane",
+            "Corki": "Support",
+            "Ahri": "Mid Lane"
+        }
+    },
+    "Josef aka z\u0142omek": {
+        "name": "Josef aka z\u0142omek",
+        "sex": "W",
+        "country": "Finland",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 98,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 21,
+        "losses": 18,
+        "age": 39,
+        "preferred_champions_and_lines": {
+            "Darius": "Support",
+            "Gnar": "Support",
+            "Annie": "Support"
+        }
+    },
+    "Dwarf Enjoyer": {
+        "name": "Dwarf Enjoyer",
+        "sex": "M",
+        "country": "Spain",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 498,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "wins": 49,
+        "losses": 49,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Jungle",
+            "Diana": "Mid Lane",
+            "Heimerdinger": "Mid Lane"
+        }
+    },
+    "mivan": {
+        "name": "mivan",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 358,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 7,
+        "losses": 6,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Ezreal": "Support",
+            "Hecarim": "Support",
+            "Caitlyn": "Top Lane"
+        }
+    },
+    "S3kawa": {
+        "name": "S3kawa",
+        "sex": "M",
+        "country": "Netherlands",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 540,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 15,
+        "losses": 13,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Bard": "Mid Lane",
+            "Garen": "Top Lane",
+            "Azir": "Top Lane"
+        }
+    },
+    "olekheimer": {
+        "name": "olekheimer",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 500,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 2,
+        "losses": 9,
+        "age": 32,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Bot Lane",
+            "Cassiopeia": "Support",
+            "Dr. Mundo": "Support"
+        }
+    },
+    "\u03c0\u03b6\u010f\u0394": {
+        "name": "\u03c0\u03b6\u010f\u0394",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 403,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 52,
+        "losses": 46,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Diana": "Jungle",
+            "Graves": "Top Lane",
+            "Alistar": "Top Lane"
+        }
+    },
+    "Mr Best Lee": {
+        "name": "Mr Best Lee",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 67,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 17,
+        "losses": 15,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Graves": "Top Lane",
+            "Aphelios": "Mid Lane",
+            "Azir": "Mid Lane"
+        }
+    },
+    "Jasio2107": {
+        "name": "Jasio2107",
+        "sex": "M",
+        "country": "Spain",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 263,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 33,
+        "losses": 25,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Caitlyn": "Mid Lane",
+            "Graves": "Mid Lane",
+            "Ezreal": "Mid Lane"
+        }
+    },
+    "WannaSomeKompot": {
+        "name": "WannaSomeKompot",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 192,
+        "tier": "GOLD",
+        "rank": "III",
+        "wins": 4,
+        "losses": 3,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Elise": "Mid Lane",
+            "Draven": "Bot Lane",
+            "Graves": "Mid Lane"
+        }
+    },
+    "The D3mon": {
+        "name": "The D3mon",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 437,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 91,
+        "losses": 84,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Fiddlesticks": "Mid Lane",
+            "Azir": "Mid Lane",
+            "Caitlyn": "Mid Lane"
+        }
+    },
+    "GreyWood": {
+        "name": "GreyWood",
+        "sex": "M",
+        "country": "Norway",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 499,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 29,
+        "losses": 28,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Heimerdinger": "Bot Lane",
+            "Hecarim": "Top Lane",
+            "Galio": "Top Lane"
+        }
+    },
+    "LightingKillua": {
+        "name": "LightingKillua",
+        "sex": "W",
+        "country": "Hungary",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 242,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 65,
+        "losses": 67,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Gangplank": "Support",
+            "Cho'Gath": "Support",
+            "Alistar": "Support"
+        }
+    },
+    "izhb": {
+        "name": "izhb",
+        "sex": "M",
+        "country": "France",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 55,
+        "tier": "IRON",
+        "rank": "I",
+        "wins": 39,
+        "losses": 66,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Garen": "Support",
+            "Aphelios": "Mid Lane",
+            "Caitlyn": "Support"
+        }
+    },
+    "L95 Mekele": {
+        "name": "L95 Mekele",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 538,
+        "tier": "GOLD",
+        "rank": "IV",
+        "wins": 3,
+        "losses": 6,
+        "age": 25,
+        "preferred_champions_and_lines": {
+            "Caitlyn": "Support",
+            "Dr. Mundo": "Bot Lane",
+            "Garen": "Bot Lane"
+        }
+    },
+    "KannAkali ": {
+        "name": "KannAkali ",
+        "sex": "W",
+        "country": "Italy",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 472,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 5,
+        "losses": 7,
+        "age": 28,
+        "preferred_champions_and_lines": {
+            "Ekko": "Support",
+            "Annie": "Support",
+            "Cho'Gath": "Support"
+        }
+    },
+    "SirSebasTHC": {
+        "name": "SirSebasTHC",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 333,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 31,
+        "losses": 35,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Graves": "Jungle",
+            "Heimerdinger": "Top Lane",
+            "Bard": "Jungle"
+        }
+    },
+    "EFIX": {
+        "name": "EFIX",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 482,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 28,
+        "losses": 22,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Camille": "Top Lane",
+            "Diana": "Mid Lane",
+            "Cho'Gath": "Mid Lane"
+        }
+    },
+    "FLESH EATER": {
+        "name": "FLESH EATER",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 140,
+        "tier": "DIAMOND",
+        "rank": "III",
+        "wins": 9,
+        "losses": 6,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Aphelios": "Bot Lane",
+            "Ezreal": "Top Lane",
+            "Graves": "Top Lane"
+        }
+    },
+    "DRAJK12345": {
+        "name": "DRAJK12345",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 916,
+        "tier": "DIAMOND",
+        "rank": "II",
+        "wins": 76,
+        "losses": 60,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Corki": "Top Lane",
+            "Fizz": "Bot Lane",
+            "Darius": "Top Lane"
+        }
+    },
+    "Volz4rhuN": {
+        "name": "Volz4rhuN",
+        "sex": "M",
+        "country": "Norway",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 269,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 34,
+        "losses": 28,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Alistar": "Mid Lane",
+            "Elise": "Top Lane",
+            "Ezreal": "Top Lane"
+        }
+    },
+    "spydoggie": {
+        "name": "spydoggie",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 334,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 98,
+        "losses": 90,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Braum": "Jungle",
+            "Gangplank": "Support",
+            "Akali": "Jungle"
+        }
+    },
+    "VeMoon": {
+        "name": "VeMoon",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 715,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 29,
+        "losses": 28,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Hecarim": "Top Lane",
+            "Aurelion Sol": "Mid Lane",
+            "Draven": "Top Lane"
+        }
+    },
+    "Egyn12": {
+        "name": "Egyn12",
+        "sex": "M",
+        "country": "Norway",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 390,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 14,
+        "losses": 14,
+        "age": 40,
+        "preferred_champions_and_lines": {
+            "Akali": "Top Lane",
+            "Graves": "Top Lane",
+            "Alistar": "Bot Lane"
+        }
+    },
+    "Noobinator69": {
+        "name": "Noobinator69",
+        "sex": "M",
+        "country": "Sweden",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 540,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 14,
+        "losses": 17,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Brand": "Bot Lane",
+            "Gangplank": "Support",
+            "Galio": "Support"
+        }
+    },
+    "xHelix": {
+        "name": "xHelix",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 751,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 106,
+        "losses": 108,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Gangplank": "Top Lane",
+            "Garen": "Support",
+            "Dr. Mundo": "Support"
+        }
+    },
+    "Meelo Fartbender": {
+        "name": "Meelo Fartbender",
+        "sex": "M",
+        "country": "Norway",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 314,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 55,
+        "losses": 66,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Darius": "Bot Lane",
+            "Blitzcrank": "Support",
+            "Anivia": "Bot Lane"
+        }
+    },
+    "Alexfasoul": {
+        "name": "Alexfasoul",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 285,
+        "tier": "GOLD",
+        "rank": "III",
+        "wins": 78,
+        "losses": 74,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Amumu": "Jungle",
+            "Fizz": "Bot Lane",
+            "Dr. Mundo": "Jungle"
+        }
+    },
+    "filippavelka3": {
+        "name": "filippavelka3",
+        "sex": "W",
+        "country": "Spain",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 720,
+        "tier": "DIAMOND",
+        "rank": "II",
+        "wins": 69,
+        "losses": 51,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Garen": "Bot Lane",
+            "Evelynn": "Bot Lane",
+            "Diana": "Mid Lane"
+        }
+    },
+    "UnbanElectrumite": {
+        "name": "UnbanElectrumite",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 406,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 33,
+        "losses": 24,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Fiora": "Support",
+            "Akali": "Mid Lane",
+            "Fizz": "Support"
+        }
+    },
+    "CO\u0396I COSSAK": {
+        "name": "CO\u0396I COSSAK",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 402,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 17,
+        "losses": 18,
+        "age": 40,
+        "preferred_champions_and_lines": {
+            "Graves": "Support",
+            "Ekko": "Mid Lane",
+            "Fizz": "Support"
+        }
+    },
+    "pat0 c0ach": {
+        "name": "pat0 c0ach",
+        "sex": "W",
+        "country": "Hungary",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 173,
+        "tier": "BRONZE",
+        "rank": "III",
+        "wins": 9,
+        "losses": 6,
+        "age": 29,
+        "preferred_champions_and_lines": {
+            "Braum": "Jungle",
+            "Brand": "Jungle",
+            "Fizz": "Jungle"
+        }
+    },
+    "ShudderwockBOMB": {
+        "name": "ShudderwockBOMB",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 300,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "wins": 16,
+        "losses": 12,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Ahri": "Top Lane",
+            "Evelynn": "Top Lane",
+            "Azir": "Top Lane"
+        }
+    },
+    "cute uwu draven": {
+        "name": "cute uwu draven",
+        "sex": "M",
+        "country": "Latvia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 63,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 4,
+        "losses": 1,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Heimerdinger": "Jungle",
+            "Azir": "Top Lane",
+            "Ekko": "Jungle"
+        }
+    },
+    "Akudama": {
+        "name": "Akudama",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 682,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 85,
+        "losses": 83,
+        "age": 15,
+        "preferred_champions_and_lines": {
+            "Alistar": "Top Lane",
+            "Brand": "Bot Lane",
+            "Aurelion Sol": "Top Lane"
+        }
+    },
+    "Woof Woof Wolf": {
+        "name": "Woof Woof Wolf",
+        "sex": "M",
+        "country": "Germany",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 1054,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 28,
+        "losses": 25,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Alistar": "Mid Lane",
+            "Evelynn": "Top Lane",
+            "Graves": "Mid Lane"
+        }
+    },
+    "Fenzzy": {
+        "name": "Fenzzy",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 443,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 18,
+        "losses": 11,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Gnar": "Jungle",
+            "Evelynn": "Jungle",
+            "Akali": "Top Lane"
+        }
+    },
+    "Mrroku": {
+        "name": "Mrroku",
+        "sex": "W",
+        "country": "Norway",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 574,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 22,
+        "losses": 19,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Fiddlesticks": "Mid Lane",
+            "Darius": "Mid Lane",
+            "Fiora": "Top Lane"
+        }
+    },
+    "ICT juubiDARA": {
+        "name": "ICT juubiDARA",
+        "sex": "W",
+        "country": "Italy",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 215,
+        "tier": "EMERALD",
+        "rank": "I",
+        "wins": 2,
+        "losses": 4,
+        "age": 40,
+        "preferred_champions_and_lines": {
+            "Fiora": "Top Lane",
+            "Gragas": "Top Lane",
+            "Ekko": "Top Lane"
+        }
+    },
+    "Steal with Smite": {
+        "name": "Steal with Smite",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 211,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 79,
+        "losses": 62,
+        "age": 29,
+        "preferred_champions_and_lines": {
+            "Evelynn": "Top Lane",
+            "Corki": "Bot Lane",
+            "Aphelios": "Top Lane"
+        }
+    },
+    "x25 Tatica": {
+        "name": "x25 Tatica",
+        "sex": "M",
+        "country": "Spain",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 250,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 12,
+        "losses": 4,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Brand": "Mid Lane",
+            "Aatrox": "Bot Lane",
+            "Cassiopeia": "Bot Lane"
+        }
+    },
+    "pan Vlo\u017eka": {
+        "name": "pan Vlo\u017eka",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 171,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "wins": 28,
+        "losses": 26,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Bard": "Jungle",
+            "Draven": "Support",
+            "Garen": "Support"
+        }
+    },
+    "bourdeliaris": {
+        "name": "bourdeliaris",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 185,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 93,
+        "losses": 92,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Cho'Gath": "Jungle",
+            "Elise": "Jungle",
+            "Alistar": "Support"
+        }
+    },
+    "Ci3nki": {
+        "name": "Ci3nki",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 293,
+        "tier": "GOLD",
+        "rank": "IV",
+        "wins": 25,
+        "losses": 27,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Amumu": "Bot Lane",
+            "Ekko": "Bot Lane",
+            "Brand": "Bot Lane"
+        }
+    },
+    "AgeOnClockSoWhat": {
+        "name": "AgeOnClockSoWhat",
+        "sex": "M",
+        "country": "Netherlands",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 418,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 104,
+        "losses": 112,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Garen": "Mid Lane",
+            "Ahri": "Jungle",
+            "Galio": "Jungle"
+        }
+    },
+    "Kolleas": {
+        "name": "Kolleas",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 325,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 23,
+        "losses": 12,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Amumu": "Top Lane",
+            "Ezreal": "Top Lane",
+            "Gangplank": "Top Lane"
+        }
+    },
+    "midl\u0105ne prodigy": {
+        "name": "midl\u0105ne prodigy",
+        "sex": "W",
+        "country": "Italy",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 162,
+        "tier": "GOLD",
+        "rank": "IV",
+        "wins": 7,
+        "losses": 8,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Gragas": "Bot Lane",
+            "Cho'Gath": "Mid Lane",
+            "Alistar": "Mid Lane"
+        }
+    },
+    "Chicase": {
+        "name": "Chicase",
+        "sex": "W",
+        "country": "Netherlands",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 484,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 4,
+        "losses": 3,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Fiddlesticks": "Top Lane",
+            "Graves": "Top Lane",
+            "Gnar": "Bot Lane"
+        }
+    },
+    "Koloesz88": {
+        "name": "Koloesz88",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 498,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 21,
+        "losses": 18,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Jungle",
+            "Gnar": "Jungle",
+            "Darius": "Mid Lane"
+        }
+    },
+    "KC R1vers": {
+        "name": "KC R1vers",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 80,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 8,
+        "losses": 1,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Graves": "Jungle",
+            "Aatrox": "Jungle",
+            "Dr. Mundo": "Jungle"
+        }
+    },
+    "MrAdixo": {
+        "name": "MrAdixo",
+        "sex": "M",
+        "country": "Italy",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 648,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 20,
+        "losses": 22,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Ahri": "Mid Lane",
+            "Bard": "Support",
+            "Evelynn": "Mid Lane"
+        }
+    },
+    "SelixPro": {
+        "name": "SelixPro",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 243,
+        "tier": "BRONZE",
+        "rank": "III",
+        "wins": 4,
+        "losses": 1,
+        "age": 15,
+        "preferred_champions_and_lines": {
+            "Hecarim": "Bot Lane",
+            "Ashe": "Top Lane",
+            "Azir": "Top Lane"
+        }
+    },
+    "Abyssal Sunshine": {
+        "name": "Abyssal Sunshine",
+        "sex": "M",
+        "country": "Norway",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 938,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 12,
+        "losses": 13,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Corki": "Top Lane",
+            "Hecarim": "Bot Lane",
+            "Caitlyn": "Bot Lane"
+        }
+    },
+    "kgofo": {
+        "name": "kgofo",
+        "sex": "M",
+        "country": "Russia",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 153,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 110,
+        "losses": 90,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Fiora": "Jungle",
+            "Gragas": "Jungle",
+            "Ashe": "Jungle"
+        }
+    },
+    "AtoM": {
+        "name": "AtoM",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 774,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 108,
+        "losses": 107,
+        "age": 32,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Top Lane",
+            "Brand": "Jungle",
+            "Garen": "Top Lane"
+        }
+    },
+    "\u03a7III": {
+        "name": "\u03a7III",
+        "sex": "M",
+        "country": "Netherlands",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 267,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 26,
+        "losses": 27,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Anivia": "Top Lane",
+            "Azir": "Bot Lane",
+            "Heimerdinger": "Top Lane"
+        }
+    },
+    "Young Sav\u00e0ge": {
+        "name": "Young Sav\u00e0ge",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 206,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 29,
+        "losses": 26,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Graves": "Mid Lane",
+            "Gnar": "Support",
+            "Galio": "Mid Lane"
+        }
+    },
+    "Terwaz": {
+        "name": "Terwaz",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 297,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 102,
+        "losses": 99,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Caitlyn": "Support",
+            "Ashe": "Support",
+            "Graves": "Bot Lane"
+        }
+    },
+    "FusiaR": {
+        "name": "FusiaR",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 96,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 10,
+        "losses": 8,
+        "age": 28,
+        "preferred_champions_and_lines": {
+            "Blitzcrank": "Support",
+            "Aatrox": "Support",
+            "Dr. Mundo": "Support"
+        }
+    },
+    "Gucio1337": {
+        "name": "Gucio1337",
+        "sex": "W",
+        "country": "Hungary",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 41,
+        "tier": "SILVER",
+        "rank": "IV",
+        "wins": 1,
+        "losses": 4,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Draven": "Mid Lane",
+            "Hecarim": "Mid Lane",
+            "Caitlyn": "Mid Lane"
+        }
+    },
+    "JooJoo": {
+        "name": "JooJoo",
+        "sex": "M",
+        "country": "Russia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 469,
+        "tier": "GOLD",
+        "rank": "I",
+        "wins": 36,
+        "losses": 28,
+        "age": 15,
+        "preferred_champions_and_lines": {
+            "Diana": "Jungle",
+            "Brand": "Top Lane",
+            "Cassiopeia": "Jungle"
+        }
+    },
+    "AbuserOfNvocable": {
+        "name": "AbuserOfNvocable",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 95,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 21,
+        "losses": 20,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Corki": "Mid Lane",
+            "Brand": "Mid Lane",
+            "Alistar": "Jungle"
+        }
+    },
+    "ff 15 plss": {
+        "name": "ff 15 plss",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 412,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 6,
+        "losses": 2,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Jungle",
+            "Blitzcrank": "Bot Lane",
+            "Darius": "Bot Lane"
+        }
+    },
+    "K1ng of Clowns": {
+        "name": "K1ng of Clowns",
+        "sex": "M",
+        "country": "Hungary",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 226,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 3,
+        "losses": 3,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Draven": "Jungle",
+            "Caitlyn": "Bot Lane",
+            "Fiddlesticks": "Bot Lane"
+        }
+    },
+    "Sumarkojedevoce": {
+        "name": "Sumarkojedevoce",
+        "sex": "M",
+        "country": "Germany",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 313,
+        "tier": "SILVER",
+        "rank": "IV",
+        "wins": 26,
+        "losses": 24,
+        "age": 36,
+        "preferred_champions_and_lines": {
+            "Amumu": "Mid Lane",
+            "Camille": "Bot Lane",
+            "Ekko": "Mid Lane"
+        }
+    },
+    "Vexi II": {
+        "name": "Vexi II",
+        "sex": "W",
+        "country": "Hungary",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 455,
+        "tier": "GOLD",
+        "rank": "I",
+        "wins": 26,
+        "losses": 21,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Gragas": "Bot Lane",
+            "Camille": "Bot Lane",
+            "Amumu": "Bot Lane"
+        }
+    },
+    "gigasiur": {
+        "name": "gigasiur",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 91,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 24,
+        "losses": 20,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Graves": "Jungle",
+            "Elise": "Support",
+            "Garen": "Support"
+        }
+    },
+    "She sits on me": {
+        "name": "She sits on me",
+        "sex": "W",
+        "country": "France",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 869,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 20,
+        "losses": 22,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Graves": "Mid Lane",
+            "Heimerdinger": "Mid Lane",
+            "Bard": "Top Lane"
+        }
+    },
+    "RoadToRank1Kata": {
+        "name": "RoadToRank1Kata",
+        "sex": "M",
+        "country": "Netherlands",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 58,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 5,
+        "losses": 1,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Top Lane",
+            "Fizz": "Top Lane",
+            "Aphelios": "Support"
+        }
+    },
+    "FNC LA FLVME": {
+        "name": "FNC LA FLVME",
+        "sex": "M",
+        "country": "Italy",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 477,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 216,
+        "losses": 207,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Azir": "Jungle",
+            "Fiora": "Top Lane",
+            "Camille": "Top Lane"
+        }
+    },
+    "Sio\u0142mek": {
+        "name": "Sio\u0142mek",
+        "sex": "W",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 258,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 28,
+        "losses": 33,
+        "age": 39,
+        "preferred_champions_and_lines": {
+            "Caitlyn": "Jungle",
+            "Bard": "Jungle",
+            "Aphelios": "Jungle"
+        }
+    },
+    "PrimalPterus": {
+        "name": "PrimalPterus",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 812,
+        "tier": "EMERALD",
+        "rank": "I",
+        "wins": 9,
+        "losses": 5,
+        "age": 39,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Bot Lane",
+            "Blitzcrank": "Bot Lane",
+            "Amumu": "Top Lane"
+        }
+    },
+    "TNS Amte": {
+        "name": "TNS Amte",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 531,
+        "tier": "SILVER",
+        "rank": "I",
+        "wins": 41,
+        "losses": 41,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Fiddlesticks": "Support",
+            "Diana": "Jungle",
+            "Ahri": "Support"
+        }
+    },
+    "b0 Sh56a": {
+        "name": "b0 Sh56a",
+        "sex": "W",
+        "country": "Norway",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 406,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 44,
+        "losses": 34,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Anivia": "Top Lane",
+            "Camille": "Support",
+            "Ahri": "Support"
+        }
+    },
+    "xea de vries": {
+        "name": "xea de vries",
+        "sex": "M",
+        "country": "France",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 308,
+        "tier": "GOLD",
+        "rank": "III",
+        "wins": 35,
+        "losses": 32,
+        "age": 15,
+        "preferred_champions_and_lines": {
+            "Ezreal": "Top Lane",
+            "Garen": "Top Lane",
+            "Anivia": "Jungle"
+        }
+    },
+    "NikolciaEnjoyer": {
+        "name": "NikolciaEnjoyer",
+        "sex": "W",
+        "country": "France",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 456,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 26,
+        "losses": 21,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Braum": "Jungle",
+            "Heimerdinger": "Jungle",
+            "Hecarim": "Bot Lane"
+        }
+    },
+    "ChRuPeK5": {
+        "name": "ChRuPeK5",
+        "sex": "M",
+        "country": "Italy",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 104,
+        "tier": "DIAMOND",
+        "rank": "III",
+        "wins": 65,
+        "losses": 54,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Blitzcrank": "Bot Lane",
+            "Draven": "Jungle",
+            "Fizz": "Bot Lane"
+        }
+    },
+    "Lechenda": {
+        "name": "Lechenda",
+        "sex": "M",
+        "country": "Germany",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 931,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 57,
+        "losses": 46,
+        "age": 39,
+        "preferred_champions_and_lines": {
+            "Annie": "Jungle",
+            "Aurelion Sol": "Jungle",
+            "Heimerdinger": "Mid Lane"
+        }
+    },
+    "PostTraumatic": {
+        "name": "PostTraumatic",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 464,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 4,
+        "losses": 2,
+        "age": 36,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Bot Lane",
+            "Gangplank": "Bot Lane",
+            "Fiddlesticks": "Jungle"
+        }
+    },
+    "Daddy Gladius": {
+        "name": "Daddy Gladius",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 888,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 4,
+        "losses": 3,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Anivia": "Mid Lane",
+            "Camille": "Mid Lane",
+            "Corki": "Mid Lane"
+        }
+    },
+    "umrzyn": {
+        "name": "umrzyn",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 682,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 74,
+        "losses": 44,
+        "age": 36,
+        "preferred_champions_and_lines": {
+            "Diana": "Top Lane",
+            "Fizz": "Jungle",
+            "Ezreal": "Jungle"
+        }
+    },
+    "gierki": {
+        "name": "gierki",
+        "sex": "M",
+        "country": "Germany",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 494,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 8,
+        "losses": 8,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Top Lane",
+            "Camille": "Bot Lane",
+            "Dr. Mundo": "Top Lane"
+        }
+    },
+    "Josef Fr\u00eetzl": {
+        "name": "Josef Fr\u00eetzl",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 484,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 15,
+        "losses": 21,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Mid Lane",
+            "Aphelios": "Bot Lane",
+            "Corki": "Mid Lane"
+        }
+    },
+    "GiantessAhri": {
+        "name": "GiantessAhri",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 172,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 107,
+        "losses": 93,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Caitlyn": "Mid Lane",
+            "Cho'Gath": "Bot Lane",
+            "Galio": "Mid Lane"
+        }
+    },
+    "Serekfeta": {
+        "name": "Serekfeta",
+        "sex": "W",
+        "country": "Poland",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 232,
+        "tier": "SILVER",
+        "rank": "IV",
+        "wins": 9,
+        "losses": 16,
+        "age": 28,
+        "preferred_champions_and_lines": {
+            "Draven": "Jungle",
+            "Heimerdinger": "Top Lane",
+            "Ezreal": "Jungle"
+        }
+    },
+    "KillaaaBeatzz": {
+        "name": "KillaaaBeatzz",
+        "sex": "W",
+        "country": "Slovakia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 616,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 9,
+        "losses": 17,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Bard": "Jungle",
+            "Heimerdinger": "Top Lane",
+            "Cho'Gath": "Top Lane"
+        }
+    },
+    "skipex": {
+        "name": "skipex",
+        "sex": "W",
+        "country": "France",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 405,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 52,
+        "losses": 56,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Top Lane",
+            "Fizz": "Top Lane",
+            "Bard": "Top Lane"
+        }
+    },
+    "KayIe enjoyer": {
+        "name": "KayIe enjoyer",
+        "sex": "W",
+        "country": "Netherlands",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 415,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 9,
+        "losses": 6,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Ahri": "Bot Lane",
+            "Gangplank": "Bot Lane",
+            "Elise": "Mid Lane"
+        }
+    },
+    "tanc rusesc": {
+        "name": "tanc rusesc",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 270,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 17,
+        "losses": 30,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Ashe": "Support",
+            "Camille": "Top Lane",
+            "Anivia": "Top Lane"
+        }
+    },
+    "\u03c8 Reprodukto \u03c8": {
+        "name": "\u03c8 Reprodukto \u03c8",
+        "sex": "M",
+        "country": "Netherlands",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 310,
+        "tier": "EMERALD",
+        "rank": "I",
+        "wins": 24,
+        "losses": 20,
+        "age": 29,
+        "preferred_champions_and_lines": {
+            "Aphelios": "Support",
+            "Brand": "Bot Lane",
+            "Gnar": "Bot Lane"
+        }
+    },
+    "masinucid1": {
+        "name": "masinucid1",
+        "sex": "W",
+        "country": "Norway",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 218,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 104,
+        "losses": 93,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Top Lane",
+            "Draven": "Top Lane",
+            "Aphelios": "Top Lane"
+        }
+    },
+    "SlotsAddict": {
+        "name": "SlotsAddict",
+        "sex": "W",
+        "country": "Italy",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 645,
+        "tier": "SILVER",
+        "rank": "III",
+        "wins": 1,
+        "losses": 4,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Garen": "Bot Lane",
+            "Cho'Gath": "Jungle",
+            "Aatrox": "Jungle"
+        }
+    },
+    "BoikovGaming  ": {
+        "name": "BoikovGaming  ",
+        "sex": "W",
+        "country": "Netherlands",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 457,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 31,
+        "losses": 31,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Top Lane",
+            "Azir": "Mid Lane",
+            "Caitlyn": "Mid Lane"
+        }
+    },
+    "Gawaan": {
+        "name": "Gawaan",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 300,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 33,
+        "losses": 29,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Akali": "Jungle",
+            "Camille": "Top Lane",
+            "Hecarim": "Jungle"
+        }
+    },
+    "tam kencz szef": {
+        "name": "tam kencz szef",
+        "sex": "W",
+        "country": "Norway",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 268,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 10,
+        "losses": 13,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Fiddlesticks": "Mid Lane",
+            "Fizz": "Top Lane",
+            "Bard": "Top Lane"
+        }
+    },
+    "NikolciaAbuser": {
+        "name": "NikolciaAbuser",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 227,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "wins": 96,
+        "losses": 85,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Hecarim": "Jungle",
+            "Ashe": "Support",
+            "Ahri": "Support"
+        }
+    },
+    "Dutarualusulbal": {
+        "name": "Dutarualusulbal",
+        "sex": "M",
+        "country": "Latvia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 56,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 16,
+        "losses": 10,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Ahri": "Top Lane",
+            "Akali": "Support",
+            "Caitlyn": "Support"
+        }
+    },
+    "CornychYebac": {
+        "name": "CornychYebac",
+        "sex": "W",
+        "country": "Russia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 747,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 75,
+        "losses": 70,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Gnar": "Bot Lane",
+            "Alistar": "Support",
+            "Brand": "Bot Lane"
+        }
+    },
+    "DeviLShot": {
+        "name": "DeviLShot",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 348,
+        "tier": "BRONZE",
+        "rank": "III",
+        "wins": 46,
+        "losses": 44,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Alistar": "Mid Lane",
+            "Aphelios": "Jungle",
+            "Hecarim": "Jungle"
+        }
+    },
+    "Dumenstans": {
+        "name": "Dumenstans",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 519,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 20,
+        "losses": 21,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Fiddlesticks": "Top Lane",
+            "Corki": "Top Lane",
+            "Braum": "Top Lane"
+        }
+    },
+    "M  \u00c2  \u021a  I": {
+        "name": "M  \u00c2  \u021a  I",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 984,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 24,
+        "losses": 24,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Amumu": "Mid Lane",
+            "Draven": "Support",
+            "Hecarim": "Support"
+        }
+    },
+    "\u00c9lysia": {
+        "name": "\u00c9lysia",
+        "sex": "W",
+        "country": "Norway",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 470,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 17,
+        "losses": 12,
+        "age": 40,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Mid Lane",
+            "Aphelios": "Mid Lane",
+            "Alistar": "Bot Lane"
+        }
+    },
+    "Young Juan": {
+        "name": "Young Juan",
+        "sex": "M",
+        "country": "France",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 335,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 58,
+        "losses": 48,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Evelynn": "Support",
+            "Gangplank": "Jungle",
+            "Blitzcrank": "Support"
+        }
+    },
+    "NIgma": {
+        "name": "NIgma",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 159,
+        "tier": "GOLD",
+        "rank": "III",
+        "wins": 2,
+        "losses": 4,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Camille": "Mid Lane",
+            "Aphelios": "Top Lane",
+            "Bard": "Mid Lane"
+        }
+    },
+    "ToxicFartHolder": {
+        "name": "ToxicFartHolder",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 544,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 42,
+        "losses": 43,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Heimerdinger": "Jungle",
+            "Anivia": "Jungle",
+            "Gragas": "Mid Lane"
+        }
+    },
+    "S0ens": {
+        "name": "S0ens",
+        "sex": "M",
+        "country": "Hungary",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 518,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 88,
+        "losses": 83,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Ekko": "Top Lane",
+            "Akali": "Bot Lane",
+            "Gangplank": "Bot Lane"
+        }
+    },
+    "Juuzou Suzuuya": {
+        "name": "Juuzou Suzuuya",
+        "sex": "M",
+        "country": "Sweden",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 399,
+        "tier": "BRONZE",
+        "rank": "IV",
+        "wins": 9,
+        "losses": 12,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Corki": "Bot Lane",
+            "Aphelios": "Jungle",
+            "Annie": "Jungle"
+        }
+    },
+    "1 team 4 pigs": {
+        "name": "1 team 4 pigs",
+        "sex": "M",
+        "country": "Netherlands",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 523,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 54,
+        "losses": 59,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Darius": "Top Lane",
+            "Annie": "Jungle",
+            "Galio": "Jungle"
+        }
+    },
+    "Eren J\u00e4eger": {
+        "name": "Eren J\u00e4eger",
+        "sex": "M",
+        "country": "Hungary",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 494,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 10,
+        "losses": 7,
+        "age": 36,
+        "preferred_champions_and_lines": {
+            "Amumu": "Bot Lane",
+            "Anivia": "Bot Lane",
+            "Cassiopeia": "Support"
+        }
+    },
+    "SWG Daniel": {
+        "name": "SWG Daniel",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 240,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 107,
+        "losses": 103,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Diana": "Bot Lane",
+            "Fizz": "Bot Lane",
+            "Anivia": "Bot Lane"
+        }
+    },
+    "Agressive Ward": {
+        "name": "Agressive Ward",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 718,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 11,
+        "losses": 8,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Hecarim": "Bot Lane",
+            "Amumu": "Jungle",
+            "Azir": "Bot Lane"
+        }
+    },
+    "erectie": {
+        "name": "erectie",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 184,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 35,
+        "losses": 34,
+        "age": 15,
+        "preferred_champions_and_lines": {
+            "Braum": "Bot Lane",
+            "Fizz": "Top Lane",
+            "Annie": "Bot Lane"
+        }
+    },
+    "Foxl": {
+        "name": "Foxl",
+        "sex": "W",
+        "country": "Hungary",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 487,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 4,
+        "losses": 2,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Caitlyn": "Jungle",
+            "Elise": "Support",
+            "Gnar": "Jungle"
+        }
+    },
+    "Lucky Alaan": {
+        "name": "Lucky Alaan",
+        "sex": "M",
+        "country": "Germany",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 221,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 19,
+        "losses": 23,
+        "age": 29,
+        "preferred_champions_and_lines": {
+            "Alistar": "Bot Lane",
+            "Elise": "Mid Lane",
+            "Darius": "Bot Lane"
+        }
+    },
+    "Rework \u010c\u00ed\u017eeq": {
+        "name": "Rework \u010c\u00ed\u017eeq",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 470,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 6,
+        "losses": 10,
+        "age": 39,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Jungle",
+            "Azir": "Jungle",
+            "Graves": "Jungle"
+        }
+    },
+    "Kl\u00d6": {
+        "name": "Kl\u00d6",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 75,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 33,
+        "losses": 33,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Camille": "Support",
+            "Fizz": "Support",
+            "Gragas": "Bot Lane"
+        }
+    },
+    "MudoSarmaa": {
+        "name": "MudoSarmaa",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 265,
+        "tier": "BRONZE",
+        "rank": "IV",
+        "wins": 11,
+        "losses": 8,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Alistar": "Support",
+            "Diana": "Mid Lane",
+            "Fiddlesticks": "Mid Lane"
+        }
+    },
+    "Syndrome Axes": {
+        "name": "Syndrome Axes",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 440,
+        "tier": "DIAMOND",
+        "rank": "III",
+        "wins": 17,
+        "losses": 15,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Diana": "Top Lane",
+            "Hecarim": "Top Lane",
+            "Gangplank": "Top Lane"
+        }
+    },
+    "Heathera": {
+        "name": "Heathera",
+        "sex": "M",
+        "country": "Italy",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 570,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 16,
+        "losses": 13,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Corki": "Bot Lane",
+            "Brand": "Bot Lane",
+            "Gnar": "Bot Lane"
+        }
+    },
+    "As3k": {
+        "name": "As3k",
+        "sex": "M",
+        "country": "Italy",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 253,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 4,
+        "losses": 1,
+        "age": 28,
+        "preferred_champions_and_lines": {
+            "Amumu": "Mid Lane",
+            "Cho'Gath": "Support",
+            "Aatrox": "Support"
+        }
+    },
+    "Kaisami": {
+        "name": "Kaisami",
+        "sex": "W",
+        "country": "Hungary",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 542,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 8,
+        "losses": 10,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Gangplank": "Mid Lane",
+            "Gragas": "Mid Lane",
+            "Alistar": "Mid Lane"
+        }
+    },
+    "FKB RizzDolf": {
+        "name": "FKB RizzDolf",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 247,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 56,
+        "losses": 52,
+        "age": 32,
+        "preferred_champions_and_lines": {
+            "Ahri": "Support",
+            "Heimerdinger": "Support",
+            "Graves": "Jungle"
+        }
+    },
+    "Ghostwater Dive ": {
+        "name": "Ghostwater Dive ",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 364,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 22,
+        "losses": 21,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Jungle",
+            "Aurelion Sol": "Jungle",
+            "Gragas": "Support"
+        }
+    },
+    "szczepcu": {
+        "name": "szczepcu",
+        "sex": "W",
+        "country": "Norway",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 647,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 36,
+        "losses": 33,
+        "age": 25,
+        "preferred_champions_and_lines": {
+            "Darius": "Top Lane",
+            "Blitzcrank": "Top Lane",
+            "Akali": "Mid Lane"
+        }
+    },
+    "Misakisia": {
+        "name": "Misakisia",
+        "sex": "W",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 132,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 17,
+        "losses": 9,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Corki": "Top Lane",
+            "Blitzcrank": "Top Lane",
+            "Ashe": "Top Lane"
+        }
+    },
+    "etdexul": {
+        "name": "etdexul",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 62,
+        "tier": "BRONZE",
+        "rank": "IV",
+        "wins": 22,
+        "losses": 30,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Camille": "Top Lane",
+            "Akali": "Top Lane",
+            "Darius": "Mid Lane"
+        }
+    },
+    "vlaksbato": {
+        "name": "vlaksbato",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 482,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 132,
+        "losses": 134,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Diana": "Jungle",
+            "Aurelion Sol": "Jungle",
+            "Anivia": "Mid Lane"
+        }
+    },
+    "6mimi69": {
+        "name": "6mimi69",
+        "sex": "M",
+        "country": "Spain",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 65,
+        "tier": "BRONZE",
+        "rank": "III",
+        "wins": 6,
+        "losses": 6,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Support",
+            "Annie": "Top Lane",
+            "Ekko": "Support"
+        }
+    },
+    "ambatakam22": {
+        "name": "ambatakam22",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 306,
+        "tier": "DIAMOND",
+        "rank": "III",
+        "wins": 28,
+        "losses": 27,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Gangplank": "Bot Lane",
+            "Braum": "Bot Lane",
+            "Brand": "Jungle"
+        }
+    },
+    "wolfria": {
+        "name": "wolfria",
+        "sex": "M",
+        "country": "France",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 335,
+        "tier": "SILVER",
+        "rank": "III",
+        "wins": 51,
+        "losses": 48,
+        "age": 28,
+        "preferred_champions_and_lines": {
+            "Bard": "Support",
+            "Galio": "Bot Lane",
+            "Draven": "Bot Lane"
+        }
+    },
+    "paleta66": {
+        "name": "paleta66",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 477,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 72,
+        "losses": 59,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Alistar": "Mid Lane",
+            "Braum": "Mid Lane",
+            "Aphelios": "Top Lane"
+        }
+    },
+    "semmi12345": {
+        "name": "semmi12345",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 203,
+        "tier": "BRONZE",
+        "rank": "I",
+        "wins": 26,
+        "losses": 21,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Fiddlesticks": "Bot Lane",
+            "Dr. Mundo": "Support",
+            "Caitlyn": "Bot Lane"
+        }
+    },
+    "Widz Dejvida": {
+        "name": "Widz Dejvida",
+        "sex": "M",
+        "country": "Spain",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 208,
+        "tier": "SILVER",
+        "rank": "III",
+        "wins": 7,
+        "losses": 8,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Bot Lane",
+            "Bard": "Top Lane",
+            "Graves": "Top Lane"
+        }
+    },
+    "\u00c7h\u00e2os": {
+        "name": "\u00c7h\u00e2os",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 253,
+        "tier": "DIAMOND",
+        "rank": "II",
+        "wins": 15,
+        "losses": 11,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Caitlyn": "Support",
+            "Annie": "Support",
+            "Aphelios": "Support"
+        }
+    },
+    "pa reko sam": {
+        "name": "pa reko sam",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 995,
+        "tier": "GOLD",
+        "rank": "IV",
+        "wins": 8,
+        "losses": 2,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Ekko": "Jungle",
+            "Caitlyn": "Jungle",
+            "Ahri": "Jungle"
+        }
+    },
+    "T0MI72": {
+        "name": "T0MI72",
+        "sex": "W",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 334,
+        "tier": "SILVER",
+        "rank": "I",
+        "wins": 4,
+        "losses": 4,
+        "age": 32,
+        "preferred_champions_and_lines": {
+            "Azir": "Mid Lane",
+            "Diana": "Jungle",
+            "Darius": "Jungle"
+        }
+    },
+    "Ben D\u00f6ver": {
+        "name": "Ben D\u00f6ver",
+        "sex": "W",
+        "country": "Italy",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 336,
+        "tier": "SILVER",
+        "rank": "I",
+        "wins": 4,
+        "losses": 6,
+        "age": 39,
+        "preferred_champions_and_lines": {
+            "Darius": "Jungle",
+            "Galio": "Jungle",
+            "Alistar": "Jungle"
+        }
+    },
+    "Stabzz": {
+        "name": "Stabzz",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 468,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 13,
+        "losses": 13,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Akali": "Support",
+            "Alistar": "Support",
+            "Bard": "Support"
+        }
+    },
+    "Ganja Mafia": {
+        "name": "Ganja Mafia",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 160,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "wins": 17,
+        "losses": 15,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Diana": "Bot Lane",
+            "Brand": "Jungle",
+            "Draven": "Bot Lane"
+        }
+    },
+    "BirbWSzlifierce": {
+        "name": "BirbWSzlifierce",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 428,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 5,
+        "losses": 9,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Ezreal": "Jungle",
+            "Bard": "Jungle",
+            "Dr. Mundo": "Jungle"
+        }
+    },
+    "kitten in boots": {
+        "name": "kitten in boots",
+        "sex": "M",
+        "country": "Spain",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 91,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 10,
+        "losses": 8,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Camille": "Top Lane",
+            "Blitzcrank": "Top Lane",
+            "Cassiopeia": "Mid Lane"
+        }
+    },
+    "PanPocieszny": {
+        "name": "PanPocieszny",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 320,
+        "tier": "SILVER",
+        "rank": "III",
+        "wins": 9,
+        "losses": 6,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Diana": "Support",
+            "Ekko": "Support",
+            "Galio": "Support"
+        }
+    },
+    "CoronaVaruSss": {
+        "name": "CoronaVaruSss",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 595,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 82,
+        "losses": 85,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Gragas": "Top Lane",
+            "Ekko": "Bot Lane",
+            "Braum": "Top Lane"
+        }
+    },
+    "fxqpipgu": {
+        "name": "fxqpipgu",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 35,
+        "tier": "SILVER",
+        "rank": "I",
+        "wins": 4,
+        "losses": 5,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Braum": "Top Lane",
+            "Annie": "Mid Lane",
+            "Aurelion Sol": "Top Lane"
+        }
+    },
+    "Obskurijo": {
+        "name": "Obskurijo",
+        "sex": "W",
+        "country": "Netherlands",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 312,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 13,
+        "losses": 8,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Galio": "Mid Lane",
+            "Draven": "Bot Lane",
+            "Ezreal": "Mid Lane"
+        }
+    },
+    "FallClone": {
+        "name": "FallClone",
+        "sex": "W",
+        "country": "Russia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 219,
+        "tier": "SILVER",
+        "rank": "I",
+        "wins": 6,
+        "losses": 6,
+        "age": 29,
+        "preferred_champions_and_lines": {
+            "Ezreal": "Mid Lane",
+            "Diana": "Support",
+            "Ashe": "Support"
+        }
+    },
+    "LTeamTomas": {
+        "name": "LTeamTomas",
+        "sex": "M",
+        "country": "Hungary",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 280,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 9,
+        "losses": 5,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Evelynn": "Support",
+            "Diana": "Bot Lane",
+            "Annie": "Bot Lane"
+        }
+    },
+    "Liyebro": {
+        "name": "Liyebro",
+        "sex": "W",
+        "country": "Finland",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 733,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 95,
+        "losses": 95,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Ashe": "Bot Lane",
+            "Aurelion Sol": "Bot Lane",
+            "Elise": "Bot Lane"
+        }
+    },
+    "buku69": {
+        "name": "buku69",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 591,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 40,
+        "losses": 40,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Gangplank": "Bot Lane",
+            "Diana": "Top Lane",
+            "Gragas": "Top Lane"
+        }
+    },
+    "kara2sad": {
+        "name": "kara2sad",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 357,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 14,
+        "losses": 17,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Bard": "Top Lane",
+            "Akali": "Top Lane",
+            "Corki": "Jungle"
+        }
+    },
+    "Knagus": {
+        "name": "Knagus",
+        "sex": "W",
+        "country": "Finland",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 184,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 96,
+        "losses": 87,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Hecarim": "Top Lane",
+            "Akali": "Top Lane",
+            "Heimerdinger": "Top Lane"
+        }
+    },
+    "Fiascco": {
+        "name": "Fiascco",
+        "sex": "W",
+        "country": "Russia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 448,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 18,
+        "losses": 18,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Brand": "Jungle",
+            "Blitzcrank": "Bot Lane",
+            "Fiddlesticks": "Bot Lane"
+        }
+    },
+    "Kiroshi": {
+        "name": "Kiroshi",
+        "sex": "M",
+        "country": "Spain",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 674,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 48,
+        "losses": 50,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Heimerdinger": "Support",
+            "Braum": "Top Lane",
+            "Gragas": "Top Lane"
+        }
+    },
+    "AvalanchePlayer": {
+        "name": "AvalanchePlayer",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 279,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 35,
+        "losses": 24,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Amumu": "Bot Lane",
+            "Gragas": "Bot Lane",
+            "Hecarim": "Mid Lane"
+        }
+    },
+    "Drigbuc": {
+        "name": "Drigbuc",
+        "sex": "M",
+        "country": "Netherlands",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 61,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 9,
+        "losses": 13,
+        "age": 36,
+        "preferred_champions_and_lines": {
+            "Camille": "Mid Lane",
+            "Alistar": "Mid Lane",
+            "Ashe": "Jungle"
+        }
+    },
+    "kto reluje": {
+        "name": "kto reluje",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 532,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "wins": 34,
+        "losses": 35,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Cassiopeia": "Support",
+            "Elise": "Mid Lane",
+            "Diana": "Support"
+        }
+    },
+    "henlo gibe mid": {
+        "name": "henlo gibe mid",
+        "sex": "W",
+        "country": "Russia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 97,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 20,
+        "losses": 16,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Gangplank": "Jungle",
+            "Cassiopeia": "Jungle",
+            "Aurelion Sol": "Jungle"
+        }
+    },
+    "TRlZM": {
+        "name": "TRlZM",
+        "sex": "W",
+        "country": "Russia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 909,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 125,
+        "losses": 115,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Ekko": "Top Lane",
+            "Camille": "Top Lane",
+            "Garen": "Mid Lane"
+        }
+    },
+    "ControlW4ard": {
+        "name": "ControlW4ard",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 998,
+        "tier": "DIAMOND",
+        "rank": "III",
+        "wins": 144,
+        "losses": 146,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Ekko": "Mid Lane",
+            "Aurelion Sol": "Top Lane",
+            "Alistar": "Mid Lane"
+        }
+    },
+    "TNS Pitfull": {
+        "name": "TNS Pitfull",
+        "sex": "M",
+        "country": "Sweden",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 652,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 21,
+        "losses": 19,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Corki": "Top Lane",
+            "Ashe": "Top Lane",
+            "Gangplank": "Bot Lane"
+        }
+    },
+    "WinningByFeeding": {
+        "name": "WinningByFeeding",
+        "sex": "W",
+        "country": "Italy",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 782,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 22,
+        "losses": 19,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Fizz": "Mid Lane",
+            "Azir": "Bot Lane",
+            "Aatrox": "Mid Lane"
+        }
+    },
+    "Shah": {
+        "name": "Shah",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 804,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 32,
+        "losses": 26,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Ahri": "Bot Lane",
+            "Dr. Mundo": "Top Lane",
+            "Ashe": "Top Lane"
+        }
+    },
+    "WH0 AM I": {
+        "name": "WH0 AM I",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 248,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 14,
+        "losses": 10,
+        "age": 29,
+        "preferred_champions_and_lines": {
+            "Brand": "Jungle",
+            "Gnar": "Jungle",
+            "Akali": "Jungle"
+        }
+    },
+    "D\u00e1rius": {
+        "name": "D\u00e1rius",
+        "sex": "M",
+        "country": "Russia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 285,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 29,
+        "losses": 31,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Top Lane",
+            "Anivia": "Mid Lane",
+            "Diana": "Mid Lane"
+        }
+    },
+    "Snorkell25": {
+        "name": "Snorkell25",
+        "sex": "M",
+        "country": "Norway",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 317,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 36,
+        "losses": 28,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Bard": "Support",
+            "Dr. Mundo": "Jungle",
+            "Gnar": "Support"
+        }
+    },
+    "smok murmur": {
+        "name": "smok murmur",
+        "sex": "W",
+        "country": "Spain",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 477,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 35,
+        "losses": 36,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Draven": "Jungle",
+            "Evelynn": "Mid Lane",
+            "Fiddlesticks": "Jungle"
+        }
+    },
+    "zalan112": {
+        "name": "zalan112",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 152,
+        "tier": "SILVER",
+        "rank": "III",
+        "wins": 30,
+        "losses": 27,
+        "age": 32,
+        "preferred_champions_and_lines": {
+            "Blitzcrank": "Jungle",
+            "Amumu": "Jungle",
+            "Darius": "Mid Lane"
+        }
+    },
+    "OlaGucciMate": {
+        "name": "OlaGucciMate",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 270,
+        "tier": "GOLD",
+        "rank": "IV",
+        "wins": 5,
+        "losses": 6,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Corki": "Mid Lane",
+            "Aurelion Sol": "Mid Lane",
+            "Anivia": "Top Lane"
+        }
+    },
+    "Feembo": {
+        "name": "Feembo",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 584,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 8,
+        "losses": 9,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Fizz": "Top Lane",
+            "Akali": "Jungle",
+            "Cho'Gath": "Top Lane"
+        }
+    },
+    "YIK CyckiEnjoyer": {
+        "name": "YIK CyckiEnjoyer",
+        "sex": "M",
+        "country": "Netherlands",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 165,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 12,
+        "losses": 13,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Bard": "Jungle",
+            "Braum": "Support",
+            "Akali": "Support"
+        }
+    },
+    "BobiZmaj": {
+        "name": "BobiZmaj",
+        "sex": "M",
+        "country": "Netherlands",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 448,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 59,
+        "losses": 64,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Blitzcrank": "Mid Lane",
+            "Evelynn": "Mid Lane",
+            "Darius": "Jungle"
+        }
+    },
+    "CasuaLxLegenD": {
+        "name": "CasuaLxLegenD",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 475,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 20,
+        "losses": 7,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Ekko": "Bot Lane",
+            "Cassiopeia": "Jungle",
+            "Amumu": "Bot Lane"
+        }
+    },
+    "mommyinka": {
+        "name": "mommyinka",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 161,
+        "tier": "GOLD",
+        "rank": "I",
+        "wins": 9,
+        "losses": 18,
+        "age": 15,
+        "preferred_champions_and_lines": {
+            "Fiora": "Top Lane",
+            "Graves": "Jungle",
+            "Fiddlesticks": "Top Lane"
+        }
+    },
+    "ph\u00b5cking\u00d1\u00ceG\u00cbR": {
+        "name": "ph\u00b5cking\u00d1\u00ceG\u00cbR",
+        "sex": "M",
+        "country": "France",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 262,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 59,
+        "losses": 58,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Mid Lane",
+            "Galio": "Bot Lane",
+            "Gnar": "Mid Lane"
+        }
+    },
+    "silviumercedes": {
+        "name": "silviumercedes",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 368,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 12,
+        "losses": 22,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Brand": "Bot Lane",
+            "Corki": "Bot Lane",
+            "Fiddlesticks": "Bot Lane"
+        }
+    },
+    "Vladonus": {
+        "name": "Vladonus",
+        "sex": "M",
+        "country": "Netherlands",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 265,
+        "tier": "SILVER",
+        "rank": "I",
+        "wins": 13,
+        "losses": 13,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Blitzcrank": "Support",
+            "Aatrox": "Support",
+            "Akali": "Support"
+        }
+    },
+    "Flaytality": {
+        "name": "Flaytality",
+        "sex": "W",
+        "country": "Poland",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 240,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 43,
+        "losses": 36,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Diana": "Bot Lane",
+            "Fiddlesticks": "Mid Lane",
+            "Evelynn": "Mid Lane"
+        }
+    },
+    "iSkullCrush": {
+        "name": "iSkullCrush",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 417,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 32,
+        "losses": 23,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Elise": "Top Lane",
+            "Azir": "Jungle",
+            "Aurelion Sol": "Top Lane"
+        }
+    },
+    "Cacke": {
+        "name": "Cacke",
+        "sex": "W",
+        "country": "Spain",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 521,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 23,
+        "losses": 19,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Draven": "Support",
+            "Hecarim": "Jungle",
+            "Galio": "Jungle"
+        }
+    },
+    "H\u00f6peY\u00f6uHang": {
+        "name": "H\u00f6peY\u00f6uHang",
+        "sex": "W",
+        "country": "Norway",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 291,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 9,
+        "losses": 6,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Ekko": "Jungle",
+            "Blitzcrank": "Bot Lane",
+            "Fiddlesticks": "Bot Lane"
+        }
+    },
+    "Z4wg": {
+        "name": "Z4wg",
+        "sex": "W",
+        "country": "Poland",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 408,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 8,
+        "losses": 4,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Caitlyn": "Bot Lane",
+            "Evelynn": "Bot Lane",
+            "Fiddlesticks": "Bot Lane"
+        }
+    },
+    "0PunisheR00": {
+        "name": "0PunisheR00",
+        "sex": "M",
+        "country": "Spain",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 71,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 36,
+        "losses": 39,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Braum": "Bot Lane",
+            "Corki": "Bot Lane",
+            "Alistar": "Support"
+        }
+    },
+    "xXToshi123Xx": {
+        "name": "xXToshi123Xx",
+        "sex": "W",
+        "country": "France",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 242,
+        "tier": "BRONZE",
+        "rank": "II",
+        "wins": 9,
+        "losses": 9,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Anivia": "Support",
+            "Fiddlesticks": "Support",
+            "Aatrox": "Support"
+        }
+    },
+    "banemijat": {
+        "name": "banemijat",
+        "sex": "M",
+        "country": "Norway",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 432,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 6,
+        "losses": 9,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Darius": "Jungle",
+            "Annie": "Support",
+            "Fiora": "Support"
+        }
+    },
+    "fat fifa player": {
+        "name": "fat fifa player",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 385,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 35,
+        "losses": 29,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Ezreal": "Top Lane",
+            "Anivia": "Top Lane",
+            "Akali": "Mid Lane"
+        }
+    },
+    "Karel Mart\u00e9n": {
+        "name": "Karel Mart\u00e9n",
+        "sex": "M",
+        "country": "Latvia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 274,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 3,
+        "losses": 4,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Blitzcrank": "Jungle",
+            "Darius": "Jungle",
+            "Annie": "Jungle"
+        }
+    },
+    "Delete \u010c\u00ed\u017eeq": {
+        "name": "Delete \u010c\u00ed\u017eeq",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 355,
+        "tier": "GOLD",
+        "rank": "III",
+        "wins": 18,
+        "losses": 21,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Ahri": "Support",
+            "Ekko": "Jungle",
+            "Camille": "Jungle"
+        }
+    },
+    "CzudaJD": {
+        "name": "CzudaJD",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 74,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 63,
+        "losses": 58,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Gnar": "Top Lane",
+            "Gragas": "Support",
+            "Graves": "Support"
+        }
+    },
+    "Whiskas ff15": {
+        "name": "Whiskas ff15",
+        "sex": "M",
+        "country": "Italy",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 410,
+        "tier": "GOLD",
+        "rank": "III",
+        "wins": 6,
+        "losses": 2,
+        "age": 29,
+        "preferred_champions_and_lines": {
+            "Graves": "Mid Lane",
+            "Blitzcrank": "Mid Lane",
+            "Aurelion Sol": "Mid Lane"
+        }
+    },
+    "sanji372": {
+        "name": "sanji372",
+        "sex": "M",
+        "country": "Germany",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 211,
+        "tier": "GOLD",
+        "rank": "I",
+        "wins": 25,
+        "losses": 37,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Blitzcrank": "Jungle",
+            "Bard": "Jungle",
+            "Dr. Mundo": "Top Lane"
+        }
+    },
+    "TheToper": {
+        "name": "TheToper",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 543,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 10,
+        "losses": 12,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Braum": "Mid Lane",
+            "Amumu": "Mid Lane",
+            "Akali": "Mid Lane"
+        }
+    },
+    "Gromph": {
+        "name": "Gromph",
+        "sex": "W",
+        "country": "Slovakia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 607,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 9,
+        "losses": 7,
+        "age": 15,
+        "preferred_champions_and_lines": {
+            "Ahri": "Jungle",
+            "Blitzcrank": "Jungle",
+            "Diana": "Jungle"
+        }
+    },
+    "ULTIMATE GREG": {
+        "name": "ULTIMATE GREG",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 590,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 85,
+        "losses": 75,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Brand": "Support",
+            "Corki": "Jungle",
+            "Ashe": "Support"
+        }
+    },
+    "Snowkaai": {
+        "name": "Snowkaai",
+        "sex": "W",
+        "country": "Italy",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 363,
+        "tier": "DIAMOND",
+        "rank": "III",
+        "wins": 49,
+        "losses": 43,
+        "age": 36,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Mid Lane",
+            "Brand": "Mid Lane",
+            "Azir": "Jungle"
+        }
+    },
+    "CedezPshihic": {
+        "name": "CedezPshihic",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 552,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 87,
+        "losses": 78,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Diana": "Top Lane",
+            "Braum": "Support",
+            "Camille": "Support"
+        }
+    },
+    "Legion Inoculant": {
+        "name": "Legion Inoculant",
+        "sex": "M",
+        "country": "France",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 381,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 6,
+        "losses": 6,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Camille": "Support",
+            "Gangplank": "Bot Lane",
+            "Elise": "Support"
+        }
+    },
+    "Kledmain4rever": {
+        "name": "Kledmain4rever",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 168,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 22,
+        "losses": 22,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Caitlyn": "Jungle",
+            "Diana": "Bot Lane",
+            "Heimerdinger": "Bot Lane"
+        }
+    },
+    "f\u00ebmboy enjoyer": {
+        "name": "f\u00ebmboy enjoyer",
+        "sex": "W",
+        "country": "Slovakia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 300,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 86,
+        "losses": 78,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Alistar": "Top Lane",
+            "Garen": "Top Lane",
+            "Evelynn": "Top Lane"
+        }
+    },
+    "KhatOra": {
+        "name": "KhatOra",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 910,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 30,
+        "losses": 40,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Graves": "Jungle",
+            "Brand": "Bot Lane",
+            "Camille": "Jungle"
+        }
+    },
+    "Smit3less": {
+        "name": "Smit3less",
+        "sex": "M",
+        "country": "Italy",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 1118,
+        "tier": "DIAMOND",
+        "rank": "I",
+        "wins": 139,
+        "losses": 149,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Fizz": "Top Lane",
+            "Ahri": "Bot Lane",
+            "Diana": "Top Lane"
+        }
+    },
+    "aph1r": {
+        "name": "aph1r",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 399,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 57,
+        "losses": 49,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Corki": "Mid Lane",
+            "Graves": "Mid Lane",
+            "Ekko": "Top Lane"
+        }
+    },
+    "Ceo of Based": {
+        "name": "Ceo of Based",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 362,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 16,
+        "losses": 18,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Gnar": "Top Lane",
+            "Ashe": "Jungle",
+            "Corki": "Jungle"
+        }
+    },
+    "Schl4wg": {
+        "name": "Schl4wg",
+        "sex": "W",
+        "country": "Netherlands",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 562,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 78,
+        "losses": 69,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Draven": "Top Lane",
+            "Galio": "Top Lane",
+            "Hecarim": "Jungle"
+        }
+    },
+    "segal101": {
+        "name": "segal101",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 281,
+        "tier": "GOLD",
+        "rank": "IV",
+        "wins": 6,
+        "losses": 6,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Garen": "Mid Lane",
+            "Aurelion Sol": "Top Lane",
+            "Elise": "Top Lane"
+        }
+    },
+    "shoxman": {
+        "name": "shoxman",
+        "sex": "W",
+        "country": "Italy",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 394,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 91,
+        "losses": 71,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Mid Lane",
+            "Amumu": "Support",
+            "Graves": "Support"
+        }
+    },
+    "Vianocka7": {
+        "name": "Vianocka7",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 371,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 33,
+        "losses": 32,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Darius": "Top Lane",
+            "Camille": "Top Lane",
+            "Fiddlesticks": "Support"
+        }
+    },
+    "FRATRIAcoa": {
+        "name": "FRATRIAcoa",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 557,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 74,
+        "losses": 79,
+        "age": 40,
+        "preferred_champions_and_lines": {
+            "Azir": "Top Lane",
+            "Gnar": "Top Lane",
+            "Diana": "Bot Lane"
+        }
+    },
+    "Anders 200": {
+        "name": "Anders 200",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 190,
+        "tier": "GOLD",
+        "rank": "III",
+        "wins": 14,
+        "losses": 7,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Bot Lane",
+            "Garen": "Top Lane",
+            "Caitlyn": "Top Lane"
+        }
+    },
+    "C\u00f4rnHub": {
+        "name": "C\u00f4rnHub",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 321,
+        "tier": "DIAMOND",
+        "rank": "III",
+        "wins": 10,
+        "losses": 13,
+        "age": 36,
+        "preferred_champions_and_lines": {
+            "Cassiopeia": "Bot Lane",
+            "Brand": "Mid Lane",
+            "Aatrox": "Bot Lane"
+        }
+    },
+    "Alokin1112": {
+        "name": "Alokin1112",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 317,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 3,
+        "losses": 10,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Aphelios": "Support",
+            "Amumu": "Support",
+            "Cho'Gath": "Mid Lane"
+        }
+    },
+    "Frying Jones": {
+        "name": "Frying Jones",
+        "sex": "W",
+        "country": "Poland",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 344,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 23,
+        "losses": 7,
+        "age": 40,
+        "preferred_champions_and_lines": {
+            "Blitzcrank": "Mid Lane",
+            "Caitlyn": "Support",
+            "Dr. Mundo": "Support"
+        }
+    },
+    "Papiloukos ": {
+        "name": "Papiloukos ",
+        "sex": "W",
+        "country": "Netherlands",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 476,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 73,
+        "losses": 72,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Cassiopeia": "Mid Lane",
+            "Ahri": "Jungle",
+            "Garen": "Mid Lane"
+        }
+    },
+    "Hastalamuerteee": {
+        "name": "Hastalamuerteee",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 181,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 46,
+        "losses": 57,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Elise": "Top Lane",
+            "Aatrox": "Top Lane",
+            "Fizz": "Top Lane"
+        }
+    },
+    "s\u0142odka kluska": {
+        "name": "s\u0142odka kluska",
+        "sex": "M",
+        "country": "Spain",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 620,
+        "tier": "GOLD",
+        "rank": "III",
+        "wins": 55,
+        "losses": 54,
+        "age": 29,
+        "preferred_champions_and_lines": {
+            "Amumu": "Top Lane",
+            "Akali": "Top Lane",
+            "Evelynn": "Top Lane"
+        }
+    },
+    "SangreP\u00f8rSangre": {
+        "name": "SangreP\u00f8rSangre",
+        "sex": "W",
+        "country": "Slovakia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 217,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 46,
+        "losses": 52,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Azir": "Bot Lane",
+            "Bard": "Jungle",
+            "Ahri": "Bot Lane"
+        }
+    },
+    "SupportPlusSize": {
+        "name": "SupportPlusSize",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 436,
+        "tier": "SILVER",
+        "rank": "I",
+        "wins": 9,
+        "losses": 11,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Corki": "Support",
+            "Dr. Mundo": "Top Lane",
+            "Cassiopeia": "Support"
+        }
+    },
+    "2Gosu4You": {
+        "name": "2Gosu4You",
+        "sex": "M",
+        "country": "Sweden",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 232,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 69,
+        "losses": 68,
+        "age": 25,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Mid Lane",
+            "Garen": "Jungle",
+            "Diana": "Jungle"
+        }
+    },
+    "Calinach0": {
+        "name": "Calinach0",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 237,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 43,
+        "losses": 32,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Draven": "Support",
+            "Caitlyn": "Support",
+            "Cho'Gath": "Bot Lane"
+        }
+    },
+    "ByteBlitzer": {
+        "name": "ByteBlitzer",
+        "sex": "W",
+        "country": "Russia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 38,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 2,
+        "losses": 7,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Cho'Gath": "Top Lane",
+            "Camille": "Mid Lane",
+            "Caitlyn": "Mid Lane"
+        }
+    },
+    "G\u039fTHBOICLIQUE": {
+        "name": "G\u039fTHBOICLIQUE",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 78,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 13,
+        "losses": 10,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Azir": "Top Lane",
+            "Blitzcrank": "Top Lane",
+            "Akali": "Top Lane"
+        }
+    },
+    "S\u03b1hn Uzal ": {
+        "name": "S\u03b1hn Uzal ",
+        "sex": "W",
+        "country": "France",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 590,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 2,
+        "losses": 5,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Support",
+            "Ezreal": "Support",
+            "Gangplank": "Support"
+        }
+    },
+    "CserpanDani": {
+        "name": "CserpanDani",
+        "sex": "W",
+        "country": "Slovakia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 474,
+        "tier": "GOLD",
+        "rank": "III",
+        "wins": 4,
+        "losses": 1,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Darius": "Bot Lane",
+            "Gragas": "Bot Lane",
+            "Ekko": "Bot Lane"
+        }
+    },
+    "EsCaLaDo": {
+        "name": "EsCaLaDo",
+        "sex": "M",
+        "country": "Latvia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 643,
+        "tier": "GOLD",
+        "rank": "III",
+        "wins": 3,
+        "losses": 3,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Gnar": "Mid Lane",
+            "Corki": "Mid Lane",
+            "Bard": "Mid Lane"
+        }
+    },
+    "InsideTheBlack7": {
+        "name": "InsideTheBlack7",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 268,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 20,
+        "losses": 12,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Anivia": "Bot Lane",
+            "Darius": "Bot Lane",
+            "Draven": "Support"
+        }
+    },
+    "World End3r": {
+        "name": "World End3r",
+        "sex": "M",
+        "country": "France",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 266,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 19,
+        "losses": 23,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Bard": "Mid Lane",
+            "Azir": "Mid Lane",
+            "Alistar": "Top Lane"
+        }
+    },
+    "KockBig": {
+        "name": "KockBig",
+        "sex": "W",
+        "country": "Slovakia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 47,
+        "tier": "SILVER",
+        "rank": "III",
+        "wins": 6,
+        "losses": 6,
+        "age": 29,
+        "preferred_champions_and_lines": {
+            "Ashe": "Top Lane",
+            "Anivia": "Bot Lane",
+            "Elise": "Top Lane"
+        }
+    },
+    "wojmaj22": {
+        "name": "wojmaj22",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 237,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 15,
+        "losses": 13,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Ahri": "Jungle",
+            "Braum": "Jungle",
+            "Anivia": "Jungle"
+        }
+    },
+    "FlakkAbuser": {
+        "name": "FlakkAbuser",
+        "sex": "W",
+        "country": "Netherlands",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 600,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 19,
+        "losses": 10,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Aphelios": "Support",
+            "Evelynn": "Support",
+            "Hecarim": "Support"
+        }
+    },
+    "\u03c8 M\u00edndFlay\u00ear \u03c8": {
+        "name": "\u03c8 M\u00edndFlay\u00ear \u03c8",
+        "sex": "M",
+        "country": "Latvia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 365,
+        "tier": "EMERALD",
+        "rank": "I",
+        "wins": 15,
+        "losses": 18,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Evelynn": "Bot Lane",
+            "Draven": "Top Lane",
+            "Aurelion Sol": "Bot Lane"
+        }
+    },
+    "Snookerface": {
+        "name": "Snookerface",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 164,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 4,
+        "losses": 8,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Cho'Gath": "Bot Lane",
+            "Dr. Mundo": "Bot Lane",
+            "Caitlyn": "Mid Lane"
+        }
+    },
+    "O Choleren": {
+        "name": "O Choleren",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 623,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 18,
+        "losses": 17,
+        "age": 28,
+        "preferred_champions_and_lines": {
+            "Amumu": "Jungle",
+            "Akali": "Jungle",
+            "Caitlyn": "Jungle"
+        }
+    },
+    "\u03a8 TEEM0 \u03a8": {
+        "name": "\u03a8 TEEM0 \u03a8",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 249,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 19,
+        "losses": 12,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Top Lane",
+            "Annie": "Bot Lane",
+            "Evelynn": "Top Lane"
+        }
+    },
+    "\u03c1r\u03b1gm\u03b1\u03c4\u03b9c": {
+        "name": "\u03c1r\u03b1gm\u03b1\u03c4\u03b9c",
+        "sex": "W",
+        "country": "Slovakia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 263,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 2,
+        "losses": 5,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Anivia": "Bot Lane",
+            "Graves": "Jungle",
+            "Ahri": "Jungle"
+        }
+    },
+    "Cacke 1v9": {
+        "name": "Cacke 1v9",
+        "sex": "M",
+        "country": "Italy",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 91,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 21,
+        "losses": 17,
+        "age": 29,
+        "preferred_champions_and_lines": {
+            "Fizz": "Top Lane",
+            "Fiddlesticks": "Top Lane",
+            "Garen": "Support"
+        }
+    },
+    "KiLJ4EdeN": {
+        "name": "KiLJ4EdeN",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 162,
+        "tier": "BRONZE",
+        "rank": "IV",
+        "wins": 11,
+        "losses": 6,
+        "age": 36,
+        "preferred_champions_and_lines": {
+            "Bard": "Support",
+            "Cho'Gath": "Support",
+            "Blitzcrank": "Support"
+        }
+    },
+    "SwxpeR": {
+        "name": "SwxpeR",
+        "sex": "W",
+        "country": "Poland",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 97,
+        "tier": "BRONZE",
+        "rank": "I",
+        "wins": 44,
+        "losses": 45,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Cho'Gath": "Support",
+            "Aphelios": "Jungle",
+            "Alistar": "Support"
+        }
+    },
+    "Upocen\u00fd malynos": {
+        "name": "Upocen\u00fd malynos",
+        "sex": "W",
+        "country": "Netherlands",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 533,
+        "tier": "GOLD",
+        "rank": "IV",
+        "wins": 4,
+        "losses": 7,
+        "age": 39,
+        "preferred_champions_and_lines": {
+            "Diana": "Top Lane",
+            "Akali": "Mid Lane",
+            "Fizz": "Top Lane"
+        }
+    },
+    "Sprinley": {
+        "name": "Sprinley",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 338,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 6,
+        "losses": 13,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Amumu": "Top Lane",
+            "Braum": "Top Lane",
+            "Aurelion Sol": "Top Lane"
+        }
+    },
+    "himazzar": {
+        "name": "himazzar",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 291,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 5,
+        "losses": 3,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Gragas": "Bot Lane",
+            "Amumu": "Bot Lane",
+            "Graves": "Jungle"
+        }
+    },
+    "Sgt Br\u00f5cocli": {
+        "name": "Sgt Br\u00f5cocli",
+        "sex": "M",
+        "country": "Norway",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 472,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 120,
+        "losses": 100,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Corki": "Bot Lane",
+            "Anivia": "Bot Lane",
+            "Annie": "Bot Lane"
+        }
+    },
+    "HaHa Mist1c": {
+        "name": "HaHa Mist1c",
+        "sex": "M",
+        "country": "France",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 269,
+        "tier": "GOLD",
+        "rank": "I",
+        "wins": 70,
+        "losses": 68,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Galio": "Top Lane",
+            "Aphelios": "Jungle",
+            "Ashe": "Top Lane"
+        }
+    },
+    "miskadajeglos": {
+        "name": "miskadajeglos",
+        "sex": "M",
+        "country": "Norway",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 446,
+        "tier": "BRONZE",
+        "rank": "I",
+        "wins": 6,
+        "losses": 1,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Fizz": "Top Lane",
+            "Ekko": "Mid Lane",
+            "Cho'Gath": "Top Lane"
+        }
+    },
+    "\u00cemiplacesamananc": {
+        "name": "\u00cemiplacesamananc",
+        "sex": "M",
+        "country": "Sweden",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 188,
+        "tier": "DIAMOND",
+        "rank": "III",
+        "wins": 19,
+        "losses": 12,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Hecarim": "Jungle",
+            "Evelynn": "Bot Lane",
+            "Fiddlesticks": "Jungle"
+        }
+    },
+    "CGB": {
+        "name": "CGB",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 322,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "wins": 27,
+        "losses": 15,
+        "age": 36,
+        "preferred_champions_and_lines": {
+            "Elise": "Mid Lane",
+            "Camille": "Mid Lane",
+            "Gangplank": "Jungle"
+        }
+    },
+    "milenkalu": {
+        "name": "milenkalu",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 207,
+        "tier": "SILVER",
+        "rank": "II",
+        "wins": 29,
+        "losses": 37,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Fiddlesticks": "Mid Lane",
+            "Aphelios": "Mid Lane",
+            "Anivia": "Support"
+        }
+    },
+    "Jerneleana": {
+        "name": "Jerneleana",
+        "sex": "W",
+        "country": "Croatia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 55,
+        "tier": "DIAMOND",
+        "rank": "III",
+        "wins": 8,
+        "losses": 4,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Graves": "Jungle",
+            "Brand": "Jungle",
+            "Braum": "Jungle"
+        }
+    },
+    "Krind\u017cur": {
+        "name": "Krind\u017cur",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 747,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 39,
+        "losses": 38,
+        "age": 40,
+        "preferred_champions_and_lines": {
+            "Aphelios": "Bot Lane",
+            "Fiddlesticks": "Bot Lane",
+            "Graves": "Bot Lane"
+        }
+    },
+    "Naughty Qiyana": {
+        "name": "Naughty Qiyana",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 457,
+        "tier": "MASTER",
+        "rank": "I",
+        "wins": 36,
+        "losses": 32,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Camille": "Bot Lane",
+            "Diana": "Bot Lane",
+            "Gragas": "Bot Lane"
+        }
+    },
+    "ChaosKing55": {
+        "name": "ChaosKing55",
+        "sex": "W",
+        "country": "Russia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 293,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 40,
+        "losses": 30,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Annie": "Support",
+            "Fiddlesticks": "Support",
+            "Diana": "Support"
+        }
+    },
+    "Hanulka": {
+        "name": "Hanulka",
+        "sex": "W",
+        "country": "Russia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 549,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 14,
+        "losses": 13,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Annie": "Top Lane",
+            "Darius": "Top Lane",
+            "Elise": "Support"
+        }
+    },
+    "The Mustard Lion": {
+        "name": "The Mustard Lion",
+        "sex": "W",
+        "country": "Hungary",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 553,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 88,
+        "losses": 78,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Fizz": "Support",
+            "Ahri": "Bot Lane",
+            "Diana": "Support"
+        }
+    },
+    "Vieala": {
+        "name": "Vieala",
+        "sex": "W",
+        "country": "Slovakia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 348,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 135,
+        "losses": 109,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Support",
+            "Heimerdinger": "Top Lane",
+            "Caitlyn": "Support"
+        }
+    },
+    "pickmonkey": {
+        "name": "pickmonkey",
+        "sex": "M",
+        "country": "Italy",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 160,
+        "tier": "SILVER",
+        "rank": "III",
+        "wins": 3,
+        "losses": 3,
+        "age": 25,
+        "preferred_champions_and_lines": {
+            "Fiora": "Jungle",
+            "Ahri": "Mid Lane",
+            "Elise": "Mid Lane"
+        }
+    },
+    "ICT Liutasas": {
+        "name": "ICT Liutasas",
+        "sex": "M",
+        "country": "France",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 578,
+        "tier": "DIAMOND",
+        "rank": "II",
+        "wins": 46,
+        "losses": 41,
+        "age": 25,
+        "preferred_champions_and_lines": {
+            "Camille": "Bot Lane",
+            "Fiddlesticks": "Jungle",
+            "Aphelios": "Jungle"
+        }
+    },
+    "IasonM": {
+        "name": "IasonM",
+        "sex": "W",
+        "country": "Netherlands",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 254,
+        "tier": "SILVER",
+        "rank": "II",
+        "wins": 3,
+        "losses": 4,
+        "age": 25,
+        "preferred_champions_and_lines": {
+            "Fiddlesticks": "Bot Lane",
+            "Annie": "Top Lane",
+            "Caitlyn": "Bot Lane"
+        }
+    },
+    "dopek eu": {
+        "name": "dopek eu",
+        "sex": "W",
+        "country": "Russia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 367,
+        "tier": "EMERALD",
+        "rank": "I",
+        "wins": 18,
+        "losses": 14,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Mid Lane",
+            "Ashe": "Mid Lane",
+            "Cassiopeia": "Support"
+        }
+    },
+    "wiecejnizcialo": {
+        "name": "wiecejnizcialo",
+        "sex": "W",
+        "country": "Italy",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 252,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 49,
+        "losses": 45,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Aphelios": "Mid Lane",
+            "Hecarim": "Mid Lane",
+            "Graves": "Mid Lane"
+        }
+    },
+    "VisionaryOfMid": {
+        "name": "VisionaryOfMid",
+        "sex": "M",
+        "country": "Latvia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 765,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 33,
+        "losses": 20,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Camille": "Top Lane",
+            "Amumu": "Top Lane",
+            "Gnar": "Support"
+        }
+    },
+    "BumCzu\u0142ko": {
+        "name": "BumCzu\u0142ko",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 128,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 10,
+        "losses": 4,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Heimerdinger": "Top Lane",
+            "Fiddlesticks": "Top Lane",
+            "Ahri": "Top Lane"
+        }
+    },
+    "Arent ff15": {
+        "name": "Arent ff15",
+        "sex": "M",
+        "country": "Italy",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 253,
+        "tier": "IRON",
+        "rank": "IV",
+        "wins": 7,
+        "losses": 20,
+        "age": 25,
+        "preferred_champions_and_lines": {
+            "Annie": "Jungle",
+            "Caitlyn": "Jungle",
+            "Hecarim": "Jungle"
+        }
+    },
+    "SickHead": {
+        "name": "SickHead",
+        "sex": "W",
+        "country": "Hungary",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 210,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 18,
+        "losses": 16,
+        "age": 40,
+        "preferred_champions_and_lines": {
+            "Ashe": "Mid Lane",
+            "Alistar": "Mid Lane",
+            "Camille": "Mid Lane"
+        }
+    },
+    "T1 SiN": {
+        "name": "T1 SiN",
+        "sex": "M",
+        "country": "Germany",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 668,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 104,
+        "losses": 105,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Graves": "Jungle",
+            "Garen": "Jungle",
+            "Blitzcrank": "Jungle"
+        }
+    },
+    "Ajjsson9": {
+        "name": "Ajjsson9",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 213,
+        "tier": "GOLD",
+        "rank": "I",
+        "wins": 15,
+        "losses": 18,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Hecarim": "Jungle",
+            "Gangplank": "Mid Lane",
+            "Azir": "Mid Lane"
+        }
+    },
+    "HobbitSenpai1": {
+        "name": "HobbitSenpai1",
+        "sex": "W",
+        "country": "Italy",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 41,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 8,
+        "losses": 12,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Top Lane",
+            "Brand": "Support",
+            "Fizz": "Top Lane"
+        }
+    },
+    "Rickonde": {
+        "name": "Rickonde",
+        "sex": "M",
+        "country": "Latvia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 40,
+        "tier": "SILVER",
+        "rank": "I",
+        "wins": 3,
+        "losses": 7,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Garen": "Jungle",
+            "Brand": "Support",
+            "Cho'Gath": "Support"
+        }
+    },
+    "Ntiregoylfios": {
+        "name": "Ntiregoylfios",
+        "sex": "M",
+        "country": "Poland",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 404,
+        "tier": "EMERALD",
+        "rank": "I",
+        "wins": 22,
+        "losses": 16,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Anivia": "Top Lane",
+            "Dr. Mundo": "Top Lane",
+            "Cassiopeia": "Mid Lane"
+        }
+    },
+    "xDanter": {
+        "name": "xDanter",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 681,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 49,
+        "losses": 56,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Bard": "Jungle",
+            "Aurelion Sol": "Mid Lane",
+            "Fiddlesticks": "Mid Lane"
+        }
+    },
+    "DarkAim": {
+        "name": "DarkAim",
+        "sex": "W",
+        "country": "Slovakia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 521,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 42,
+        "losses": 54,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Draven": "Top Lane",
+            "Aurelion Sol": "Top Lane",
+            "Graves": "Top Lane"
+        }
+    },
+    "wysrocsmurf": {
+        "name": "wysrocsmurf",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 214,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 33,
+        "losses": 28,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Graves": "Mid Lane",
+            "Ashe": "Jungle",
+            "Dr. Mundo": "Jungle"
+        }
+    },
+    "yxandenstore": {
+        "name": "yxandenstore",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 352,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 56,
+        "losses": 61,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Bot Lane",
+            "Dr. Mundo": "Support",
+            "Camille": "Support"
+        }
+    },
+    "AHHAAXEAHAHA": {
+        "name": "AHHAAXEAHAHA",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 675,
+        "tier": "EMERALD",
+        "rank": "I",
+        "wins": 25,
+        "losses": 40,
+        "age": 15,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Mid Lane",
+            "Elise": "Mid Lane",
+            "Braum": "Mid Lane"
+        }
+    },
+    "mambolina": {
+        "name": "mambolina",
+        "sex": "M",
+        "country": "Hungary",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 794,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "wins": 7,
+        "losses": 11,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Top Lane",
+            "Alistar": "Top Lane",
+            "Heimerdinger": "Top Lane"
+        }
+    },
+    "Cip1": {
+        "name": "Cip1",
+        "sex": "M",
+        "country": "Slovakia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 442,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 118,
+        "losses": 117,
+        "age": 40,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Bot Lane",
+            "Camille": "Jungle",
+            "Fiddlesticks": "Bot Lane"
+        }
+    },
+    "DiGers": {
+        "name": "DiGers",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 824,
+        "tier": "DIAMOND",
+        "rank": "III",
+        "wins": 13,
+        "losses": 20,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Alistar": "Bot Lane",
+            "Azir": "Bot Lane",
+            "Ashe": "Mid Lane"
+        }
+    },
+    "I sit on him": {
+        "name": "I sit on him",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 337,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "wins": 28,
+        "losses": 11,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Evelynn": "Mid Lane",
+            "Azir": "Top Lane",
+            "Camille": "Top Lane"
+        }
+    },
+    "C1cho b1eg": {
+        "name": "C1cho b1eg",
+        "sex": "M",
+        "country": "Hungary",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 216,
+        "tier": "BRONZE",
+        "rank": "IV",
+        "wins": 15,
+        "losses": 19,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Ezreal": "Mid Lane",
+            "Anivia": "Support",
+            "Caitlyn": "Mid Lane"
+        }
+    },
+    "TNS Zorhorn": {
+        "name": "TNS Zorhorn",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 625,
+        "tier": "SILVER",
+        "rank": "II",
+        "wins": 29,
+        "losses": 38,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Bot Lane",
+            "Cho'Gath": "Bot Lane",
+            "Garen": "Bot Lane"
+        }
+    },
+    "Carlos Bonjovi": {
+        "name": "Carlos Bonjovi",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 463,
+        "tier": "EMERALD",
+        "rank": "I",
+        "wins": 31,
+        "losses": 38,
+        "age": 30,
+        "preferred_champions_and_lines": {
+            "Camille": "Mid Lane",
+            "Draven": "Mid Lane",
+            "Akali": "Mid Lane"
+        }
+    },
+    "Isaac Asimov": {
+        "name": "Isaac Asimov",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 399,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 26,
+        "losses": 21,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Heimerdinger": "Support",
+            "Graves": "Top Lane",
+            "Ahri": "Support"
+        }
+    },
+    "Charlie Sapling": {
+        "name": "Charlie Sapling",
+        "sex": "M",
+        "country": "Norway",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 662,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 260,
+        "losses": 256,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Annie": "Jungle",
+            "Camille": "Mid Lane",
+            "Dr. Mundo": "Jungle"
+        }
+    },
+    "bot Prodromos": {
+        "name": "bot Prodromos",
+        "sex": "W",
+        "country": "Poland",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 110,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 8,
+        "losses": 6,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Corki": "Bot Lane",
+            "Fiora": "Bot Lane",
+            "Cho'Gath": "Jungle"
+        }
+    },
+    "Georgeales": {
+        "name": "Georgeales",
+        "sex": "W",
+        "country": "Norway",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 474,
+        "tier": "PLATINUM",
+        "rank": "III",
+        "wins": 44,
+        "losses": 45,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Brand": "Mid Lane",
+            "Akali": "Mid Lane",
+            "Fiddlesticks": "Top Lane"
+        }
+    },
+    "Muppzter": {
+        "name": "Muppzter",
+        "sex": "M",
+        "country": "Germany",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 147,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 20,
+        "losses": 16,
+        "age": 29,
+        "preferred_champions_and_lines": {
+            "Fiddlesticks": "Jungle",
+            "Aurelion Sol": "Support",
+            "Aatrox": "Support"
+        }
+    },
+    "L9 zaza kennen": {
+        "name": "L9 zaza kennen",
+        "sex": "W",
+        "country": "Norway",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 594,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 39,
+        "losses": 35,
+        "age": 35,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Top Lane",
+            "Galio": "Bot Lane",
+            "Elise": "Bot Lane"
+        }
+    },
+    "H4RDC0R33": {
+        "name": "H4RDC0R33",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 766,
+        "tier": "DIAMOND",
+        "rank": "III",
+        "wins": 30,
+        "losses": 23,
+        "age": 31,
+        "preferred_champions_and_lines": {
+            "Braum": "Jungle",
+            "Fiora": "Support",
+            "Garen": "Support"
+        }
+    },
+    "Mow mi Panie": {
+        "name": "Mow mi Panie",
+        "sex": "M",
+        "country": "Finland",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 230,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 42,
+        "losses": 41,
+        "age": 26,
+        "preferred_champions_and_lines": {
+            "Elise": "Support",
+            "Garen": "Support",
+            "Dr. Mundo": "Bot Lane"
+        }
+    },
+    "Muppetqa": {
+        "name": "Muppetqa",
+        "sex": "M",
+        "country": "France",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 429,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 46,
+        "losses": 40,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Mid Lane",
+            "Elise": "Mid Lane",
+            "Gragas": "Support"
+        }
+    },
+    "This Boy Smurf": {
+        "name": "This Boy Smurf",
+        "sex": "W",
+        "country": "France",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 52,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 28,
+        "losses": 27,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Corki": "Jungle",
+            "Dr. Mundo": "Jungle",
+            "Ekko": "Jungle"
+        }
+    },
+    "The Stoic": {
+        "name": "The Stoic",
+        "sex": "W",
+        "country": "Sweden",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 672,
+        "tier": "PLATINUM",
+        "rank": "IV",
+        "wins": 12,
+        "losses": 13,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Ezreal": "Mid Lane",
+            "Fizz": "Top Lane",
+            "Graves": "Mid Lane"
+        }
+    },
+    "\u03c0D3": {
+        "name": "\u03c0D3",
+        "sex": "M",
+        "country": "Netherlands",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 928,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 126,
+        "losses": 118,
+        "age": 32,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Top Lane",
+            "Gragas": "Top Lane",
+            "Bard": "Top Lane"
+        }
+    },
+    "KATA CTRL": {
+        "name": "KATA CTRL",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 668,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 6,
+        "losses": 1,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Dr. Mundo": "Top Lane",
+            "Aphelios": "Top Lane",
+            "Fizz": "Bot Lane"
+        }
+    },
+    "BoneeCrusherr": {
+        "name": "BoneeCrusherr",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 782,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 152,
+        "losses": 159,
+        "age": 21,
+        "preferred_champions_and_lines": {
+            "Fizz": "Mid Lane",
+            "Brand": "Jungle",
+            "Ekko": "Mid Lane"
+        }
+    },
+    "kong laurits 2": {
+        "name": "kong laurits 2",
+        "sex": "M",
+        "country": "Hungary",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 141,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 62,
+        "losses": 56,
+        "age": 15,
+        "preferred_champions_and_lines": {
+            "Ashe": "Jungle",
+            "Bard": "Support",
+            "Ekko": "Support"
+        }
+    },
+    "RHAEGALL": {
+        "name": "RHAEGALL",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 701,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 83,
+        "losses": 86,
+        "age": 32,
+        "preferred_champions_and_lines": {
+            "Camille": "Jungle",
+            "Fiora": "Jungle",
+            "Gragas": "Bot Lane"
+        }
+    },
+    "Hinimunowely": {
+        "name": "Hinimunowely",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 55,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 94,
+        "losses": 87,
+        "age": 34,
+        "preferred_champions_and_lines": {
+            "Braum": "Bot Lane",
+            "Gnar": "Jungle",
+            "Akali": "Bot Lane"
+        }
+    },
+    "MRcloset": {
+        "name": "MRcloset",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 680,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 115,
+        "losses": 95,
+        "age": 32,
+        "preferred_champions_and_lines": {
+            "Fizz": "Top Lane",
+            "Camille": "Top Lane",
+            "Brand": "Jungle"
+        }
+    },
+    "Reason101": {
+        "name": "Reason101",
+        "sex": "W",
+        "country": "Finland",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 165,
+        "tier": "DIAMOND",
+        "rank": "III",
+        "wins": 21,
+        "losses": 17,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Gangplank": "Bot Lane",
+            "Fiora": "Mid Lane",
+            "Gnar": "Mid Lane"
+        }
+    },
+    "Krugen": {
+        "name": "Krugen",
+        "sex": "W",
+        "country": "Russia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 323,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 10,
+        "losses": 4,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Brand": "Support",
+            "Anivia": "Top Lane",
+            "Dr. Mundo": "Support"
+        }
+    },
+    "laptopuser99": {
+        "name": "laptopuser99",
+        "sex": "M",
+        "country": "Netherlands",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 199,
+        "tier": "PLATINUM",
+        "rank": "II",
+        "wins": 21,
+        "losses": 27,
+        "age": 16,
+        "preferred_champions_and_lines": {
+            "Fiddlesticks": "Bot Lane",
+            "Ezreal": "Jungle",
+            "Evelynn": "Jungle"
+        }
+    },
+    "8yku11": {
+        "name": "8yku11",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 479,
+        "tier": "EMERALD",
+        "rank": "II",
+        "wins": 31,
+        "losses": 23,
+        "age": 25,
+        "preferred_champions_and_lines": {
+            "Cho'Gath": "Top Lane",
+            "Blitzcrank": "Top Lane",
+            "Aurelion Sol": "Top Lane"
+        }
+    },
+    "haq": {
+        "name": "haq",
+        "sex": "M",
+        "country": "Norway",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 245,
+        "tier": "EMERALD",
+        "rank": "I",
+        "wins": 22,
+        "losses": 13,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Bard": "Support",
+            "Anivia": "Support",
+            "Fiddlesticks": "Support"
+        }
+    },
+    "KraljevicOgnjen0": {
+        "name": "KraljevicOgnjen0",
+        "sex": "W",
+        "country": "Poland",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 434,
+        "tier": "SILVER",
+        "rank": "II",
+        "wins": 5,
+        "losses": 3,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Caitlyn": "Jungle",
+            "Ezreal": "Mid Lane",
+            "Amumu": "Mid Lane"
+        }
+    },
+    "Yasuocalibur": {
+        "name": "Yasuocalibur",
+        "sex": "M",
+        "country": "Germany",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 224,
+        "tier": "DIAMOND",
+        "rank": "II",
+        "wins": 55,
+        "losses": 45,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Support",
+            "Brand": "Support",
+            "Camille": "Bot Lane"
+        }
+    },
+    "JoG\u00e0th": {
+        "name": "JoG\u00e0th",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 522,
+        "tier": "EMERALD",
+        "rank": "I",
+        "wins": 3,
+        "losses": 5,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Hecarim": "Support",
+            "Ashe": "Mid Lane",
+            "Ezreal": "Support"
+        }
+    },
+    "potyczka": {
+        "name": "potyczka",
+        "sex": "M",
+        "country": "UK",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 303,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 57,
+        "losses": 50,
+        "age": 20,
+        "preferred_champions_and_lines": {
+            "Alistar": "Jungle",
+            "Graves": "Bot Lane",
+            "Cassiopeia": "Bot Lane"
+        }
+    },
+    "omofiloskilos": {
+        "name": "omofiloskilos",
+        "sex": "W",
+        "country": "Latvia",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 374,
+        "tier": "EMERALD",
+        "rank": "IV",
+        "wins": 13,
+        "losses": 19,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Cassiopeia": "Top Lane",
+            "Galio": "Top Lane",
+            "Azir": "Mid Lane"
+        }
+    },
+    "Jh1nTonic": {
+        "name": "Jh1nTonic",
+        "sex": "M",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 555,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 66,
+        "losses": 58,
+        "age": 19,
+        "preferred_champions_and_lines": {
+            "Braum": "Bot Lane",
+            "Aurelion Sol": "Top Lane",
+            "Fiddlesticks": "Bot Lane"
+        }
+    },
+    "RudyD\u017cony69": {
+        "name": "RudyD\u017cony69",
+        "sex": "W",
+        "country": "UK",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 291,
+        "tier": "SILVER",
+        "rank": "III",
+        "wins": 118,
+        "losses": 103,
+        "age": 27,
+        "preferred_champions_and_lines": {
+            "Aatrox": "Bot Lane",
+            "Alistar": "Jungle",
+            "Camille": "Jungle"
+        }
+    },
+    "iRSQ": {
+        "name": "iRSQ",
+        "sex": "M",
+        "country": "Latvia",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 656,
+        "tier": "DIAMOND",
+        "rank": "IV",
+        "wins": 6,
+        "losses": 7,
+        "age": 22,
+        "preferred_champions_and_lines": {
+            "Fiora": "Support",
+            "Blitzcrank": "Jungle",
+            "Hecarim": "Jungle"
+        }
+    },
+    "Blue Twink": {
+        "name": "Blue Twink",
+        "sex": "W",
+        "country": "Netherlands",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 499,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 9,
+        "losses": 10,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Cassiopeia": "Support",
+            "Cho'Gath": "Support",
+            "Fizz": "Support"
+        }
+    },
+    "Crnj\u00e5c": {
+        "name": "Crnj\u00e5c",
+        "sex": "W",
+        "country": "Ukraine",
+        "languages": [
+            "norwegian",
+            "slovakian",
+            "english"
+        ],
+        "level": 197,
+        "tier": "BRONZE",
+        "rank": "I",
+        "wins": 8,
+        "losses": 7,
+        "age": 18,
+        "preferred_champions_and_lines": {
+            "Blitzcrank": "Bot Lane",
+            "Ekko": "Bot Lane",
+            "Caitlyn": "Jungle"
+        }
+    },
+    "TopIsNotMyLane": {
+        "name": "TopIsNotMyLane",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "english",
+            "slovakian",
+            "norwegian"
+        ],
+        "level": 128,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 19,
+        "losses": 22,
+        "age": 17,
+        "preferred_champions_and_lines": {
+            "Aurelion Sol": "Support",
+            "Hecarim": "Support",
+            "Azir": "Mid Lane"
+        }
+    },
+    "milwhite": {
+        "name": "milwhite",
+        "sex": "W",
+        "country": "Italy",
+        "languages": [
+            "english",
+            "norwegian",
+            "slovakian"
+        ],
+        "level": 507,
+        "tier": "DIAMOND",
+        "rank": "II",
+        "wins": 47,
+        "losses": 39,
+        "age": 38,
+        "preferred_champions_and_lines": {
+            "Heimerdinger": "Top Lane",
+            "Akali": "Top Lane",
+            "Camille": "Jungle"
+        }
+    },
+    "EnJHINeer Joe": {
+        "name": "EnJHINeer Joe",
+        "sex": "M",
+        "country": "Croatia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 691,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 4,
+        "losses": 4,
+        "age": 33,
+        "preferred_champions_and_lines": {
+            "Draven": "Top Lane",
+            "Hecarim": "Top Lane",
+            "Anivia": "Top Lane"
+        }
+    },
+    "Down Bad Bottom": {
+        "name": "Down Bad Bottom",
+        "sex": "W",
+        "country": "Germany",
+        "languages": [
+            "slovakian",
+            "english",
+            "norwegian"
+        ],
+        "level": 894,
+        "tier": "EMERALD",
+        "rank": "III",
+        "wins": 35,
+        "losses": 36,
+        "age": 23,
+        "preferred_champions_and_lines": {
+            "Brand": "Top Lane",
+            "Bard": "Top Lane",
+            "Anivia": "Bot Lane"
+        }
+    },
+    "visjx": {
+        "name": "visjx",
+        "sex": "W",
+        "country": "Finland",
+        "languages": [
+            "slovakian",
+            "norwegian",
+            "english"
+        ],
+        "level": 54,
+        "tier": "PLATINUM",
+        "rank": "I",
+        "wins": 1,
+        "losses": 6,
+        "age": 37,
+        "preferred_champions_and_lines": {
+            "Blitzcrank": "Top Lane",
+            "Draven": "Top Lane",
+            "Elise": "Top Lane"
+        }
+    },
+    "L1o K3y": {
+        "name": "L1o K3y",
+        "sex": "M",
+        "country": "Latvia",
+        "languages": [
+            "norwegian",
+            "english",
+            "slovakian"
+        ],
+        "level": 369,
+        "tier": "GOLD",
+        "rank": "II",
+        "wins": 40,
+        "losses": 35,
+        "age": 24,
+        "preferred_champions_and_lines": {
+            "Cassiopeia": "Bot Lane",
+            "Ashe": "Top Lane",
+            "Fiddlesticks": "Top Lane"
+        }
+    }
+}
