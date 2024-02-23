@@ -5,6 +5,7 @@ import json
 
 app = Flask(__name__)
 
+
 # Create player object
 def create_player(summoner_name):
     with open('summoners.json', 'r') as f:
@@ -22,8 +23,10 @@ def create_player(summoner_name):
     roles = summoner_info["preferred_roles"]
     game_modes = summoner_info["preferred_gamemode"]
     age = summoner_info["age"]
-    favorite_champions_and_lines = None #summoner_info["favorite_champions_and_lines"]
-    return player.Player(summoner_name, sex, country, languages, level, tier, rank, wins, losses, roles, game_modes, age, favorite_champions_and_lines)
+    favorite_champions_and_lines = None  # summoner_info["favorite_champions_and_lines"]
+    return player.Player(summoner_name, sex, country, languages, level, tier, rank, wins, losses, roles, game_modes,
+                         age, favorite_champions_and_lines)
+
 
 # Get recommendations for a user
 @app.route('/recommendations/<string:summoner_name>', methods=['GET'])
@@ -42,6 +45,7 @@ def get_recommendations(summoner_name):
             break
 
     return jsonify(recommendations), 200
+
 
 if __name__ == '__main__':
     app.run(debug=True)
