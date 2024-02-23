@@ -1,106 +1,147 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Summoner Recommender API",
-    "description": "API for getting player recommendations in a League of Legends teammate finding application.",
-    "version": "1.0.0"
+    "description": "API for Summoner Recommender system",
+    "version": "1.0.0",
+    "title": "Summoner Recommender API"
   },
   "host": "localhost:5000",
   "basePath": "/",
+  "tags": [
+    {
+      "name": "recommendation",
+      "description": "Operations related to recommendations"
+    }
+  ],
   "schemes": [
     "http"
   ],
   "paths": {
     "/recommendations/{summoner_name}": {
       "get": {
-        "summary": "Get player recommendations",
-        "description": "Returns a list of player recommendations for a given summoner name.",
+        "tags": ["recommendation"],
+        "summary": "Get recommendations for a summoner",
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
         "parameters": [
           {
             "name": "summoner_name",
             "in": "path",
+            "description": "The name of the summoner to get recommendations for",
             "required": true,
             "type": "string",
-            "description": "The summoner name to get recommendations for",
             "default": "Alokin1112"
           },
           {
             "name": "number_of_recommendations",
             "in": "query",
+            "description": "The number of recommendations to return",
             "required": false,
             "type": "integer",
-            "default": 10,
-            "description": "Number of recommendations to return"
+            "default": 10
           }
         ],
         "responses": {
           "200": {
-            "description": "A list of player recommendations",
+            "description": "A list of recommendations",
             "schema": {
               "type": "array",
               "items": {
-                "$ref": "#/definitions/PlayerRecommendation"
+                "type": "object",
+                "properties": {
+                  "age": {
+                    "type": "integer"
+                  },
+                  "country": {
+                    "type": "string"
+                  },
+                  "languages": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "level": {
+                    "type": "integer"
+                  },
+                  "losses": {
+                    "type": "integer"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "rank": {
+                    "type": "string"
+                  },
+                  "sex": {
+                    "type": "string"
+                  },
+                  "tier": {
+                    "type": "string"
+                  },
+                  "wins": {
+                    "type": "integer"
+                  }
+                }
               }
             }
-          },
-          "400": {
-            "description": "Invalid request"
           }
         }
       }
-    }
-  },
-  "definitions": {
-    "PlayerRecommendation": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "sex": {
-          "type": "string"
-        },
-        "country": {
-          "type": "string"
-        },
-        "languages": {
-          "type": "array",
-          "items": {
+    },
+    "/recommendation/update/{summoner_name}": {
+      "post": {
+        "tags": ["recommendation"],
+        "summary": "Update the status of a recommendation",
+        "description": "",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "summoner_name",
+            "in": "path",
+            "description": "The name of the summoner",
+            "required": true,
             "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Status update information",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "recommendation": {
+                  "type": "string",
+                  "description": "The recommendation to update"
+                },
+                "status": {
+                  "type": "string",
+                  "description": "The new status of the recommendation ('accept' or 'reject')"
+                }
+              }
+            }
           }
-        },
-        "level": {
-          "type": "integer"
-        },
-        "tier": {
-          "type": "string"
-        },
-        "rank": {
-          "type": "string"
-        },
-        "wins": {
-          "type": "integer"
-        },
-        "losses": {
-          "type": "integer"
-        },
-        "win_rate": {
-          "type": "number"
-        },
-        "roles": {
-          "type": "array",
-          "items": {
-            "type": "string"
+        ],
+        "responses": {
+          "200": {
+            "description": "Status update confirmation",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string"
+                }
+              }
+            }
           }
-        },
-        "game_modes": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "age": {
-          "type": "integer"
         }
       }
     }

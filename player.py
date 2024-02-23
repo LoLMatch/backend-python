@@ -13,6 +13,8 @@ class Player:
         self.age = age
         self.preferred_champions_and_lines = preferred_champions_and_lines
         self.already_recommended = {}  # Assuming we want to keep track of recommendations as in PlayerRecommender
+        self.accepted_recommendations = []
+        self.rejected_recommendations = []
 
     @staticmethod
     def calculate_win_rate(wins, losses):

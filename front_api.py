@@ -57,5 +57,25 @@ def get_recommendations(summoner_name):
     return jsonify(recommendations), 200
 
 
+@app.route('/recommendation/update/<string:summoner_name>', methods=['POST'])
+def update_recommendation_status(summoner_name):
+    if request.method == 'POST':
+        data = request.get_json()
+        recommendation = data.get('recommendation')
+        status = data.get('status')  # 'accept' or 'reject'
+
+        user = create_player(
+            summoner_name)  # In a real-world scenario, you'd retrieve the user object from a database or session
+
+        if status == 'accept':
+            user.accepted_recommendations.append(recommendation)
+        elif status == 'reject':
+            user.rejected_recommendations.append(recommendation)
+
+        # In a real-world scenario, you'd save the user object back to the database or session here
+
+        return jsonify({"message": f"Recommendation {recommendation} has been {status}ed."}), 200
+
+
 if __name__ == '__main__':
     app.run(debug=True)
