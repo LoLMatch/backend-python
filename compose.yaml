@@ -9,14 +9,12 @@ services:
     ports:
       - "5432:5432"
 
-  web:
+  app:
     build: .
-    command: flask run --host=0.0.0.0
-    volumes:
-      - .:/app
     ports:
       - "5000:5000"
     environment:
+      FLASK_RUN_HOST: 0.0.0.0
       FLASK_APP: front_api
     depends_on:
       - db
