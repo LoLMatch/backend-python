@@ -1,5 +1,5 @@
 class Player:
-    def __init__(self, name, sex, country, languages, level, tier, rank, wins, losses, roles, game_modes, age, favorite_champions_and_lines):
+    def __init__(self, name, sex, country, languages, level, tier, rank, wins, losses, age, preferred_champions_and_lines):
         self.name = name
         self.sex = sex
         self.country = country
@@ -9,17 +9,12 @@ class Player:
         self.rank = rank
         self.wins = wins
         self.losses = losses
-        self.win_loss_percentage = self.calculate_win_loss_percentage(wins, losses)
-        self.roles = roles
-        self.game_modes = game_modes
+        self.win_rate = self.calculate_win_rate(wins, losses)
         self.age = age
-        self.favorite_champions_and_lines = favorite_champions_and_lines
+        self.preferred_champions_and_lines = preferred_champions_and_lines
         self.already_recommended = {}  # Assuming we want to keep track of recommendations as in PlayerRecommender
 
     @staticmethod
-    def calculate_win_loss_percentage(wins, losses):
+    def calculate_win_rate(wins, losses):
         return wins / (wins + losses) * 100 if (wins + losses) != 0 else 0
 
-# rangi idą w dół (silver I > silver IV)
-# zrobić forcowanie że muszą na siebie trafić
-# napisać maila do riot

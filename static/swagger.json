@@ -1,0 +1,108 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Summoner Recommender API",
+    "description": "API for getting player recommendations in a League of Legends teammate finding application.",
+    "version": "1.0.0"
+  },
+  "host": "localhost:5000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/recommendations/{summoner_name}": {
+      "get": {
+        "summary": "Get player recommendations",
+        "description": "Returns a list of player recommendations for a given summoner name.",
+        "parameters": [
+          {
+            "name": "summoner_name",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "description": "The summoner name to get recommendations for",
+            "default": "Alokin1112"
+          },
+          {
+            "name": "number_of_recommendations",
+            "in": "query",
+            "required": false,
+            "type": "integer",
+            "default": 10,
+            "description": "Number of recommendations to return"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of player recommendations",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/PlayerRecommendation"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "PlayerRecommendation": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "sex": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "level": {
+          "type": "integer"
+        },
+        "tier": {
+          "type": "string"
+        },
+        "rank": {
+          "type": "string"
+        },
+        "wins": {
+          "type": "integer"
+        },
+        "losses": {
+          "type": "integer"
+        },
+        "win_rate": {
+          "type": "number"
+        },
+        "roles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "game_modes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "age": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

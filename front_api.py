@@ -2,13 +2,26 @@ from flask import Flask, request, jsonify
 import player
 import player_recommender
 import json
+from flask_swagger_ui import get_swaggerui_blueprint
 
 app = Flask(__name__)
 
+SWAGGER_URL = '/api/docs'
+API_URL = '/static/swagger.json'
+
+swaggerui_blueprint = get_swaggerui_blueprint(
+    SWAGGER_URL,
+    API_URL,
+    config={
+        'app_name': "Summoner Recommender"
+    }
+)
+
+app.register_blueprint(swaggerui_blueprint, url_prefix=SWAGGER_URL)
 
 # Create player object
 def create_player(summoner_name):
-    with open('summoners.json', 'r') as f:
+    with open('static/summoners.json', 'r') as f:
         all_summoners = json.load(f)
 
     summoner_info = all_summoners[summoner_name]
@@ -20,18 +33,15 @@ def create_player(summoner_name):
     rank = summoner_info["rank"]
     wins = summoner_info["wins"]
     losses = summoner_info["losses"]
-    roles = summoner_info["preferred_roles"]
-    game_modes = summoner_info["preferred_gamemode"]
     age = summoner_info["age"]
-    favorite_champions_and_lines = None  # summoner_info["favorite_champions_and_lines"]
-    return player.Player(summoner_name, sex, country, languages, level, tier, rank, wins, losses, roles, game_modes,
-                         age, favorite_champions_and_lines)
+    preferred_champions_and_lines = summoner_info["preferred_champions_and_lines"]
+    return player.Player(summoner_name, sex, country, languages, level, tier, rank, wins, losses, age, preferred_champions_and_lines)
 
 
 # Get recommendations for a user
 @app.route('/recommendations/<string:summoner_name>', methods=['GET'])
 def get_recommendations(summoner_name):
-    number_of_recommendations = request.args.get('number_of_recommendations', default=1, type=int)
+    number_of_recommendations = request.args.get('number_of_recommendations', default=10, type=int)
 
     user = create_player(summoner_name)
     user_recommender = player_recommender.PlayerRecommender(user)

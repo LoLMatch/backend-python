@@ -1,4 +1,4 @@
 __pycache__/
 .DS_Store/
-summoners.json
+static/summoners.json
 test.py
