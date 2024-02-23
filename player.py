@@ -1,5 +1,5 @@
 class Player:
-    def __init__(self, name, sex, country, languages, level, tier, rank, wins, losses, roles, game_modes, age):
+    def __init__(self, name, sex, country, languages, level, tier, rank, wins, losses, roles, game_modes, age, favorite_champions_and_lines):
         self.name = name
         self.sex = sex
         self.country = country
@@ -13,6 +13,7 @@ class Player:
         self.roles = roles
         self.game_modes = game_modes
         self.age = age
+        self.favorite_champions_and_lines = favorite_champions_and_lines
         self.already_recommended = {}  # Assuming we want to keep track of recommendations as in PlayerRecommender
 
     @staticmethod

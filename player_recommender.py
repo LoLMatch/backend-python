@@ -39,7 +39,7 @@ class PlayerRecommender:
         try:
             with open('summoners.json', 'r') as f:
                 all_summoners = json.load(f)
-            self.recommendations = {name: info for name, info in all_summoners.items() if name not in self.summoner.already_recommended and self.matches_criteria(info)}
+            self.recommendations = {name: info for name, info in all_summoners.items() if name not in self.summoner.already_recommended and self.matches_criteria(info) and name != self.summoner.name}
         except FileNotFoundError:
             print("summoners.json file not found.")
 
