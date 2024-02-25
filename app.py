@@ -78,6 +78,7 @@ def login():
     user = User.query.filter_by(email = email)
     if not user:
         return {"Status" : "Failure", "Response" : "User not found"}
+
     
     if not check_password_hash(user.password, password):
         return {"Status" : "Failure", "Response" : "Wrong password"}
@@ -103,8 +104,12 @@ def profile():
             return {"Status" : "Failure", "Response" : "Invalid user ID"}
         if not User.query.filter_by(id = userId):
             return {"Status" : "Failure", "Response" : "User does not exist"}
+        
+        suppProfile = Profile.query.filter_by(userId = user.id)
+        if suppProfile:
+            db.session.delete(suppProfile)
+            db.session.commit()
 
-        # Na przyszłość można zrobić walidację na podstawie jakiejś bazy krajów 
         if len(country) > 30:
             return {"Status" : "Failure", "Response" : "Invalid country name length"}
         for i in country:
@@ -118,7 +123,6 @@ def profile():
                 if i not in COUNTRY_LANGUAGE_PATTERN:
                     return {"Status" : "Failure", "Response" : "Invalid language name"}
 
-        # YYYY-MM-DD
         try:
             datetime.date.fromisoformat(birthDate)
         except ValueError:
