@@ -12,7 +12,7 @@ services:
   app:
     build: .
     ports:
-      - "5000:5000"
+      - "5050:5050"
     environment:
       FLASK_RUN_HOST: 0.0.0.0
       FLASK_APP: front_api
