@@ -1,147 +1,165 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "API for Summoner Recommender system",
-    "version": "1.0.0",
-    "title": "Summoner Recommender API"
+    "title": "Summoner Recommender",
+    "description": "API for recommending League of Legends summoners and managing recommendations.",
+    "version": "1.0.0"
   },
   "host": "localhost:5000",
   "basePath": "/",
-  "tags": [
-    {
-      "name": "recommendation",
-      "description": "Operations related to recommendations"
-    }
-  ],
   "schemes": [
     "http"
   ],
   "paths": {
-    "/recommendations/{summoner_name}": {
+    "/matches/{summoner_name}": {
       "get": {
-        "tags": ["recommendation"],
-        "summary": "Get recommendations for a summoner",
-        "description": "",
-        "produces": [
-          "application/json"
-        ],
+        "summary": "Get matches for a summoner",
+        "description": "Returns all matches for the given summoner name.",
         "parameters": [
           {
             "name": "summoner_name",
             "in": "path",
-            "description": "The name of the summoner to get recommendations for",
             "required": true,
             "type": "string",
-            "default": "Alokin1112"
-          },
-          {
-            "name": "number_of_recommendations",
-            "in": "query",
-            "description": "The number of recommendations to return",
-            "required": false,
-            "type": "integer",
-            "default": 10
+            "description": "The summoner's name to retrieve matches for"
           }
         ],
         "responses": {
           "200": {
-            "description": "A list of recommendations",
+            "description": "A list of matches",
             "schema": {
               "type": "array",
               "items": {
-                "type": "object",
-                "properties": {
-                  "age": {
-                    "type": "integer"
-                  },
-                  "country": {
-                    "type": "string"
-                  },
-                  "languages": {
-                    "type": "array",
-                    "items": {
-                      "type": "string"
-                    }
-                  },
-                  "level": {
-                    "type": "integer"
-                  },
-                  "losses": {
-                    "type": "integer"
-                  },
-                  "name": {
-                    "type": "string"
-                  },
-                  "rank": {
-                    "type": "string"
-                  },
-                  "sex": {
-                    "type": "string"
-                  },
-                  "tier": {
-                    "type": "string"
-                  },
-                  "wins": {
-                    "type": "integer"
-                  }
-                }
+                "$ref": "#/definitions/Match"
               }
             }
+          },
+          "404": {
+            "description": "Summoner not found"
+          }
+        }
+      }
+    },
+    "/recommendations/{summoner_name}": {
+      "get": {
+        "summary": "Get recommendations for a summoner",
+        "description": "Returns a list of recommended summoners based on the given summoner name.",
+        "parameters": [
+          {
+            "name": "summoner_name",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "number_of_recommendations",
+            "in": "query",
+            "required": false,
+            "type": "integer",
+            "default": 10,
+            "description": "The number of recommendations to return"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of summoner recommendations",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Recommendation"
+              }
+            }
+          },
+          "404": {
+            "description": "Summoner not found"
           }
         }
       }
     },
     "/recommendation/update/{summoner_name}": {
       "post": {
-        "tags": ["recommendation"],
-        "summary": "Update the status of a recommendation",
-        "description": "",
-        "consumes": [
-          "application/json"
-        ],
-        "produces": [
-          "application/json"
-        ],
+        "summary": "Update recommendation status",
+        "description": "Updates the status of a recommendation for a summoner.",
         "parameters": [
           {
             "name": "summoner_name",
             "in": "path",
-            "description": "The name of the summoner",
             "required": true,
             "type": "string"
           },
           {
-            "in": "body",
             "name": "body",
-            "description": "Status update information",
+            "in": "body",
             "required": true,
             "schema": {
-              "type": "object",
-              "properties": {
-                "recommendation": {
-                  "type": "string",
-                  "description": "The recommendation to update"
-                },
-                "status": {
-                  "type": "string",
-                  "description": "The new status of the recommendation ('accept' or 'reject')"
-                }
-              }
+              "$ref": "#/definitions/RecommendationUpdate"
             }
           }
         ],
         "responses": {
           "200": {
-            "description": "Status update confirmation",
+            "description": "Recommendation status updated successfully",
             "schema": {
-              "type": "object",
-              "properties": {
-                "message": {
-                  "type": "string"
-                }
-              }
+              "$ref": "#/definitions/UpdateResponse"
             }
+          },
+          "400": {
+            "description": "Invalid request"
           }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Match": {
+      "type": "object",
+      "properties": {
+        "summoner1_id": {
+          "type": "integer"
+        },
+        "summoner2_id": {
+          "type": "integer"
+        },
+        "match_date": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "Recommendation": {
+      "type": "object",
+      "properties": {
+        "summoner_name": {
+          "type": "string"
+        },
+        "recommendation_reason": {
+          "type": "string"
+        }
+      }
+    },
+    "RecommendationUpdate": {
+      "type": "object",
+      "required": ["recommendation", "status"],
+      "properties": {
+        "recommendation": {
+          "type": "string",
+          "description": "The recommended summoner's name"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["accept", "reject"],
+          "description": "The status of the recommendation"
+        }
+      }
+    },
+    "UpdateResponse": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string"
+        },
+        "match": {
+          "type": "boolean"
         }
       }
     }
