@@ -1,7 +1,14 @@
+import sys
+from pathlib import Path
+
+current_dir = Path(__file__).parent.absolute()
+parent_dir = current_dir.parent
+sys.path.append(str(parent_dir))
+
 from flask import Flask, request, jsonify
-from connect import execute_query, fetch_one
-from summoner import Summoner
-from recommender import Recommender
+from utils.connect import execute_query, fetch_one
+from recommendations.summoner import Summoner
+from recommendations.recommender import Recommender
 from flask_swagger_ui import get_swaggerui_blueprint
 from flask_cors import CORS
 from datetime import datetime

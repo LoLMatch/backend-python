@@ -1,5 +1,12 @@
+import sys
+from pathlib import Path
+
+current_dir = Path(__file__).parent.absolute()
+parent_dir = current_dir.parent
+sys.path.append(str(parent_dir))
+
 import random
-from connect import fetch_all, fetch_one
+from utils.connect import fetch_all, fetch_one
 
 class Recommender:
     def __init__(self, summoner):
