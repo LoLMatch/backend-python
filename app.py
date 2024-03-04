@@ -1,89 +1,19 @@
 from flask import Flask, request, abort
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
-from datetime import datetime
+from datetime import datetime 
 
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
 db = SQLAlchemy(app)
 
-class User(db.Model()):
-    id = db.Column(db.Integer, primary_key = True)
-    username = db.Column(db.String(30))
-    email = db.Column(db.String(30))
-    password = db.Column(db.String(256))
-
 class Profile(db.Model()):
     id = db.Column(db.Integer, primary_key = True)
-    userId = db.Column(db.Integer, db.foreign_key(User.id))
+    userId = db.Column(db.Integer, nullable = False)
     country = db.Column(db.String(20))
     languages = db.Column(db.String(200))
     birthDate = db.Column(db.Date)
     about = db.Columnn(db.Text)
-
-USERNAME_PATTERN = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_-"
-EMAIL_PATTERN = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_-@"
-
-@app.route("/register", methods = ["POST"])
-def register():
-    try:
-        username = request.json["username"]
-        email = request.json["email"]
-        password = request.json["password"]
-        rpassword = request.json["repeat_password"]
-    except:
-        abort(400)
-    
-    if len(username) > 30 or len(username) < 1:
-        return {"Status" : "Failure", "Response" : "Invalid username length"}
-    for i in username:
-        if i not in USERNAME_PATTERN:
-            return {"Status" : "Failure", "Response" : "Invalid username"}
-        
-    if len(email) > 30 or len(email) < 1:
-        return {"Status" : "Failure", "Response" : "Invalid email length"}
-    for i in email:
-        if i not in EMAIL_PATTERN:
-            return {"Status" : "Failure", "Response" : "Invalid email"}
-    if "@" not in email:
-        return {"Status" : "Failure", "Response" : "Invalid email"}
-    
-    if password != rpassword:
-        return {"Status" : "Failure", "Response" : "Passwords don't lol-match (hehe)"}
-    
-    hpw = generate_password_hash(password)
-
-    newUser = User(username = username, email = email, password = hpw)
-    db.session.add(newUser)
-    db.session.commit()
-
-    return {"Status" : "Success", "Response" : "User registered", "ID" : newUser.id}
-
-@app.route("/login", methods = ["POST"])
-def login():
-    try:
-        email = request.json["email"]
-        password = request.json["password"]
-    except:
-        abort(400)
-
-    if len(email) > 30 or len(email) < 1:
-        return {"Status" : "Failure", "Response" : "Invalid email length"}
-    for i in email:
-        if i not in EMAIL_PATTERN:
-            return {"Status" : "Failure", "Response" : "Invalid email"}
-    if "@" not in email:
-        return {"Status" : "Failure", "Response" : "Invalid email"}
-
-    user = User.query.filter_by(email = email)
-    if not user:
-        return {"Status" : "Failure", "Response" : "User not found"}
-
-    
-    if not check_password_hash(user.password, password):
-        return {"Status" : "Failure", "Response" : "Wrong password"}
-
-    return {"Status" : "Success", "Response" : "User logged in", "ID" : user.id}
 
 COUNTRY_LANGUAGE_PATTERN = "abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ -"
 ABOUT_PATTERN = "abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ -().,;\"'!?"
@@ -102,10 +32,10 @@ def profile():
 
         if type(userId) != int:
             return {"Status" : "Failure", "Response" : "Invalid user ID"}
-        if not User.query.filter_by(id = userId):
+        if not doesUserExist(userId):
             return {"Status" : "Failure", "Response" : "User does not exist"}
         
-        suppProfile = Profile.query.filter_by(userId = user.id)
+        suppProfile = Profile.query.filter_by(userId = userId)
         if suppProfile:
             db.session.delete(suppProfile)
             db.session.commit()
@@ -146,12 +76,11 @@ def profile():
 
         if type(userId) != int:
             return {"Status" : "Failure", "Response" : "Invalid user ID"}
-        user = User.query.filter_by(id = userId)
-        if not user:
+        if not doesUserExist(userId):
             return {"Status" : "Failure", "Response" : "User does not exist"}
         
         profile = Profile.query.filter_by(userId = userId)
-        response = {"userId" : user.id, "username" : user.username, "country" : profile.country, "languages" : profile.languages, "birthDate" : profile.birthDate, "about" : profile.about}
+        response = {"userId" : userId, "username" : getUsernameById(userId), "country" : profile.country, "languages" : profile.languages, "birthDate" : profile.birthDate, "about" : profile.about}
 
         return {"Status" : "Success", "Response" : response}
     else:
@@ -159,3 +88,9 @@ def profile():
 
 if __name__ == "__main__":
     app.run(debug = True)
+
+def doesUserExist(userId):
+    return True
+
+def getUsernameById(userId):
+    return ""
