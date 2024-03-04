@@ -14,6 +14,7 @@ class Profile(db.Model()):
     languages = db.Column(db.String(200))
     birthDate = db.Column(db.Date)
     about = db.Columnn(db.Text)
+    pfpId = db.Column(db.Integer)
 
 COUNTRY_LANGUAGE_PATTERN = "abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ -"
 ABOUT_PATTERN = "abcdefhijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ -().,;\"'!?"
@@ -27,6 +28,7 @@ def profile():
             languages = request.json["languages"]
             birthDate = request.json["birthDate"]
             about = request.json["about"]
+            pfpId = request.json["pfpId"]
         except:
             abort(400)
 
@@ -62,7 +64,7 @@ def profile():
             if i not in ABOUT_PATTERN:
                 return {"Status" : "Failure", "Response" : "Invalid about section"}
         
-        newProfile = Profile(userId = userId, country = country, languges = "".join(languages), birthDate = datetime.strptime(birthDate, "%Y-%m-%d"), about = about)
+        newProfile = Profile(userId = userId, country = country, languges = "".join(languages), birthDate = datetime.strptime(birthDate, "%Y-%m-%d"), about = about, pfpId = pfpId)
         db.session.add(newProfile)
         db.session.commit()
 
