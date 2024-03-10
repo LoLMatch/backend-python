@@ -37,6 +37,9 @@ def get_matches(summoner_name):
     '''
     summoner_id = fetch_one(query, (summoner_name,))['id']
 
+    if not summoner_id:
+        return jsonify({"message": "Summoner not found."}), 404
+
     query = '''
         SELECT * FROM matches WHERE summoner1_id = %s OR summoner2_id = %s
     '''
@@ -85,19 +88,15 @@ def update_recommendation_status(summoner_name):
 
 def update_recommendation(summoner_name, recommended_summoner_name, status):
     match = False
-    summoner = Summoner.create_from_name(summoner_name)
-    recommended_summoner = Summoner.create_from_name(recommended_summoner_name)
-
-    if not summoner:
-        raise ValueError(f"Summoner {summoner_name} not found.")
-    if not recommended_summoner:
-        raise ValueError(f"Summoner {recommended_summoner_name} not found.")
 
     query = '''
         SELECT id FROM summoners WHERE name = %s
     '''
-    summoner_id = fetch_one(query, (summoner_name,))['id']
-    recommended_summoner_id = fetch_one(query, (recommended_summoner_name,))['id']
+    try:
+        summoner_id = fetch_one(query, (summoner_name,))['id']
+        recommended_summoner_id = fetch_one(query, (recommended_summoner_name,))['id']
+    except TypeError:
+        raise ValueError("Invalid summoner name.")
 
     if status == "accept":
         query = '''

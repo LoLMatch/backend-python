@@ -21,6 +21,8 @@ class Summoner:
         losses,
         age,
         preferred_champions_and_lines,
+        favourite_champion,
+        favourite_line,
         accepted_recommendations=[],
         rejected_recommendations=[],
     ):
@@ -36,6 +38,8 @@ class Summoner:
         self.win_rate = self.calculate_win_rate(wins, losses)
         self.age = age
         self.preferred_champions_and_lines = preferred_champions_and_lines
+        self.favourite_champion = favourite_champion
+        self.favourite_line = favourite_line
         self.accepted_recommendations = accepted_recommendations
         self.rejected_recommendations = rejected_recommendations
 
@@ -66,6 +70,14 @@ class Summoner:
                 "line": champion['line'],
             } for champion in champions]
 
+            favourite_champion_query = '''SELECT * FROM favourite_champions WHERE summoner_id = %s'''
+            champion = connect.fetch_one(favourite_champion_query, (summoner['id'],))
+            favourite_champion = {
+                "champion_id": champion['champion_id'],
+                "champion_name": champion['champion_name'],
+                "line": champion['line'],
+            }
+
             accepted_query = '''
                 SELECT * FROM accepted_recommendations WHERE summoner_id = %s
             '''
@@ -88,6 +100,8 @@ class Summoner:
                 summoner['losses'],
                 summoner['age'],
                 champions_list,
+                favourite_champion,
+                summoner['favourite_line'],
                 [rec['recommended_summoner_id'] for rec in accepted],
                 [rec['recommended_summoner_id'] for rec in rejected],
             )

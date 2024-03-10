@@ -72,6 +72,17 @@ class Recommender:
             for champion in champions_and_lines
         ]
 
+    def load_favourite_champion(self, summoner_id):
+        query = '''
+            SELECT * FROM favourite_champions WHERE summoner_id = %s
+        '''
+        champion = fetch_one(query, (summoner_id,))
+        return {
+            "champion_id": champion['champion_id'],
+            "champion_name": champion['champion_name'],
+            "line": champion['line'],
+        }
+
     def set_thresholds(self, relaxation=0.0):
         # Adjust thresholds based on the relaxation parameter
         summoner = self.summoner
@@ -109,16 +120,16 @@ class Recommender:
     def load_recommendations(self):
         relaxation = 0.0
         while (
-            len(self.recommendations) < 10
-        ):  # and relaxation <= 0.2:  # Adjust the threshold up to a certain point
+            len(self.recommendations) < 20
+        ):
             self.set_thresholds(relaxation)
             summoners = self.load_summoners_matching_criteria()
             for summoner in summoners:
                 summoner_id = summoner['id']
                 summoner_name = summoner['name']
                 if (
-                    summoner_name not in self.summoner.accepted_recommendations
-                    and summoner_name not in self.summoner.rejected_recommendations
+                    summoner_id not in self.summoner.accepted_recommendations
+                    and summoner_id not in self.summoner.rejected_recommendations
                 ):
                     long_description, short_description = self.load_summoner_descriptions(
                         summoner_id
@@ -127,6 +138,7 @@ class Recommender:
                     preferred_champions_and_lines = self.load_summoner_preferred_champions_and_lines(
                         summoner_id
                     )
+                    favourite_champion = self.load_favourite_champion(summoner_id)
                     summoner_info = {
                         "name": summoner_name,
                         "short_description": short_description,
@@ -138,6 +150,8 @@ class Recommender:
                         "losses": summoner['losses'],
                         "age": summoner['age'],
                         "preferred_champions_and_lines": preferred_champions_and_lines,
+                        "favourite_champion": favourite_champion,
+                        "favourite_line": summoner['favourite_line'],
                         "country": summoner['country'],
                         "win_rate": summoner['wins'] / (summoner['wins'] + summoner['losses']) if (summoner['wins'] + summoner['losses']) != 0 else 0,
                     }
@@ -148,21 +162,4 @@ class Recommender:
             relaxation += 0.05  # Increment to relax the criteria
 
     def get_recommendations(self, number_of_recommendations):
-        recommendations = []
-        for _ in range(number_of_recommendations):
-            recommended_summoner_info = self.recommend()
-            if recommended_summoner_info:
-                recommendations.append(recommended_summoner_info)
-            else:
-                break
-        return recommendations
-
-    def recommend(self):
-        if self.recommendations:
-            recommended_summoner_name = random.choice(list(self.recommendations.keys()))
-            recommended_summoner_info = self.recommendations.pop(
-                recommended_summoner_name
-            )
-            return recommended_summoner_info
-        else:
-            return None
+        return random.sample(list(self.recommendations.values()), number_of_recommendations)

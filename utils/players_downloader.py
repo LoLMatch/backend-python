@@ -27,7 +27,8 @@ create_summoners_table_query = '''
         rank VARCHAR(255) NOT NULL,
         wins INT NOT NULL,
         losses INT NOT NULL,
-        age INT NOT NULL
+        age INT NOT NULL,
+        favourite_line VARCHAR(255)
         )
     '''
 
@@ -55,6 +56,16 @@ create_summoners_languages_table_query = '''
 # table containing summoners' ids and their preferred champions and lines
 create_summoners_preferred_champions_and_lines_table_query = '''
     CREATE TABLE IF NOT EXISTS preferred_champions_and_lines (
+        summoner_id INT NOT NULL,
+        champion_id INT NOT NULL,
+        champion_name VARCHAR(255) NOT NULL,
+        line VARCHAR(255) NOT NULL,
+        FOREIGN KEY (summoner_id) REFERENCES summoners(id)
+    )
+    '''
+
+create_favourite_champions_table_query = '''
+    CREATE TABLE IF NOT EXISTS favourite_champions (
         summoner_id INT NOT NULL,
         champion_id INT NOT NULL,
         champion_name VARCHAR(255) NOT NULL,
@@ -99,7 +110,7 @@ create_matches_table_query = '''
     '''
 
 insert_into_summoners_table_query = '''
-    INSERT INTO summoners (name, puuid, sex, country, level, tier, rank, wins, losses, age) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    INSERT INTO summoners (name, puuid, sex, country, level, tier, rank, wins, losses, age, favourite_line) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     '''
 
 insert_into_summoners_descriptions_table_query = '''
@@ -112,6 +123,10 @@ insert_into_summoners_languages_table_query = '''
 
 insert_into_summoners_preferred_champions_and_lines_table_query = '''
     INSERT INTO preferred_champions_and_lines (summoner_id, champion_id, champion_name, line) VALUES (%s, %s, %s, %s)
+    '''
+
+insert_into_favourite_champions_table_query = '''
+    INSERT INTO favourite_champions (summoner_id, champion_id, champion_name, line) VALUES (%s, %s, %s, %s)
     '''
 
 drop_table_summoners_query = '''
@@ -128,6 +143,10 @@ drop_table_summoners_languages_query = '''
 
 drop_table_summoners_preferred_champions_and_lines_query = '''  
     DROP TABLE IF EXISTS preferred_champions_and_lines
+    '''
+
+drop_table_favorite_champions_query = '''
+    DROP TABLE IF EXISTS favourite_champions
     '''
 
 drop_table_summoners_recommendations_query = '''
@@ -159,6 +178,7 @@ cursor = conn.cursor()
 cursor.execute(drop_table_matches_query)
 cursor.execute(drop_table_summoners_rejected_recommendations_query)
 cursor.execute(drop_table_summoners_accepted_recommendations_query)
+cursor.execute(drop_table_favorite_champions_query)
 cursor.execute(drop_table_summoners_preferred_champions_and_lines_query)
 cursor.execute(drop_table_summoners_languages_query)
 cursor.execute(drop_table_summoners_descriptions_query)
@@ -168,6 +188,7 @@ cursor.execute(create_summoners_table_query)
 cursor.execute(create_summoners_descriptions_table_query)
 cursor.execute(create_summoners_languages_table_query)
 cursor.execute(create_summoners_preferred_champions_and_lines_table_query)
+cursor.execute(create_favourite_champions_table_query)
 cursor.execute(create_summoners_accepted_recommendations_table_query)
 cursor.execute(create_summoners_rejected_recommendations_table_query)
 cursor.execute(create_matches_table_query)
@@ -219,11 +240,12 @@ for summoner in summoners:
     summoner_wins = random.randint(0, 1000)
     summoner_losses = random.randint(0, 1000)
     summoner_age = random.randint(18, 35)
+    summoner_favourite_line = random.choice(roles)
     summoner_languages = random.sample(languages, random.randint(1, 5))
     preferred_champions = random.sample(champions, 3)
     preferred_lines = random.sample(roles, 3)
 
-    cursor.execute(insert_into_summoners_table_query, (summoner_name, summoner_puuid, summoner_sex, summoner_country, summoner_level, summoner_tier, summoner_rank, summoner_wins, summoner_losses, summoner_age))
+    cursor.execute(insert_into_summoners_table_query, (summoner_name, summoner_puuid, summoner_sex, summoner_country, summoner_level, summoner_tier, summoner_rank, summoner_wins, summoner_losses, summoner_age, summoner_favourite_line))
 
     cursor.execute("SELECT id FROM summoners WHERE name = %s", (summoner_name,))
     summoner_id = cursor.fetchone()[0]
@@ -235,6 +257,9 @@ for summoner in summoners:
 
     for champion in preferred_champions:
         cursor.execute(insert_into_summoners_preferred_champions_and_lines_table_query, (summoner_id, champion[0], champion[1], random.choice(preferred_lines)))
+
+    favourite_champion = random.choice(champions)
+    cursor.execute(insert_into_favourite_champions_table_query, (summoner_id, favourite_champion[0], favourite_champion[1], random.choice(roles)))
 
     conn.commit()
 
