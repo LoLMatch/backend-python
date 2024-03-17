@@ -3,18 +3,29 @@ services:
   db:
     image: postgres:latest
     environment:
-      POSTGRES_DB: db
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: mypassword
+      POSTGRES_PASSWORD: "${PASSWORD}"
+      POSTGRES_DB: "${DB_NAME}"
+      POSTGRES_USER: "${DB_USER}"
     ports:
-      - "5432:5432"
+      - "5432:${PORT}"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready", "-d", "${DB_NAME}"]
+      interval: 30s
+      timeout: 60s
+      retries: 5
+      start_period: 80s  
 
-  app:
+  api:
     build: .
     ports:
-      - "5050:5050"
+      - "9091:5000"
     environment:
       FLASK_RUN_HOST: 0.0.0.0
-      FLASK_APP: front_api
+      FLASK_APP: api/front_api
+      DB_PORT: ${PORT}
+      DB_NAME: "${DB_NAME}"
+      DB_USER: "${DB_USER}"
+      DB_PASSWORD: "${PASSWORD}"
+      DB_HOST: "db"
     depends_on:
       - db
