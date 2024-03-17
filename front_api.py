@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_sqlalchemy import SQLAlchemy
 import player
 import player_recommender
 import json
@@ -7,6 +8,10 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
+
+app = Flask(__name__)
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
+db = SQLAlchemy(app)
 
 SWAGGER_URL = '/api/docs'
 API_URL = '/static/swagger.json'
@@ -78,6 +83,10 @@ def update_recommendation_status(summoner_name):
 
         return jsonify({"message": f"Recommendation {recommendation} has been {status}ed."}), 200
 
+import profile_api
+@app.route("/profile", methods = ["POST", "GET"])
+def profile():
+    return profile_api.profile()
 
 if __name__ == '__main__':
     app.run(debug=True)
