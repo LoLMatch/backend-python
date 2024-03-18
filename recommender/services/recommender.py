@@ -1,12 +1,6 @@
-import sys
-from pathlib import Path
-
-current_dir = Path(__file__).parent.absolute()
-parent_dir = current_dir.parent
-sys.path.append(str(parent_dir))
-
 import random
-from utils.connect import fetch_all, fetch_one
+from ..db.database import fetch_all, fetch_one
+from .recommender_helpers import *
 
 class Recommender:
     def __init__(self, summoner):
@@ -40,48 +34,6 @@ class Recommender:
             self.summoner.name,
         )
         return fetch_all(query, params)
-
-    def load_summoner_descriptions(self, summoner_id):
-        query = '''
-            SELECT * FROM summoners_descriptions WHERE summoner_id = %s
-        '''
-        descriptions = fetch_one(query, (summoner_id,))
-        if descriptions:
-            return descriptions['description'], descriptions['short_description']
-        return None, None
-
-
-    def load_summoner_languages(self, summoner_id):
-        query = '''
-            SELECT * FROM languages_spoken WHERE summoner_id = %s
-        '''
-        languages = fetch_all(query, (summoner_id,))
-        return [language['language'] for language in languages]
-
-    def load_summoner_preferred_champions_and_lines(self, summoner_id):
-        query = '''
-            SELECT * FROM preferred_champions_and_lines WHERE summoner_id = %s
-        '''
-        champions_and_lines = fetch_all(query, (summoner_id,))
-        return [
-            {
-                "champion_id": champion['champion_id'],
-                "champion_name": champion['champion_name'],
-                "line": champion['line'],
-            }
-            for champion in champions_and_lines
-        ]
-
-    def load_favourite_champion(self, summoner_id):
-        query = '''
-            SELECT * FROM favourite_champions WHERE summoner_id = %s
-        '''
-        champion = fetch_one(query, (summoner_id,))
-        return {
-            "champion_id": champion['champion_id'],
-            "champion_name": champion['champion_name'],
-            "line": champion['line'],
-        }
 
     def set_thresholds(self, relaxation=0.0):
         # Adjust thresholds based on the relaxation parameter
@@ -131,14 +83,10 @@ class Recommender:
                     summoner_id not in self.summoner.accepted_recommendations
                     and summoner_id not in self.summoner.rejected_recommendations
                 ):
-                    long_description, short_description = self.load_summoner_descriptions(
-                        summoner_id
-                    )
-                    languages_spoken = self.load_summoner_languages(summoner_id)
-                    preferred_champions_and_lines = self.load_summoner_preferred_champions_and_lines(
-                        summoner_id
-                    )
-                    favourite_champion = self.load_favourite_champion(summoner_id)
+                    long_description, short_description = load_summoner_descriptions(summoner_id)
+                    languages_spoken = load_summoner_languages(summoner_id)
+                    preferred_champions_and_lines = load_summoner_preferred_champions_and_lines(summoner_id)
+                    favourite_champion = load_favourite_champion(summoner_id)
                     summoner_info = {
                         "name": summoner_name,
                         "short_description": short_description,
