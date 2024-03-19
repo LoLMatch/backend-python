@@ -1,11 +1,4 @@
-import sys
-from pathlib import Path
-
-current_dir = Path(__file__).parent.absolute()
-parent_dir = current_dir.parent
-sys.path.append(str(parent_dir))
-
-from utils import connect
+from ..db.database import fetch_all, fetch_one
 
 class Summoner:
     def __init__(
@@ -52,18 +45,18 @@ class Summoner:
         query = '''
             SELECT * FROM summoners WHERE name = %s
         '''
-        summoner = connect.fetch_one(query, (summoner_name,))
+        summoner = fetch_one(query, (summoner_name,))
         if summoner:
             languages_query = '''
                 SELECT * FROM languages_spoken WHERE summoner_id = %s
             '''
-            languages = connect.fetch_all(languages_query, (summoner['id'],))
+            languages = fetch_all(languages_query, (summoner['id'],))
             languages_list = [language['language'] for language in languages]
 
             champions_query = '''
                 SELECT * FROM preferred_champions_and_lines WHERE summoner_id = %s
             '''
-            champions = connect.fetch_all(champions_query, (summoner['id'],))
+            champions = fetch_all(champions_query, (summoner['id'],))
             champions_list = [{
                 "champion_id": champion['champion_id'],
                 "champion_name": champion['champion_name'],
@@ -71,7 +64,7 @@ class Summoner:
             } for champion in champions]
 
             favourite_champion_query = '''SELECT * FROM favourite_champions WHERE summoner_id = %s'''
-            champion = connect.fetch_one(favourite_champion_query, (summoner['id'],))
+            champion = fetch_one(favourite_champion_query, (summoner['id'],))
             favourite_champion = {
                 "champion_id": champion['champion_id'],
                 "champion_name": champion['champion_name'],
@@ -81,12 +74,12 @@ class Summoner:
             accepted_query = '''
                 SELECT * FROM accepted_recommendations WHERE summoner_id = %s
             '''
-            accepted = connect.fetch_all(accepted_query, (summoner['id'],))
+            accepted = fetch_all(accepted_query, (summoner['id'],))
 
             rejected_query = '''
                 SELECT * FROM rejected_recommendations WHERE summoner_id = %s
             '''
-            rejected = connect.fetch_all(rejected_query, (summoner['id'],))
+            rejected = fetch_all(rejected_query, (summoner['id'],))
             
             return cls(
                 summoner['name'],
