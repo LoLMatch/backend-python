@@ -1,4 +1,4 @@
-from ..db.database import execute_query
+from ..db.database import get_db_connection, execute_query
 from ..services.front_api_helpers import get_summoner_id
 from ..services import riot_api_functions
 import os, random
@@ -113,7 +113,7 @@ insert_into_favourite_champions_table_query = '''
     INSERT INTO favourite_champions (summoner_id, champion_id, champion_name, line) VALUES (%s, %s, %s, %s)
     '''
 
-def drop_tables():
+def drop_tables(conn):
     commands = [
         '''DROP TABLE IF EXISTS matches''',
         '''DROP TABLE IF EXISTS rejected_recommendations''',
@@ -126,9 +126,9 @@ def drop_tables():
         '''DROP TABLE IF EXISTS summoners'''
     ]
     for command in commands:
-        execute_query(command, commit=True)
+        execute_query(command, conn, commit=True)
 
-def create_tables():
+def create_tables(conn):
     commands = [
         create_summoners_table_query,
         create_summoners_descriptions_table_query,
@@ -140,7 +140,7 @@ def create_tables():
         create_matches_table_query
     ]
     for command in commands:
-        execute_query(command, commit=True)
+        execute_query(command, conn, commit=True)
 
 def prepare_summoners_set():
     summoners = set()
@@ -196,8 +196,11 @@ def generate_summoner_details(summoner, champions_json):
     return [summoner_name, summoner_puuid, summoner_sex, summoner_country, summoner_level, summoner_tier, summoner_rank, summoner_wins, summoner_losses, summoner_age, summoner_favourite_line, description, short_description, summoner_languages, summoner_preferred_champions, summoner_preferred_lines]
 
 def init_db():
-    drop_tables()
-    create_tables()
+    print("Initializing database...")
+    conn = get_db_connection()
+
+    drop_tables(conn)
+    create_tables(conn)
 
     summoners = prepare_summoners_set()
 
@@ -207,15 +210,13 @@ def init_db():
 
     for summoner_id, summoner in enumerate(summoners):
         summoner_details = generate_summoner_details(summoner, champions_json)
-        execute_query(insert_into_summoners_table_query, (summoner_id, summoner_details[0], summoner_details[1], summoner_details[2], summoner_details[3], summoner_details[4], summoner_details[5], summoner_details[6], summoner_details[7], summoner_details[8], summoner_details[9], summoner_details[10]), commit=True)
-        if summoner_id % 100 == 0:
-            print(f'Generated summoner {summoner[0]} with id {summoner_id}.')
-        execute_query(insert_into_summoners_descriptions_table_query, (summoner_id, summoner_details[-5], summoner_details[-4]), commit=True)
+        execute_query(insert_into_summoners_table_query, conn, (summoner_id, summoner_details[0], summoner_details[1], summoner_details[2], summoner_details[3], summoner_details[4], summoner_details[5], summoner_details[6], summoner_details[7], summoner_details[8], summoner_details[9], summoner_details[10]))
+        execute_query(insert_into_summoners_descriptions_table_query, conn, (summoner_id, summoner_details[-5], summoner_details[-4]))
         for language in summoner_details[-3]:
-            execute_query(insert_into_summoners_languages_table_query, (summoner_id, language), commit=True)
+            execute_query(insert_into_summoners_languages_table_query, conn, (summoner_id, language))
         for champion in summoner_details[-2]:
-            execute_query(insert_into_summoners_preferred_champions_and_lines_table_query, (summoner_id, champion[0], champion[1], random.choice(summoner_details[-1])), commit=True)
-        execute_query(insert_into_favourite_champions_table_query, (summoner_id, random.choice(summoner_details[-2])[0], random.choice(summoner_details[-2])[1], random.choice(summoner_details[-1])), commit=True)
+            execute_query(insert_into_summoners_preferred_champions_and_lines_table_query, conn, (summoner_id, champion[0], champion[1], random.choice(summoner_details[-1])), commit=True)
+        execute_query(insert_into_favourite_champions_table_query, conn, (summoner_id, random.choice(summoner_details[-2])[0], random.choice(summoner_details[-2])[1], random.choice(summoner_details[-1])), commit=True)
 
     print("Database initialized.")
 

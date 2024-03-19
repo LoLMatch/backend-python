@@ -1,11 +1,13 @@
-FROM python:alpine3.10
+FROM python:alpine3.19
+
+RUN addgroup -S usergroup && adduser -S user -G usergroup
 
 WORKDIR /app
 
-COPY . /app
+COPY . .
 
-COPY requirements.txt requirements.txt
+RUN apk update && apk add postgresql-dev gcc python3-dev musl-dev  && pip install -r requirements.txt
 
-RUN pip install -r requirements.txt
+USER user
 
-ENTRYPOINT [ "flask", "run" ]
+ENTRYPOINT [ "python", "-m", "main" ]

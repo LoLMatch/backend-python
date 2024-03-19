@@ -1,5 +1,6 @@
 import psycopg2
 from psycopg2.extras import RealDictCursor
+import os
 
 def get_db_connection():
     return psycopg2.connect(
@@ -22,9 +23,8 @@ def fetch_all(query, params=None):
             cur.execute(query, params)
             return cur.fetchall()
 
-def execute_query(query, params=None, commit=False):
-    with get_db_connection() as conn:
-        with conn.cursor() as cur:
-            cur.execute(query, params)
-            if commit:
-                conn.commit()
+def execute_query(query, conn=get_db_connection, params=None, commit=False):
+    with conn.cursor() as cur:
+        cur.execute(query, params)
+        if commit:
+            conn.commit()
