@@ -36,12 +36,11 @@ class Recommender:
         return fetch_all(query, params)
 
     def set_thresholds(self, relaxation=0.0):
-        # Adjust thresholds based on the relaxation parameter
         summoner = self.summoner
         self.thresholds = {
             "min_level": round((0.9 - relaxation) * summoner.level),
             "max_level": round((1.1 + relaxation) * summoner.level),
-            "tier": summoner.tier,  # Assuming tier is a strict match, not relaxed
+            "tier": summoner.tier,
             "min_games_played": round(
                 (0.9 - relaxation) * (summoner.wins + summoner.losses)
             ),
@@ -107,7 +106,7 @@ class Recommender:
                     if summoner_name not in self.recommendations:
                         self.recommendations[summoner_name] = summoner_info
 
-            relaxation += 0.05  # Increment to relax the criteria
+            relaxation += 0.05
 
     def get_recommendations(self, number_of_recommendations):
         return random.sample(list(self.recommendations.values()), number_of_recommendations)

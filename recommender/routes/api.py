@@ -5,7 +5,6 @@ from ..services.summoner import Summoner
 
 main = Blueprint("main", __name__)
 
-# Get matches
 @main.route("/matches/<string:summoner_name>", methods=["GET"])
 def get_matches(summoner_name):
     summoner_id = get_summoner_id(summoner_name)
@@ -17,7 +16,6 @@ def get_matches(summoner_name):
     return jsonify(matches), 200
 
 
-# Get recommendations for a user
 @main.route("/recommendations/<string:summoner_name>", methods=["GET"])
 def get_recommendations(summoner_name):
     number_of_recommendations = request.args.get(
