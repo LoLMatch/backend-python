@@ -5,6 +5,7 @@ from ..services.summoner import Summoner
 
 main = Blueprint("main", __name__)
 
+
 @main.route("/matches/<string:summoner_name>", methods=["GET"])
 def get_matches(summoner_name):
     summoner_id = get_summoner_id(summoner_name)
@@ -65,4 +66,3 @@ def update_recommendation_status(summoner_name):
             )
         except ValueError as e:
             return jsonify({"message": str(e)}), 400
-

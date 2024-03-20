@@ -1,6 +1,7 @@
 from ..db.database import execute_query, fetch_one, fetch_all
 from datetime import datetime
 
+
 def get_summoner_id(summoner_name):
     query = """
         SELECT id FROM summoners WHERE name = %s
@@ -12,6 +13,7 @@ def get_summoner_id(summoner_name):
 
     return summoner_id
 
+
 def get_summoner_matches(summoner_id):
     query = """
         SELECT * FROM matches WHERE summoner1_id = %s OR summoner2_id = %s
@@ -19,6 +21,7 @@ def get_summoner_matches(summoner_id):
     matches = fetch_all(query, (summoner_id, summoner_id))
 
     return matches
+
 
 def update_recommendation(summoner_id, recommended_summoner_id, status):
 
@@ -36,6 +39,7 @@ def update_recommendation(summoner_id, recommended_summoner_id, status):
     execute_query(
         query, (summoner_id, recommended_summoner_id, datetime.today()), commit=True
     )
+
 
 def check_if_match(summoner_id, recommended_summoner_id):
     match = False
