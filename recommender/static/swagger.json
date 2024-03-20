@@ -1,0 +1,167 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Summoner Recommender",
+    "description": "API for recommending League of Legends summoners and managing recommendations.",
+    "version": "1.0.0"
+  },
+  "host": "localhost:5000",
+  "basePath": "/",
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/matches/{summoner_name}": {
+      "get": {
+        "summary": "Get matches for a summoner",
+        "description": "Returns all matches for the given summoner name.",
+        "parameters": [
+          {
+            "name": "summoner_name",
+            "in": "path",
+            "required": true,
+            "type": "string",
+            "description": "The summoner's name to retrieve matches for"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of matches",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Match"
+              }
+            }
+          },
+          "404": {
+            "description": "Summoner not found"
+          }
+        }
+      }
+    },
+    "/recommendations/{summoner_name}": {
+      "get": {
+        "summary": "Get recommendations for a summoner",
+        "description": "Returns a list of recommended summoners based on the given summoner name.",
+        "parameters": [
+          {
+            "name": "summoner_name",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "number_of_recommendations",
+            "in": "query",
+            "required": false,
+            "type": "integer",
+            "default": 10,
+            "description": "The number of recommendations to return"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "A list of summoner recommendations",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Recommendation"
+              }
+            }
+          },
+          "404": {
+            "description": "Summoner not found"
+          }
+        }
+      }
+    },
+    "/recommendation/update/{summoner_name}": {
+      "post": {
+        "summary": "Update recommendation status",
+        "description": "Updates the status of a recommendation for a summoner.",
+        "parameters": [
+          {
+            "name": "summoner_name",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/RecommendationUpdate"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Recommendation status updated successfully",
+            "schema": {
+              "$ref": "#/definitions/UpdateResponse"
+            }
+          },
+          "400": {
+            "description": "Invalid request"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Match": {
+      "type": "object",
+      "properties": {
+        "summoner1_id": {
+          "type": "integer"
+        },
+        "summoner2_id": {
+          "type": "integer"
+        },
+        "match_date": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "Recommendation": {
+      "type": "object",
+      "properties": {
+        "summoner_name": {
+          "type": "string"
+        },
+        "recommendation_reason": {
+          "type": "string"
+        }
+      }
+    },
+    "RecommendationUpdate": {
+      "type": "object",
+      "required": ["recommendation", "status"],
+      "properties": {
+        "recommendation": {
+          "type": "string",
+          "description": "The recommended summoner's name"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["accept", "reject"],
+          "description": "The status of the recommendation"
+        }
+      }
+    },
+    "UpdateResponse": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string"
+        },
+        "match": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
