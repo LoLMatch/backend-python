@@ -2,15 +2,6 @@ import psycopg2
 from psycopg2.extras import RealDictCursor
 import os
 
-# def get_db_connection():
-#     return psycopg2.connect(
-#         dbname="lolmatch",
-#         user="postgres",
-#         password="admin",
-#         port="5432",
-#         host="localhost"
-#     )
-
 
 def get_db_connection():
     return psycopg2.connect(
