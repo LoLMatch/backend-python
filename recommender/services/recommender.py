@@ -2,6 +2,7 @@ import random
 from ..db.database import fetch_all, fetch_one
 from .recommender_helpers import *
 
+
 class Recommender:
     def __init__(self, summoner):
         self.summoner = summoner
@@ -12,7 +13,7 @@ class Recommender:
 
     def load_summoners_matching_criteria(self):
         th = self.thresholds
-        query = '''
+        query = """
             SELECT * FROM summoners
             JOIN languages_spoken ON summoners.id = languages_spoken.summoner_id
             WHERE level BETWEEN %s AND %s
@@ -21,7 +22,7 @@ class Recommender:
             AND age BETWEEN %s AND %s
             AND languages_spoken.language IN %s
             AND summoners.name <> %s
-        '''
+        """
         params = (
             th["min_level"],
             th["max_level"],
@@ -71,37 +72,43 @@ class Recommender:
 
     def load_recommendations(self):
         relaxation = 0.0
-        while (
-            len(self.recommendations) < 20
-        ):
+        while len(self.recommendations) < 20:
             self.set_thresholds(relaxation)
             summoners = self.load_summoners_matching_criteria()
             for summoner in summoners:
-                summoner_id = summoner['id']
-                summoner_name = summoner['name']
+                summoner_id = summoner["id"]
+                summoner_name = summoner["name"]
                 if (
                     summoner_id not in self.summoner.accepted_recommendations
                     and summoner_id not in self.summoner.rejected_recommendations
                 ):
-                    long_description, short_description = load_summoner_descriptions(summoner_id)
+                    long_description, short_description = load_summoner_descriptions(
+                        summoner_id
+                    )
                     languages_spoken = load_summoner_languages(summoner_id)
-                    preferred_champions_and_lines = load_summoner_preferred_champions_and_lines(summoner_id)
+                    preferred_champions_and_lines = (
+                        load_summoner_preferred_champions_and_lines(summoner_id)
+                    )
                     favourite_champion = load_favourite_champion(summoner_id)
                     summoner_info = {
                         "name": summoner_name,
                         "short_description": short_description,
                         "long_description": long_description,
                         "languages": languages_spoken,
-                        "level": summoner['level'],
-                        "tier": summoner['tier'],
-                        "wins": summoner['wins'],
-                        "losses": summoner['losses'],
-                        "age": summoner['age'],
+                        "level": summoner["level"],
+                        "tier": summoner["tier"],
+                        "wins": summoner["wins"],
+                        "losses": summoner["losses"],
+                        "age": summoner["age"],
                         "preferred_champions_and_lines": preferred_champions_and_lines,
                         "favourite_champion": favourite_champion,
-                        "favourite_line": summoner['favourite_line'],
-                        "country": summoner['country'],
-                        "win_rate": summoner['wins'] / (summoner['wins'] + summoner['losses']) if (summoner['wins'] + summoner['losses']) != 0 else 0,
+                        "favourite_line": summoner["favourite_line"],
+                        "country": summoner["country"],
+                        "win_rate": (
+                            summoner["wins"] / (summoner["wins"] + summoner["losses"])
+                            if (summoner["wins"] + summoner["losses"]) != 0
+                            else 0
+                        ),
                     }
 
                     if summoner_name not in self.recommendations:
@@ -110,4 +117,6 @@ class Recommender:
             relaxation += 0.05  # Increment to relax the criteria
 
     def get_recommendations(self, number_of_recommendations):
-        return random.sample(list(self.recommendations.values()), number_of_recommendations)
+        return random.sample(
+            list(self.recommendations.values()), number_of_recommendations
+        )

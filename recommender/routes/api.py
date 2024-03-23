@@ -1,9 +1,15 @@
-from ..services.front_api_helpers import *
+from ..services.front_api_helpers import (
+    get_summoner_id,
+    get_summoner_matches,
+    update_recommendation,
+    check_if_match,
+)
 from flask import Blueprint, jsonify, request
 from ..services.recommender import Recommender
 from ..services.summoner import Summoner
 
 main = Blueprint("main", __name__)
+
 
 @main.route("/matches/<string:summoner_name>", methods=["GET"])
 def get_matches(summoner_name):
@@ -65,4 +71,3 @@ def update_recommendation_status(summoner_name):
             )
         except ValueError as e:
             return jsonify({"message": str(e)}), 400
-

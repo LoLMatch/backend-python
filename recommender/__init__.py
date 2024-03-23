@@ -7,6 +7,7 @@ from recommender.db.init_db import init_db
 SWAGGER_URL = "/api/docs"
 API_URL = "/static/swagger.json"
 
+
 def create_app():
     init_db()
 
