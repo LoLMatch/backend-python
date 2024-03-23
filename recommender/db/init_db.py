@@ -1,5 +1,4 @@
 from ..db.database import get_db_connection, execute_query
-from ..services.front_api_helpers import get_summoner_id
 from ..services import riot_api_functions
 import os
 import random
