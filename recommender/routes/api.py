@@ -1,4 +1,9 @@
-from ..services.front_api_helpers import *
+from ..services.front_api_helpers import (
+    get_summoner_id,
+    get_summoner_matches,
+    update_recommendation,
+    check_if_match,
+)
 from flask import Blueprint, jsonify, request
 from ..services.recommender import Recommender
 from ..services.summoner import Summoner

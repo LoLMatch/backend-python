@@ -37,7 +37,9 @@ def update_recommendation(summoner_id, recommended_summoner_id, status):
         raise ValueError("Invalid status. Status must be 'accept' or 'reject'.")
 
     execute_query(
-        query, (summoner_id, recommended_summoner_id, datetime.today()), commit=True
+        query=query,
+        params=(summoner_id, recommended_summoner_id, datetime.today()),
+        commit=True,
     )
 
 

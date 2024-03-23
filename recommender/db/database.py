@@ -27,7 +27,9 @@ def fetch_all(query, params=None):
             return cur.fetchall()
 
 
-def execute_query(query, conn=get_db_connection, params=None, commit=False):
+def execute_query(query, conn=None, params=None, commit=False):
+    if not conn:
+        conn = get_db_connection()
     with conn.cursor() as cur:
         cur.execute(query, params)
         if commit:
