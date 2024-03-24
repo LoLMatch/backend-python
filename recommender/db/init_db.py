@@ -4,8 +4,6 @@ from ..services import riot_api_functions
 import os
 import random
 
-API_KEY = "RGAPI-eea7cd80-2a38-4a4d-b0a5-f73c65e35194"
-
 create_summoners_table_query = """
     CREATE TABLE IF NOT EXISTS summoners (
         id SERIAL PRIMARY KEY,
@@ -262,6 +260,8 @@ def generate_summoner_details(summoner, champions_json):
 
 
 def init_db():
+    API_KEY = "RGAPI-eea7cd80-2a38-4a4d-b0a5-f73c65e35194"
+
     print("Initializing database...")
     conn = get_db_connection()
 

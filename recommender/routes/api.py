@@ -7,6 +7,7 @@ from ..services.front_api_helpers import (
 from flask import Blueprint, jsonify, request
 from ..services.recommender import Recommender
 from ..services.summoner import Summoner
+from ..services.riot_api_functions import RiotAPI
 
 main = Blueprint("main", __name__)
 
@@ -20,6 +21,36 @@ def get_matches(summoner_name):
 
     matches = get_summoner_matches(summoner_id)
     return jsonify(matches), 200
+
+
+@main.route("/champions/<string:api_key>", methods=["GET"])
+def get_champions(api_key):
+    result = list()
+
+    riot_api = RiotAPI(api_key=api_key)
+    latest_version = riot_api.get_latest_version()[0]
+
+    riot_api_response = riot_api.get_champions(latest_version)
+
+    if "data" not in riot_api_response:
+        return jsonify({"message": "Invalid API key."}), 400
+
+    champions = riot_api_response["data"]
+
+    for champion in champions:
+        champion_data = champions[champion]
+        champion_id = champion_data["key"]
+        champion_name = champion_data["name"]
+        result.append({"id": champion_id, "name": champion_name})
+
+    return jsonify(result), 200
+
+
+@main.route("/champion-rotations/<string:api_key>", methods=["GET"])
+def get_champion_rotations(api_key):
+    riot_api = RiotAPI(api_key=api_key)
+    champion_rotations = riot_api.get_champion_rotations()
+    return jsonify(champion_rotations), 200
 
 
 @main.route("/recommendations/<string:summoner_name>", methods=["GET"])
@@ -71,3 +102,4 @@ def update_recommendation_status(summoner_name):
             )
         except ValueError as e:
             return jsonify({"message": str(e)}), 400
+
