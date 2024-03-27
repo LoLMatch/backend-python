@@ -40,6 +40,57 @@
         }
       }
     },
+    "/champions": {
+      "get": {
+        "summary": "Get all champions",
+        "description": "Returns a list of all League of Legends champions.",
+        "responses": {
+          "200": {
+            "description": "A list of champions",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Champion"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/champion-rotations": {
+      "get": {
+        "summary": "Get free champion rotations",
+        "description": "Returns the current free champion rotations.",
+        "responses": {
+          "200": {
+            "description": "A dictionary of free champions, free champions for new players and max new player level.",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "free_champions": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/Champion"
+                  }
+                },
+                "free_champions_for_new_players": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/Champion"
+                  }
+                },
+                "max_new_player_level": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Champion rotations not found"
+          }
+        }
+      }
+    },
     "/recommendations/{summoner_name}": {
       "get": {
         "summary": "Get recommendations for a summoner",
@@ -105,6 +156,36 @@
           },
           "400": {
             "description": "Invalid request"
+          },
+          "404": {
+            "description": "Summoner not found"
+          }
+        }
+      }
+    },
+    "/profile": {
+      "post": {
+        "summary": "Create a new profile and add to the database",
+        "description": "Creates a new profile for a summoner.",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Profile"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Profile created successfully"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "409": {
+            "description": "Profile already exists"
           }
         }
       }
@@ -126,20 +207,145 @@
         }
       }
     },
+    "Champion": {
+      "type": "object",
+      "properties": {
+        "champion_id": {
+          "type": "integer"
+        },
+        "champion_name": {
+          "type": "string"
+        }
+      }
+    },
     "Recommendation": {
       "type": "object",
+      "properties": {
+        "age": {
+          "type": "integer"
+        },
+        "country": {
+          "type": "string"
+        },
+        "favorite_champion_id": {
+          "type": "integer"
+        },
+        "favourite_line": {
+          "type": "string"
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "level": {
+          "type": "integer"
+        },
+        "long_description": {
+          "type": "string"
+        },
+        "losses": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "preferred_champion_ids_and_lines": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "champion_id": {
+                "type": "integer"
+              },
+              "line": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "short_description": {
+          "type": "string"
+        },
+        "tier": {
+          "type": "string"
+        },
+        "win_rate": {
+          "type": "number"
+        },
+        "wins": {
+          "type": "integer"
+        }
+      }
+    },
+    "Profile": {
+      "type": "object",
+      "required": [
+        "summoner_name",
+        "sex",
+        "country",
+        "languages",
+        "age",
+        "preferred_champion_ids_and_lines",
+        "favourite_champion_id",
+        "favourite_line",
+        "long_description",
+        "short_description"
+      ],
       "properties": {
         "summoner_name": {
           "type": "string"
         },
-        "recommendation_reason": {
+        "sex": {
+          "type": "char"
+        },
+        "country": {
+          "type": "string"
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "age": {
+          "type": "integer"
+        },
+        "preferred_champion_ids_and_lines": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "champion_id": {
+                "type": "integer"
+              },
+              "line": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "favourite_champion_id": {
+          "type": "integer"
+        },
+        "favourite_line": {
+          "type": "string"
+        },
+        "long_description": {
+          "type": "string"
+        },
+        "short_description": {
           "type": "string"
         }
       }
     },
     "RecommendationUpdate": {
       "type": "object",
-      "required": ["recommendation", "status"],
+      "required": [
+        "recommendation",
+        "status"
+      ],
       "properties": {
         "recommendation": {
           "type": "string",
@@ -147,7 +353,10 @@
         },
         "status": {
           "type": "string",
-          "enum": ["accept", "reject"],
+          "enum": [
+            "accept",
+            "reject"
+          ],
           "description": "The status of the recommendation"
         }
       }

@@ -28,7 +28,6 @@ def load_summoner_preferred_champions_and_lines(summoner_id):
     return [
         {
             "champion_id": champion["champion_id"],
-            "champion_name": champion["champion_name"],
             "line": champion["line"],
         }
         for champion in champions_and_lines

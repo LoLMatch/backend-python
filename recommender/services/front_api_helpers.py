@@ -88,6 +88,15 @@ def summoner_entries(riot_api, summoner_puuid):
     )
 
 
+def champion_id_to_name(champion_id, api_key):
+    riot_api = RiotAPI(api_key=api_key)
+
+    return {
+        "champion_id": champion_id,
+        "champion_name": riot_api.map_champion_id_to_name(champion_id),
+    }
+
+
 def save_summoner_profile(
     api_key,
     summoner_name,

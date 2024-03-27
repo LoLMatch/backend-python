@@ -132,7 +132,7 @@ def drop_tables(conn):
         """DROP TABLE IF EXISTS recommendations""",
         """DROP TABLE IF EXISTS favourite_champions""",
         """DROP TABLE IF EXISTS preferred_champions_and_lines""",
-        """ DROP TABLE IF EXISTS champions""",
+        """DROP TABLE IF EXISTS champions""",
         """DROP TABLE IF EXISTS languages_spoken""",
         """DROP TABLE IF EXISTS summoners_descriptions""",
         """DROP TABLE IF EXISTS summoners""",
