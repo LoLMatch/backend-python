@@ -313,7 +313,7 @@ def init_db():
                 summoner_details[9],
                 summoner_details[10],
             ),
-            commit=True
+            commit=True,
         )
         execute_query(
             insert_into_summoners_descriptions_table_query,
@@ -345,7 +345,7 @@ def init_db():
                 random.choice(summoner_details[-2]),
                 random.choice(summoner_details[-1]),
             ),
-            commit=True
+            commit=True,
         )
 
     conn.close()

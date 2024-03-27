@@ -124,7 +124,7 @@ def save_summoner_profile(
             summoner_wins,
             summoner_losses,
             summoner_age,
-            favourite_line
+            favourite_line,
         ),
         commit=True,
     )
