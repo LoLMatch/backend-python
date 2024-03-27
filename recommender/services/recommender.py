@@ -1,5 +1,5 @@
 import random
-from ..db.database import fetch_all, fetch_one
+from ..db.database import fetch_all
 from .recommender_helpers import (
     load_summoner_descriptions,
     load_summoner_languages,
