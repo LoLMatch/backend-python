@@ -1,6 +1,11 @@
 import random
 from ..db.database import fetch_all, fetch_one
-from .recommender_helpers import *
+from .recommender_helpers import (
+    load_summoner_descriptions,
+    load_summoner_languages,
+    load_summoner_preferred_champions_and_lines,
+    load_favourite_champion,
+)
 
 
 class Recommender:

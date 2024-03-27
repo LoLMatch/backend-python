@@ -3,13 +3,17 @@ from ..services.front_api_helpers import (
     get_summoner_matches,
     update_recommendation,
     check_if_match,
+    save_summoner_profile,
 )
 from flask import Blueprint, jsonify, request
 from ..services.recommender import Recommender
 from ..services.summoner import Summoner
 from ..services.riot_api_functions import RiotAPI
+from ..db.database import get_db_connection, execute_query
 
 main = Blueprint("main", __name__)
+
+API_KEY = "RGAPI-8b53ca8c-8b3c-4470-9b82-94517072c7bf"
 
 
 @main.route("/matches/<string:summoner_name>", methods=["GET"])
@@ -23,33 +27,32 @@ def get_matches(summoner_name):
     return jsonify(matches), 200
 
 
-@main.route("/champions/<string:api_key>", methods=["GET"])
-def get_champions(api_key):
+@main.route("/champions", methods=["GET"])
+def get_champions():
     result = list()
 
-    riot_api = RiotAPI(api_key=api_key)
-    latest_version = riot_api.get_latest_version()[0]
-
-    riot_api_response = riot_api.get_champions(latest_version)
-
-    if "data" not in riot_api_response:
-        return jsonify({"message": "Invalid API key."}), 400
-
-    champions = riot_api_response["data"]
-
-    for champion in champions:
-        champion_data = champions[champion]
-        champion_id = champion_data["key"]
-        champion_name = champion_data["name"]
-        result.append({"id": champion_id, "name": champion_name})
+    conn = get_db_connection()
+    with conn.cursor() as cur:
+        cur.execute("SELECT * FROM champions")
+        for champion in cur.fetchall():
+            result.append(
+                {
+                    "champion_id": champion[0],
+                    "chmapion_name": champion[1],
+                }
+            )
 
     return jsonify(result), 200
 
 
-@main.route("/champion-rotations/<string:api_key>", methods=["GET"])
-def get_champion_rotations(api_key):
-    riot_api = RiotAPI(api_key=api_key)
+@main.route("/champion-rotations", methods=["GET"])
+def get_champion_rotations():
+    riot_api = RiotAPI(api_key=API_KEY)
     champion_rotations = riot_api.get_champion_rotations()
+
+    if not champion_rotations:
+        return jsonify({"message": "Invalid API key."}), 400
+
     return jsonify(champion_rotations), 200
 
 
@@ -103,3 +106,47 @@ def update_recommendation_status(summoner_name):
         except ValueError as e:
             return jsonify({"message": str(e)}), 400
 
+
+@main.route("/profile", methods=["POST"])
+def profile():
+    if request.method == "POST":
+        data = request.get_json()
+
+        try:
+            name = data.get("summoner_name")
+            sex = data.get("sex")
+            country = data.get("country")
+            languages = data.get("languages")
+            age = data.get("age")
+            preferred_champions_ids_and_lines = data.get(
+                "preferred_champions_ids_and_lines"
+            )
+            favourite_champion_id = data.get("favourite_champion_id")
+            favourite_line = data.get("favourite_line")
+            description = data.get("description")
+            short_description = data.get("short_description")
+        except KeyError:
+            return jsonify({"message": "Invalid request."}), 400
+
+        profile_exists = get_summoner_id(name)
+
+        if profile_exists:
+            return jsonify({"message": "Profile already exists."}), 400
+
+        save_summoner_profile(
+            API_KEY,
+            name,
+            sex,
+            country,
+            languages,
+            age,
+            preferred_champions_ids_and_lines,
+            favourite_champion_id,
+            favourite_line,
+            description,
+            short_description,
+        )
+
+        return jsonify({"message": "Profile saved."}), 200
+
+    return jsonify({"message": "Invalid request."}), 400

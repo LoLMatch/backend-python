@@ -3,12 +3,14 @@ from flask_cors import CORS
 from flask_swagger_ui import get_swaggerui_blueprint
 from recommender.routes.api import main
 from recommender.db.init_db import init_db
+from recommender.db.database import fetch_all, fetch_one
 
 SWAGGER_URL = "/api/docs"
 API_URL = "/static/swagger.json"
 
 
 def create_app():
+    print("Creating app...")
     init_db()
 
     app = Flask(__name__)

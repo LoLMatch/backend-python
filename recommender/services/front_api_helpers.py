@@ -1,4 +1,12 @@
-from ..db.database import execute_query, fetch_one, fetch_all
+from ..db.database import get_db_connection, execute_query, fetch_one, fetch_all
+from ..db.init_db import (
+    insert_into_summoners_table_query,
+    insert_into_summoners_preferred_champions_and_lines_table_query,
+    insert_into_summoners_languages_table_query,
+    insert_into_summoners_descriptions_table_query,
+    insert_into_favourite_champions_table_query,
+)
+from .riot_api_functions import RiotAPI
 from datetime import datetime
 
 
@@ -65,3 +73,89 @@ def check_if_match(summoner_id, recommended_summoner_id):
         )
 
     return match
+
+
+def summoner_entries(riot_api, summoner_puuid):
+    summoner_info = riot_api.get_summoner_info_by_puuid(summoner_puuid)
+    summoner_entries = riot_api.get_summoner_entries(summoner_puuid)
+
+    return (
+        summoner_info["summonerLevel"],
+        summoner_entries["tier"],
+        summoner_entries["rank"],
+        summoner_entries["wins"],
+        summoner_entries["losses"],
+    )
+
+
+def save_summoner_profile(
+    api_key,
+    summoner_name,
+    summoner_sex,
+    summoner_country,
+    summoner_languages,
+    summoner_age,
+    preferred_champions_ids_and_lines,
+    favourite_champion_id,
+    favourite_line,
+    description,
+    short_description,
+):
+    connection = get_db_connection()
+    riot_api = RiotAPI(api_key=api_key)
+    summoner_puuid = riot_api.get_summoner_info_by_name(summoner_name)["puuid"]
+    languages = [language for language in summoner_languages]
+
+    summoner_level, summoner_tier, summoner_rank, summoner_wins, summoner_losses = (
+        summoner_entries(riot_api, summoner_puuid)
+    )
+
+    execute_query(
+        query=insert_into_summoners_table_query,
+        conn=connection,
+        params=(
+            summoner_name,
+            summoner_puuid,
+            summoner_sex,
+            summoner_country,
+            summoner_level,
+            summoner_tier,
+            summoner_rank,
+            summoner_wins,
+            summoner_losses,
+            summoner_age,
+            favourite_line
+        ),
+        commit=True,
+    )
+
+    summoner_id = get_summoner_id(summoner_name)
+    execute_query(
+        query=insert_into_summoners_descriptions_table_query,
+        conn=connection,
+        params=(summoner_id, description, short_description),
+        commit=True,
+    )
+
+    for language in languages:
+        execute_query(
+            query=insert_into_summoners_languages_table_query,
+            conn=connection,
+            params=(summoner_id, language),
+            commit=True,
+        )
+
+    for champion in preferred_champions_ids_and_lines:
+        execute_query(
+            query=insert_into_summoners_preferred_champions_and_lines_table_query,
+            conn=connection,
+            params=(summoner_id, champion["champion_id"], champion["line"]),
+            commit=True,
+        )
+
+    execute_query(
+        query=insert_into_favourite_champions_table_query,
+        conn=connection,
+        params=(summoner_id, favourite_champion_id, favourite_line),
+        commit=True,
+    )
