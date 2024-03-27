@@ -3,22 +3,13 @@ from psycopg2.extras import RealDictCursor
 import os
 
 
-# def get_db_connection():
-#     return psycopg2.connect(
-#         dbname=os.getenv("DB_NAME"),
-#         user=os.getenv("DB_USER"),
-#         password=os.getenv("DB_PASSWORD"),
-#         port=os.getenv("DB_PORT"),
-#         host=os.getenv("DB_HOST"),
-#     )
-
 def get_db_connection():
     return psycopg2.connect(
-        dbname="lolmatch",
-        user="postgres",
-        password="admin",
-        port="5432",
-        host="localhost"
+        dbname=os.getenv("DB_NAME"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASSWORD"),
+        port=os.getenv("DB_PORT"),
+        host=os.getenv("DB_HOST"),
     )
 
 
