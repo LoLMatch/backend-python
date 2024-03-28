@@ -1,6 +1,11 @@
 import random
 from ..db.database import fetch_all
-from .recommender_helpers import *
+from .recommender_helpers import (
+    load_summoner_descriptions,
+    load_summoner_languages,
+    load_summoner_preferred_champions_and_lines,
+    load_favourite_champion,
+)
 
 
 class Recommender:
@@ -100,8 +105,8 @@ class Recommender:
                         "wins": summoner["wins"],
                         "losses": summoner["losses"],
                         "age": summoner["age"],
-                        "preferred_champions_and_lines": preferred_champions_and_lines,
-                        "favourite_champion": favourite_champion,
+                        "preferred_champion_ids_and_lines": preferred_champions_and_lines,
+                        "favourite_champion_id": favourite_champion,
                         "favourite_line": summoner["favourite_line"],
                         "country": summoner["country"],
                         "win_rate": (

@@ -2,8 +2,7 @@ from ..db.database import get_db_connection, execute_query
 from ..services import riot_api_functions
 import os
 import random
-
-API_KEY = "RGAPI-eea7cd80-2a38-4a4d-b0a5-f73c65e35194"
+import psycopg2
 
 create_summoners_table_query = """
     CREATE TABLE IF NOT EXISTS summoners (
@@ -18,7 +17,8 @@ create_summoners_table_query = """
         wins INT NOT NULL,
         losses INT NOT NULL,
         age INT NOT NULL,
-        favourite_line VARCHAR(255)
+        favourite_line VARCHAR(255),
+        icon_id INT
         )
     """
 
@@ -40,13 +40,20 @@ create_summoners_languages_table_query = """
     )
     """
 
+create_champions_table_query = """
+    CREATE TABLE IF NOT EXISTS champions (
+        id INT PRIMARY KEY,
+        name VARCHAR(255) NOT NULL
+    )
+    """
+
 create_summoners_preferred_champions_and_lines_table_query = """
     CREATE TABLE IF NOT EXISTS preferred_champions_and_lines (
         summoner_id INT NOT NULL,
         champion_id INT NOT NULL,
-        champion_name VARCHAR(255) NOT NULL,
         line VARCHAR(255) NOT NULL,
-        FOREIGN KEY (summoner_id) REFERENCES summoners(id)
+        FOREIGN KEY (summoner_id) REFERENCES summoners(id),
+        FOREIGN KEY (champion_id) REFERENCES champions(id)
     )
     """
 
@@ -54,9 +61,9 @@ create_favourite_champions_table_query = """
     CREATE TABLE IF NOT EXISTS favourite_champions (
         summoner_id INT NOT NULL,
         champion_id INT NOT NULL,
-        champion_name VARCHAR(255) NOT NULL,
         line VARCHAR(255) NOT NULL,
-        FOREIGN KEY (summoner_id) REFERENCES summoners(id)
+        FOREIGN KEY (summoner_id) REFERENCES summoners(id),
+        FOREIGN KEY (champion_id) REFERENCES champions(id)
     )
     """
 
@@ -94,7 +101,7 @@ create_matches_table_query = """
     """
 
 insert_into_summoners_table_query = """
-    INSERT INTO summoners (id, name, puuid, sex, country, level, tier, rank, wins, losses, age, favourite_line) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    INSERT INTO summoners (name, puuid, sex, country, level, tier, rank, wins, losses, age, favourite_line, icon_id) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     """
 
 insert_into_summoners_descriptions_table_query = """
@@ -106,11 +113,15 @@ insert_into_summoners_languages_table_query = """
     """
 
 insert_into_summoners_preferred_champions_and_lines_table_query = """
-    INSERT INTO preferred_champions_and_lines (summoner_id, champion_id, champion_name, line) VALUES (%s, %s, %s, %s)
+    INSERT INTO preferred_champions_and_lines (summoner_id, champion_id, line) VALUES (%s, %s, %s)
     """
 
 insert_into_favourite_champions_table_query = """
-    INSERT INTO favourite_champions (summoner_id, champion_id, champion_name, line) VALUES (%s, %s, %s, %s)
+    INSERT INTO favourite_champions (summoner_id, champion_id, line) VALUES (%s, %s, %s)
+    """
+
+insert_into_champions_table_query = """
+    INSERT INTO champions (id, name) VALUES (%s, %s)
     """
 
 
@@ -122,6 +133,7 @@ def drop_tables(conn):
         """DROP TABLE IF EXISTS recommendations""",
         """DROP TABLE IF EXISTS favourite_champions""",
         """DROP TABLE IF EXISTS preferred_champions_and_lines""",
+        """DROP TABLE IF EXISTS champions""",
         """DROP TABLE IF EXISTS languages_spoken""",
         """DROP TABLE IF EXISTS summoners_descriptions""",
         """DROP TABLE IF EXISTS summoners""",
@@ -135,6 +147,7 @@ def create_tables(conn):
         create_summoners_table_query,
         create_summoners_descriptions_table_query,
         create_summoners_languages_table_query,
+        create_champions_table_query,
         create_summoners_preferred_champions_and_lines_table_query,
         create_favourite_champions_table_query,
         create_summoners_accepted_recommendations_table_query,
@@ -161,11 +174,7 @@ def prepare_summoners_set():
 
 
 def prepare_champions_list(champions_json):
-    champions = list()
-    for champion in champions_json["data"].values():
-        champion_id = int(champion["key"])
-        champion_name = champion["name"]
-        champions.append((champion_id, champion_name))
+    champions = [int(champion["key"]) for champion in champions_json["data"].values()]
 
     return champions
 
@@ -225,6 +234,20 @@ def generate_summoner_details(summoner, champions_json):
     ranks = ["I", "II", "III", "IV"]
     champions = prepare_champions_list(champions_json)
 
+    icon_ids = [412, 360, 77, 63, 200, 201, 62, 76, 163, 89, 161, 60, 74,
+                48, 203, 202, 75, 61, 164, 59, 950, 777, 64, 58, 429, 99,
+                8, 72, 238, 67, 9, 166, 98, 897, 115, 101, 14, 28, 29, 15,
+                114, 102, 17, 711, 16, 117, 103, 895, 498, 107, 113, 12,
+                517, 516, 13, 112, 106, 110, 104, 39, 11, 266, 267, 10, 38,
+                887, 105, 111, 134, 120, 875, 35, 21, 901, 518, 20, 34, 121,
+                22, 876, 36, 902, 526, 240, 254, 268, 37, 23, 136, 888, 122,
+                126, 27, 33, 245, 523, 32, 26, 133, 127, 131, 119, 18, 30,
+                24, 910, 246, 25, 31, 19, 497, 427, 81, 157, 143, 4, 56, 42,
+                221, 235, 234, 43, 5, 57, 142, 80, -1, 432, 82, 96, 154, 41,
+                55, 7, 69, 236, 222, 223, 68, 54, 6, 40, 141, 83, 421, 145,
+                78, 44, 2, 50, 233, 555, 3, 51, 45, 79, 92, 86, 150, 420, 350,
+                90, 84, 53, 1, 85, 91, 147]
+
     summoner_name = summoner[0]
     summoner_puuid = summoner[1]
     summoner_sex = random.choice(sexes)
@@ -239,6 +262,7 @@ def generate_summoner_details(summoner, champions_json):
     summoner_languages = random.sample(languages, random.randint(1, 5))
     summoner_preferred_champions = random.sample(champions, 3)
     summoner_preferred_lines = random.sample(roles, 3)
+    summoner_icon_id = random.choice(icon_ids)
 
     return [
         summoner_name,
@@ -252,6 +276,7 @@ def generate_summoner_details(summoner, champions_json):
         summoner_losses,
         summoner_age,
         summoner_favourite_line,
+        summoner_icon_id,
         description,
         short_description,
         summoner_languages,
@@ -261,11 +286,15 @@ def generate_summoner_details(summoner, champions_json):
 
 
 def init_db():
+    API_KEY = os.getenv("RIOT_API_KEY")
+
     print("Initializing database...")
     conn = get_db_connection()
 
     drop_tables(conn)
+    print("Tables dropped.")
     create_tables(conn)
+    print("Tables created.")
 
     summoners = prepare_summoners_set()
 
@@ -273,13 +302,22 @@ def init_db():
     latest_version = riot_api.get_latest_version()[0]
     champions_json = riot_api.get_champions(latest_version)
 
-    for summoner_id, summoner in enumerate(summoners):
+    for champion in champions_json["data"].values():
+        champion_id = int(champion["key"])
+        champion_name = champion["name"]
+        execute_query(
+            insert_into_champions_table_query,
+            conn,
+            (champion_id, champion_name),
+        )
+
+    for s_id, summoner in enumerate(summoners):
+        summoner_id = s_id + 1
         summoner_details = generate_summoner_details(summoner, champions_json)
         execute_query(
             insert_into_summoners_table_query,
             conn,
             (
-                summoner_id,
                 summoner_details[0],
                 summoner_details[1],
                 summoner_details[2],
@@ -291,7 +329,9 @@ def init_db():
                 summoner_details[8],
                 summoner_details[9],
                 summoner_details[10],
+                summoner_details[11],
             ),
+            commit=True,
         )
         execute_query(
             insert_into_summoners_descriptions_table_query,
@@ -304,28 +344,28 @@ def init_db():
                 conn,
                 (summoner_id, language),
             )
-        for champion in summoner_details[-2]:
+
+        for champion_id in summoner_details[-2]:
             execute_query(
                 insert_into_summoners_preferred_champions_and_lines_table_query,
                 conn,
                 (
                     summoner_id,
-                    champion[0],
-                    champion[1],
+                    champion_id,
                     random.choice(summoner_details[-1]),
                 ),
-                commit=True,
             )
         execute_query(
             insert_into_favourite_champions_table_query,
             conn,
             (
                 summoner_id,
-                random.choice(summoner_details[-2])[0],
-                random.choice(summoner_details[-2])[1],
+                random.choice(summoner_details[-2]),
                 random.choice(summoner_details[-1]),
             ),
             commit=True,
         )
+
+    conn.close()
 
     print("Database initialized.")

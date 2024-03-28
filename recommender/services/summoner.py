@@ -61,7 +61,6 @@ class Summoner:
             champions_list = [
                 {
                     "champion_id": champion["champion_id"],
-                    "champion_name": champion["champion_name"],
                     "line": champion["line"],
                 }
                 for champion in champions
@@ -73,7 +72,6 @@ class Summoner:
             champion = fetch_one(favourite_champion_query, (summoner["id"],))
             favourite_champion = {
                 "champion_id": champion["champion_id"],
-                "champion_name": champion["champion_name"],
                 "line": champion["line"],
             }
 
