@@ -17,7 +17,8 @@ create_summoners_table_query = """
         wins INT NOT NULL,
         losses INT NOT NULL,
         age INT NOT NULL,
-        favourite_line VARCHAR(255)
+        favourite_line VARCHAR(255),
+        icon_id INT
         )
     """
 
@@ -100,7 +101,7 @@ create_matches_table_query = """
     """
 
 insert_into_summoners_table_query = """
-    INSERT INTO summoners (name, puuid, sex, country, level, tier, rank, wins, losses, age, favourite_line) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+    INSERT INTO summoners (name, puuid, sex, country, level, tier, rank, wins, losses, age, favourite_line, icon_id) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     """
 
 insert_into_summoners_descriptions_table_query = """
@@ -233,6 +234,20 @@ def generate_summoner_details(summoner, champions_json):
     ranks = ["I", "II", "III", "IV"]
     champions = prepare_champions_list(champions_json)
 
+    icon_ids = [412, 360, 77, 63, 200, 201, 62, 76, 163, 89, 161, 60, 74,
+                48, 203, 202, 75, 61, 164, 59, 950, 777, 64, 58, 429, 99,
+                8, 72, 238, 67, 9, 166, 98, 897, 115, 101, 14, 28, 29, 15,
+                114, 102, 17, 711, 16, 117, 103, 895, 498, 107, 113, 12,
+                517, 516, 13, 112, 106, 110, 104, 39, 11, 266, 267, 10, 38,
+                887, 105, 111, 134, 120, 875, 35, 21, 901, 518, 20, 34, 121,
+                22, 876, 36, 902, 526, 240, 254, 268, 37, 23, 136, 888, 122,
+                126, 27, 33, 245, 523, 32, 26, 133, 127, 131, 119, 18, 30,
+                24, 910, 246, 25, 31, 19, 497, 427, 81, 157, 143, 4, 56, 42,
+                221, 235, 234, 43, 5, 57, 142, 80, -1, 432, 82, 96, 154, 41,
+                55, 7, 69, 236, 222, 223, 68, 54, 6, 40, 141, 83, 421, 145,
+                78, 44, 2, 50, 233, 555, 3, 51, 45, 79, 92, 86, 150, 420, 350,
+                90, 84, 53, 1, 85, 91, 147]
+
     summoner_name = summoner[0]
     summoner_puuid = summoner[1]
     summoner_sex = random.choice(sexes)
@@ -247,6 +262,7 @@ def generate_summoner_details(summoner, champions_json):
     summoner_languages = random.sample(languages, random.randint(1, 5))
     summoner_preferred_champions = random.sample(champions, 3)
     summoner_preferred_lines = random.sample(roles, 3)
+    summoner_icon_id = random.choice(icon_ids)
 
     return [
         summoner_name,
@@ -260,6 +276,7 @@ def generate_summoner_details(summoner, champions_json):
         summoner_losses,
         summoner_age,
         summoner_favourite_line,
+        summoner_icon_id,
         description,
         short_description,
         summoner_languages,
@@ -269,7 +286,7 @@ def generate_summoner_details(summoner, champions_json):
 
 
 def init_db():
-    API_KEY = "RGAPI-8b53ca8c-8b3c-4470-9b82-94517072c7bf"
+    API_KEY = os.getenv("RIOT_API_KEY")
 
     print("Initializing database...")
     conn = get_db_connection()
@@ -312,6 +329,7 @@ def init_db():
                 summoner_details[8],
                 summoner_details[9],
                 summoner_details[10],
+                summoner_details[11],
             ),
             commit=True,
         )

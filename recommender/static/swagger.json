@@ -291,7 +291,8 @@
         "favourite_champion_id",
         "favourite_line",
         "long_description",
-        "short_description"
+        "short_description",
+        "icon_id"
       ],
       "properties": {
         "summoner_name": {
@@ -337,6 +338,9 @@
         },
         "short_description": {
           "type": "string"
+        },
+        "icon_id": {
+          "type": "integer"
         }
       }
     },

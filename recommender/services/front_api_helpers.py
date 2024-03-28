@@ -109,6 +109,7 @@ def save_summoner_profile(
     favourite_line,
     description,
     short_description,
+    icon_id,
 ):
     connection = get_db_connection()
     riot_api = RiotAPI(api_key=api_key)
@@ -134,6 +135,7 @@ def save_summoner_profile(
             summoner_losses,
             summoner_age,
             favourite_line,
+            icon_id,
         ),
         commit=True,
     )

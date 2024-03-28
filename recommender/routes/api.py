@@ -14,7 +14,7 @@ from ..db.database import get_db_connection, execute_query
 
 main = Blueprint("main", __name__)
 
-API_KEY = "RGAPI-8b53ca8c-8b3c-4470-9b82-94517072c7bf"
+API_KEY = os.getenv("RIOT_API_KEY")
 
 
 @main.route("/matches/<string:summoner_name>", methods=["GET"])
@@ -144,6 +144,7 @@ def profile():
             favourite_line = data.get("favourite_line")
             long_description = data.get("long_description")
             short_description = data.get("short_description")
+            icon_id = data.get("icon_id")
         except KeyError:
             return jsonify({"message": "Invalid request"}), 400
 
@@ -164,6 +165,7 @@ def profile():
             favourite_line,
             long_description,
             short_description,
+            icon_id,
         )
 
         return jsonify({"message": "Profile created successfully"}), 200
