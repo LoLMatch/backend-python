@@ -1,4 +1,3 @@
-import random
 from ..db.database import fetch_all, fetch_one
 
 
